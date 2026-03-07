@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Jerry Gold",
+    "role": "Creative Director",
+    "avatar": "images/team/jerry.jpg",
+    "bio": "Jerry runs this place. Or at least he thinks he does. Loves long meetings, strong opinions, and trying to impress Riley. It never works. Can't remember where he went to school but is pretty sure it was impressive."
+  },
+  {
+    "name": "Zoe Sparks",
+    "role": "Content Research",
+    "avatar": "images/team/zoe.jpg",
+    "bio": "Zoe finds all the jokes. Every single one. She also does whatever anyone asks, whenever they ask, no matter how unreasonable. She says she doesn't mind. She definitely minds."
+  },
+  {
+    "name": "Milo Quip",
+    "role": "Script Development",
+    "avatar": "images/team/milo.jpg",
+    "bio": "The youngest member of the team. Sharp, funny, and occasionally exposed to workplace conversations that are way above his pay grade. Handles it surprisingly well. Doesn't know what his pay grade is."
+  },
+  {
+    "name": "Riley Cast",
+    "role": "Casting Supervisor",
+    "avatar": "images/team/riley.jpg",
+    "bio": "Riley decides who plays what. She's precise, no-nonsense, and fully aware that Jerry stares at her during meetings. She's not flattered. She once made him cry in a casting review. He said it was allergies."
+  },
+  {
+    "name": "Iris Doodle",
+    "role": "Visual Development",
+    "avatar": "images/team/iris.jpg",
+    "bio": "Iris sees the world in color palettes and mood boards. Talks about her weekend plans a lot. Has never provided details about what actually happened over the weekend. Gets a faraway look sometimes, mid-sentence."
+  },
+  {
+    "name": "Vince Clip",
+    "role": "Production",
+    "avatar": "images/team/vince.jpg",
+    "bio": "Vince builds the videos. He's fast, reliable, and never complains. Sometimes he forgets what project he's working on, mid-project. He just starts a new one. Nobody brings it up."
+  },
+  {
+    "name": "Lena Cut",
+    "role": "Post-Production",
+    "avatar": "images/team/lena.jpg",
+    "bio": "Lena polishes everything to a shine. She talks about going to the gym after work. The gym does not appear to exist. She is always at work."
+  },
+  {
+    "name": "Noah Check",
+    "role": "Quality Assurance",
+    "avatar": "images/team/noah.jpg",
+    "bio": "Noah rejects things. It's his whole personality. He has a rubric and he's not afraid to use it. Claims to have a dog named Checklist. No one has ever seen the dog."
+  },
+  {
+    "name": "Tasha Trend",
+    "role": "Distribution & Feedback",
+    "avatar": "images/team/tasha.jpg",
+    "bio": "Tasha posts the content and reads every comment. She says she has 'a life outside of this.' When pressed for details, she changes the subject. She was briefly confused about what month it was last Tuesday."
+  }
+]

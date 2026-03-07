@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Studio - Dad Joke Studio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <h1>Dad Joke Studio</h1>
+    <p class="tagline">Where the jokes are bad and the drama is worse.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Latest Issue</a>
+    <a href="archive.html">Back Issues</a>
+    <a href="studio.html" class="active">The Studio</a>
+    <a href="shorts.html">The Shorts</a>
+    <a href="team.html">Meet the Team</a>
+  </nav>
+
+  <main>
+    <h2 class="section-header">What's Happening Today</h2>
+    <p id="pipeline-date" style="margin-bottom:1rem; font-weight:700; color:#888;">Loading...</p>
+
+    <div id="pipeline-board" class="pipeline">
+      <!-- Populated by JS from data/pipeline.json -->
+    </div>
+
+    <div class="empty-state" id="pipeline-empty">
+      <h2>Studio's Dark Today</h2>
+      <p>Nobody's working. Or they forgot they work here. Hard to tell.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; Dad Joke Studio &bull; A production nobody asked for
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
