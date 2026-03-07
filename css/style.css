@@ -342,6 +342,33 @@ main {
   border-color: var(--ink) transparent transparent transparent;
 }
 
+.speech-bubble-wrap {
+  max-width: 500px;
+  margin: 1rem 0;
+}
+
+.speech-bubble-speaker {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+  padding-left: 0.25rem;
+}
+
+.speech-bubble-speaker img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+}
+
+.speech-bubble-speaker span {
+  font-family: 'Bangers', cursive;
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+
 /* --- Footer --- */
 footer {
   text-align: center;
