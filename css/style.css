@@ -356,17 +356,27 @@ main {
 }
 
 .speech-bubble-speaker img {
-  width: 48px;
-  height: 48px;
+  width: 144px;
+  min-width: 144px;
+  height: 144px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid var(--ink);
+  flex-shrink: 0;
 }
 
 .speech-bubble-speaker span {
   font-family: 'Bangers', cursive;
   font-size: 1.1rem;
   color: var(--ink);
+}
+
+.speech-bubble-speaker span small {
+  font-family: 'Comic Neue', cursive;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--blue);
+  letter-spacing: 0;
 }
 
 /* --- Footer --- */
