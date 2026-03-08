@@ -91,22 +91,60 @@
       </div>`).join('');
   }
 
-  /* --- Shorts --- */
+  /* --- Shorts (paginated) --- */
+  const SHORTS_PER_PAGE = 6;
+  let shortsData = [];
+  let shortsPage = 1;
+
+  function renderShortsPage() {
+    const el = document.getElementById('shorts-container');
+    const pager = document.getElementById('shorts-pager');
+    if (!el) return;
+
+    const totalPages = Math.ceil(shortsData.length / SHORTS_PER_PAGE);
+    const start = (shortsPage - 1) * SHORTS_PER_PAGE;
+    const slice = shortsData.slice(start, start + SHORTS_PER_PAGE);
+
+    el.innerHTML = slice.map(s => `
+      <div class="short-card">
+        <div class="video-wrap">
+          <iframe src="https://www.youtube.com/embed/${s.youtubeId}" loading="lazy" allowfullscreen></iframe>
+        </div>
+        <div class="short-info">
+          <h3>${s.title}</h3>
+          ${s.date ? '<p class="short-date">' + s.date + '</p>' : ''}
+        </div>
+      </div>`).join('');
+
+    if (pager && totalPages > 1) {
+      let btns = '';
+      if (shortsPage > 1) btns += '<button class="pager-btn" data-page="' + (shortsPage - 1) + '">&laquo; Prev</button>';
+      for (let i = 1; i <= totalPages; i++) {
+        btns += '<button class="pager-btn' + (i === shortsPage ? ' active' : '') + '" data-page="' + i + '">' + i + '</button>';
+      }
+      if (shortsPage < totalPages) btns += '<button class="pager-btn" data-page="' + (shortsPage + 1) + '">Next &raquo;</button>';
+      pager.innerHTML = btns;
+      pager.querySelectorAll('.pager-btn').forEach(btn => {
+        btn.addEventListener('click', function () {
+          shortsPage = parseInt(this.dataset.page);
+          renderShortsPage();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      });
+    }
+  }
+
   async function loadShorts() {
     const el = document.getElementById('shorts-container');
     if (!el) return;
     const shorts = await loadJSON('data/shorts.json');
-    if (!shorts || shorts.length === 0) return;
-
-    el.innerHTML = shorts.map(s => `
-      <div class="short-card">
-        <div class="video-wrap">
-          <iframe src="https://www.youtube.com/embed/${s.youtubeId}" allowfullscreen></iframe>
-        </div>
-        <div class="short-info">
-          <h3>${s.title}</h3>
-        </div>
-      </div>`).join('');
+    if (!shorts || shorts.length === 0) {
+      el.innerHTML = '<div class="empty-state" style="grid-column:1/-1;"><h2>No Shorts Published Yet</h2><p>The team is "working on it." Jerry says it\'s almost done. It\'s not.</p></div>';
+      return;
+    }
+    shortsData = shorts;
+    shortsPage = 1;
+    renderShortsPage();
   }
 
   /* Boot */
