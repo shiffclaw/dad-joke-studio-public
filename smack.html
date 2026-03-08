@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Smack - Dad Joke Studio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <img src="images/smack-logo.jpg" alt="Dad Joke Studio" class="site-logo">
+    <div class="masthead-text">
+      <h1>Dad Joke Studio</h1>
+      <p class="tagline">Where the jokes are bad and the drama is worse.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Latest Issue</a>
+    <a href="archive.html">Back Issues</a>
+    <a href="studio.html">The Studio</a>
+    <a href="shorts.html">The Shorts</a>
+    <a href="team.html">Meet the Team</a>
+    <a href="smack.html" class="active">Team Smack</a>
+  </nav>
+
+  <main>
+    <p class="smack-disclaimer">This internal team chat was accidentally made public. We are aware. We have chosen not to fix it.</p>
+
+    <div class="smack-window">
+      <div class="smack-titlebar">
+        <div class="smack-titlebar-left">
+          <span class="smack-window-dot red"></span>
+          <span class="smack-window-dot yellow"></span>
+          <span class="smack-window-dot green"></span>
+        </div>
+        <div class="smack-titlebar-center">
+          <img src="images/smack-badge.png" alt="Smack" class="smack-titlebar-logo">
+        </div>
+        <div class="smack-titlebar-right"></div>
+      </div>
+      <div class="smack-container">
+      <!-- Sidebar -->
+      <div class="smack-sidebar">
+        <div class="smack-workspace">
+          <img src="images/smack-logo.jpg" alt="Smack" class="smack-logo">
+          <span class="smack-workspace-name">Dad Joke Studio</span>
+        </div>
+        <div class="smack-channels">
+          <div class="smack-section-label">Channels</div>
+          <button class="smack-channel active" data-channel="production">
+            <span class="smack-hash">#</span> production
+          </button>
+          <button class="smack-channel" data-channel="random">
+            <span class="smack-hash">#</span> random
+          </button>
+        </div>
+      </div>
+
+      <!-- Chat area -->
+      <div class="smack-chat">
+        <div class="smack-chat-header">
+          <span class="smack-chat-channel"># production</span>
+          <span class="smack-chat-topic">Actual work updates. Supposedly.</span>
+        </div>
+        <div id="smack-messages" class="smack-messages">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; Dad Joke Studio &bull; A production nobody asked for
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>

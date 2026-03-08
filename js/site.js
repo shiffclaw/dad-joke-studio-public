@@ -157,10 +157,72 @@
     renderShortsPage();
   }
 
+  /* --- Team Smack --- */
+  const channelTopics = {
+    production: 'Actual work updates. Supposedly.',
+    random: 'Off-topic. On-brand.'
+  };
+
+  let smackChannelData = {};
+  let smackActive = 'production';
+
+  function renderSmackMessages(messages) {
+    const el = document.getElementById('smack-messages');
+    if (!el) return;
+    if (!messages || messages.length === 0) {
+      el.innerHTML = '<div style="padding:2rem;text-align:center;color:#999;">No messages yet. Suspiciously quiet.</div>';
+      return;
+    }
+    el.innerHTML = messages.map(m => `
+      <div class="smack-msg">
+        <img class="smack-msg-avatar" src="${m.avatar}" alt="${m.user}" onerror="this.style.display='none'">
+        <div class="smack-msg-body">
+          <div class="smack-msg-header">
+            <span class="smack-msg-user">${m.user}</span>
+            <span class="smack-msg-time">${m.timestamp}</span>
+          </div>
+          <div class="smack-msg-text">${m.text}</div>
+        </div>
+      </div>`).join('');
+  }
+
+  function switchSmackChannel(channel) {
+    smackActive = channel;
+    document.querySelectorAll('.smack-channel').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.channel === channel);
+    });
+    const headerEl = document.querySelector('.smack-chat-channel');
+    const topicEl = document.querySelector('.smack-chat-topic');
+    if (headerEl) headerEl.textContent = '# ' + channel;
+    if (topicEl) topicEl.textContent = channelTopics[channel] || '';
+    renderSmackMessages(smackChannelData[channel] || []);
+  }
+
+  async function loadSmack() {
+    const el = document.getElementById('smack-messages');
+    if (!el) return;
+
+    const [production, random] = await Promise.all([
+      loadJSON('data/smack-production.json'),
+      loadJSON('data/smack-random.json')
+    ]);
+    smackChannelData.production = production || [];
+    smackChannelData.random = random || [];
+
+    renderSmackMessages(smackChannelData[smackActive]);
+
+    document.querySelectorAll('.smack-channel').forEach(btn => {
+      btn.addEventListener('click', function () {
+        switchSmackChannel(this.dataset.channel);
+      });
+    });
+  }
+
   /* Boot */
   loadLatestComic();
   loadArchive();
   loadPipeline();
   loadTeam();
   loadShorts();
+  loadSmack();
 })();

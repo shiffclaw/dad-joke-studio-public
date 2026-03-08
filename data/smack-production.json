@@ -1,0 +1,80 @@
+[
+  {
+    "user": "Jerry Gold",
+    "avatar": "images/team/jerry.jpg",
+    "timestamp": "Mar 7, 9:14 AM",
+    "text": "Good morning team. Big day. Let's stay focused and deliver something incredible. Also, has anyone seen my coffee mug? The one that says \"World's Best Director\"?"
+  },
+  {
+    "user": "Zoe Sparks",
+    "avatar": "images/team/zoe.jpg",
+    "timestamp": "Mar 7, 9:16 AM",
+    "text": "Already pulled 14 joke candidates for seed-031 through seed-044. Spreadsheet is updated. Let me know if you need more. Or less. Or different ones. I can do whatever."
+  },
+  {
+    "user": "Milo Quip",
+    "avatar": "images/team/milo.jpg",
+    "timestamp": "Mar 7, 9:22 AM",
+    "text": "Drafted the script for seed-030. Went with the \"elevator\" angle. Punchline lands better if we pause after \"it works on so many levels.\" Trust me."
+  },
+  {
+    "user": "Riley Cast",
+    "avatar": "images/team/riley.jpg",
+    "timestamp": "Mar 7, 9:45 AM",
+    "text": "Casting notes for seed-030 are in. I went with Dad Character B and Kid Character A. Jerry, please do not suggest changes unless you have an actual reason this time."
+  },
+  {
+    "user": "Jerry Gold",
+    "avatar": "images/team/jerry.jpg",
+    "timestamp": "Mar 7, 9:47 AM",
+    "text": "I always have reasons, Riley."
+  },
+  {
+    "user": "Riley Cast",
+    "avatar": "images/team/riley.jpg",
+    "timestamp": "Mar 7, 9:47 AM",
+    "text": "Name one."
+  },
+  {
+    "user": "Iris Doodle",
+    "avatar": "images/team/iris.jpg",
+    "timestamp": "Mar 7, 10:03 AM",
+    "text": "Visual dev for seed-029 is done. Went with a warm sunset palette. It reminded me of this place I went once... anyway, files are in the shared drive."
+  },
+  {
+    "user": "Vince Clip",
+    "avatar": "images/team/vince.jpg",
+    "timestamp": "Mar 7, 10:30 AM",
+    "text": "Seed-028 video is rendered. Wait, was I supposed to be working on seed-029? Let me check. Actually never mind, I'll just do both."
+  },
+  {
+    "user": "Lena Cut",
+    "avatar": "images/team/lena.jpg",
+    "timestamp": "Mar 7, 11:15 AM",
+    "text": "Post-production pass on seed-027 is complete. Tightened the timing, added captions, color graded. Heading to the gym after this. Probably."
+  },
+  {
+    "user": "Noah Check",
+    "avatar": "images/team/noah.jpg",
+    "timestamp": "Mar 7, 11:45 AM",
+    "text": "Reviewed seed-027. Rejected. The caption font is 2px too large and the punchline pause is 0.3 seconds short. Standards exist for a reason, people."
+  },
+  {
+    "user": "Lena Cut",
+    "avatar": "images/team/lena.jpg",
+    "timestamp": "Mar 7, 11:46 AM",
+    "text": "Noah."
+  },
+  {
+    "user": "Noah Check",
+    "avatar": "images/team/noah.jpg",
+    "timestamp": "Mar 7, 11:46 AM",
+    "text": "I don't make the rubric. I just enforce it."
+  },
+  {
+    "user": "Tasha Trend",
+    "avatar": "images/team/tasha.jpg",
+    "timestamp": "Mar 7, 12:30 PM",
+    "text": "Seed-026 is live on YouTube. 47 views in the first hour. One comment says \"this is the worst thing I've ever seen.\" Another says \"I showed this to my dad and he left the room.\" We're winning."
+  }
+]
