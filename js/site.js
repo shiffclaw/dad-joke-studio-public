@@ -105,16 +105,26 @@
     const start = (shortsPage - 1) * SHORTS_PER_PAGE;
     const slice = shortsData.slice(start, start + SHORTS_PER_PAGE);
 
-    el.innerHTML = slice.map(s => `
+    el.innerHTML = slice.map(s => {
+      const canEmbed = s.embeddable !== false;
+      const videoHtml = canEmbed
+        ? `<iframe src="https://www.youtube.com/embed/${s.youtubeId}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+        : `<a class="video-fallback" href="https://www.youtube.com/watch?v=${s.youtubeId}" target="_blank" rel="noopener noreferrer">
+             <img src="https://i.ytimg.com/vi/${s.youtubeId}/hqdefault.jpg" alt="${s.title}">
+             <span class="fallback-cta">Watch on YouTube</span>
+           </a>`;
+
+      return `
       <div class="short-card">
         <div class="video-wrap">
-          <iframe src="https://www.youtube.com/embed/${s.youtubeId}" loading="lazy" allowfullscreen></iframe>
+          ${videoHtml}
         </div>
         <div class="short-info">
           <h3>${s.title}</h3>
           ${s.date ? '<p class="short-date">' + s.date + '</p>' : ''}
         </div>
-      </div>`).join('');
+      </div>`;
+    }).join('');
 
     if (pager && totalPages > 1) {
       let btns = '';

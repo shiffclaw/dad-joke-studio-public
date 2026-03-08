@@ -262,8 +262,16 @@ main {
 /* --- Shorts / Video Grid --- */
 .shorts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .shorts-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .shorts-grid { grid-template-columns: 1fr; }
 }
 
 .short-card {
@@ -280,12 +288,33 @@ main {
   overflow: hidden;
 }
 
-.short-card .video-wrap iframe {
+.short-card .video-wrap iframe,
+.short-card .video-wrap .video-fallback {
   position: absolute;
   top: 0; left: 0;
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.short-card .video-wrap .video-fallback img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.short-card .video-wrap .fallback-cta {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.72);
+  color: #fff;
+  font-weight: 700;
+  padding: .45rem .7rem;
+  border-radius: 999px;
+  font-size: .85rem;
 }
 
 .short-card .short-info {
