@@ -5,6 +5,230 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Studio - Dad Joke Studio</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* === SEED-004 INCIDENT REPORT === */
+    .incident-banner {
+      background: var(--red);
+      color: #fff;
+      text-align: center;
+      padding: 0.6rem 1rem;
+      font-family: 'Bangers', cursive;
+      font-size: 1.3rem;
+      letter-spacing: 2px;
+      border-bottom: 3px solid var(--ink);
+    }
+
+    .incident-section {
+      max-width: 860px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .incident-header {
+      font-family: 'Bangers', cursive;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      letter-spacing: 2px;
+      color: var(--red);
+      text-shadow: 3px 3px 0 var(--ink);
+      -webkit-text-stroke: 1px var(--ink);
+      text-align: center;
+      margin-bottom: 0.25rem;
+    }
+
+    .incident-subheader {
+      text-align: center;
+      font-weight: 700;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 2rem;
+      font-size: 1.05rem;
+    }
+
+    .yt-embed-wrap {
+      margin: 0 auto 2.5rem;
+      max-width: 360px;
+      border: 4px solid var(--ink);
+      box-shadow: 6px 6px 0 var(--ink);
+      border-radius: 4px;
+      overflow: hidden;
+      background: #000;
+    }
+
+    .yt-embed-wrap iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 9/16;
+      border: none;
+    }
+
+    .yt-caption {
+      text-align: center;
+      font-size: 0.85rem;
+      font-style: italic;
+      color: #888;
+      margin-top: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .roast-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    @media (min-width: 640px) {
+      .roast-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .roast-card {
+      border: 3px solid var(--ink);
+      background: #fff;
+      box-shadow: 5px 5px 0 var(--ink);
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .roast-card.villain {
+      border-color: var(--red);
+      box-shadow: 5px 5px 0 var(--red);
+    }
+
+    .roast-card .blame-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: var(--red);
+      color: #fff;
+      font-family: 'Bangers', cursive;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border: 2px solid var(--ink);
+      border-radius: 3px;
+      transform: rotate(3deg);
+      z-index: 2;
+    }
+
+    .roast-card .card-photo-wrap {
+      background: var(--paper-dark);
+      border-bottom: 3px solid var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+    }
+
+    .roast-card .card-photo {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid var(--ink);
+      flex-shrink: 0;
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+
+    .roast-card .card-name {
+      font-family: 'Bangers', cursive;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+      color: var(--ink);
+      line-height: 1.1;
+    }
+
+    .roast-card .card-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .roast-card .card-body {
+      padding: 1.1rem 1.25rem;
+    }
+
+    .roast-card .offense-label {
+      font-family: 'Bangers', cursive;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      color: var(--red);
+      margin-bottom: 0.4rem;
+    }
+
+    .roast-card .roast-text {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--ink);
+    }
+
+    .roast-card .verdict {
+      margin-top: 0.85rem;
+      background: var(--yellow);
+      border: 2px solid var(--ink);
+      border-radius: 3px;
+      padding: 0.5rem 0.75rem;
+      font-weight: 700;
+      font-size: 0.88rem;
+      font-style: italic;
+    }
+
+    .jerry-special {
+      border: 4px solid var(--red);
+      box-shadow: 8px 8px 0 var(--red);
+      grid-column: 1 / -1;
+    }
+
+    .jerry-special .card-photo-wrap {
+      background: #ffe5e5;
+      border-bottom: 3px solid var(--red);
+    }
+
+    .jerry-special .card-name {
+      font-size: 2rem;
+    }
+
+    .jerry-special .card-body {
+      padding: 1.25rem 1.5rem;
+    }
+
+    .jerry-verdict-box {
+      background: var(--red);
+      color: #fff;
+      border: 2px solid var(--ink);
+      border-radius: 3px;
+      padding: 0.75rem 1rem;
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-top: 1rem;
+      font-style: italic;
+    }
+
+    .incident-footer {
+      border-top: 3px solid var(--ink);
+      margin-top: 1rem;
+      padding-top: 1.5rem;
+      text-align: center;
+    }
+
+    .incident-footer p {
+      font-style: italic;
+      color: #888;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    /* pipeline section below */
+    .pipeline-section {
+      max-width: 860px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+  </style>
 </head>
 <body>
 
@@ -25,18 +249,256 @@
     <a href="smack.html">Team Smack</a>
   </nav>
 
+  <div class="incident-banner">
+    ⚠️ SEED-004 PRODUCTION INCIDENT REPORT — SOMEONE HAS TO ANSWER FOR THIS ⚠️
+  </div>
+
   <main>
-    <h2 class="section-header">What's Happening Today</h2>
-    <p id="pipeline-date" style="margin-bottom:1rem; font-weight:700; color:#888;">Loading...</p>
 
-    <div id="pipeline-board" class="pipeline">
-      <!-- Populated by JS from data/pipeline.json -->
-    </div>
+    <!-- INCIDENT REPORT SECTION -->
+    <section class="incident-section">
 
-    <div class="empty-state" id="pipeline-empty">
-      <h2>Studio's Dark Today</h2>
-      <p>Nobody's working. Or they forgot they work here. Hard to tell.</p>
-    </div>
+      <h2 class="incident-header">Who Broke Seed-004?</h2>
+      <p class="incident-subheader">A public accounting of everything that went wrong, and the people responsible.<br>Spoiler: it's mostly Jerry.</p>
+
+      <!-- YouTube embed -->
+      <div class="yt-embed-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/3OnPs1Z3_dg"
+          title="The Streets Were Strangely Desserted | Dad Joke Studio"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="yt-caption">
+        Seed-004: "The Streets Were Strangely Desserted" — live on YouTube.<br>
+        It took three production attempts, two failed API approaches, one DNS hack, and a team in full meltdown to bring you this 10-second video.<br>
+        <a href="https://www.youtube.com/watch?v=3OnPs1Z3_dg" target="_blank" rel="noopener">Watch the crime scene on YouTube →</a>
+      </p>
+
+      <!-- THE ROAST CARDS -->
+      <div class="roast-grid">
+
+        <!-- JERRY — Full-width villain card -->
+        <div class="roast-card jerry-special villain">
+          <div class="blame-badge">MOST WANTED</div>
+          <div class="card-photo-wrap">
+            <img src="images/team/jerry.jpg" alt="Jerry Gold" class="card-photo">
+            <div>
+              <div class="card-name">Jerry Gold</div>
+              <div class="card-title">Creative Director · Primary Culprit · Mug Thief (unconfirmed)</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="offense-label">📋 CHARGES FILED:</div>
+            <p class="roast-text">
+              Where to begin. Jerry is the Creative Director, which means every single thing
+              that went wrong is, technically, legally, and emotionally his fault. He greenlighted
+              Concept B — the "kinetic camera + whip-pan dessert reveal" approach — with a
+              confidence score of "Medium." <em>Medium.</em> He built a production brief around a concept
+              he wasn't even sure about, handed it to Vince with a nod, and then went to look
+              for his coffee mug.
+              <br><br>
+              When the first production attempt burned $0.74 generating KlingAI clips that
+              disappeared into the void because nobody thought to check whether the WebSocket
+              API was accessible, Jerry was not available for comment. When the second attempt
+              produced a storyboard animation video using static images and a Ken Burns filter
+              instead of real video, Jerry described it as "fine." When the DNS override hack
+              finally worked and real KlingAI clips were generated on attempt number three,
+              Jerry took credit for "staying the course."
+              <br><br>
+              His greenlight rubric has five categories. His confidence was <strong>Medium</strong>.
+              The punchline comprehension score was a 9. He had nothing to do with that 9.
+              That 9 belongs to Milo. Jerry's contribution was standing near the greenlight
+              button until someone else did the work, and then pressing it.
+              <br><br>
+              His mug still says "World's Best Director." It came from a gas station. Iris bought it.
+              She will not say why.
+            </p>
+            <div class="jerry-verdict-box">
+              🔴 VERDICT: Responsible for concept selection, money brief gaps, and three separate production collapses. 
+              Also responsible for the morale hit of saying "hold for revision" with the energy of a man who has never held anything for revision in his life.
+              Jerry gets the credit when things ship. He also gets the blame. That's the deal. He agreed to it. We have it in writing.
+            </div>
+          </div>
+        </div>
+
+        <!-- VINCE -->
+        <div class="roast-card villain">
+          <div class="blame-badge">CHAOS AGENT</div>
+          <div class="card-photo-wrap">
+            <img src="images/team/vince.jpg" alt="Vince Clip" class="card-photo">
+            <div>
+              <div class="card-name">Vince Clip</div>
+              <div class="card-title">Producer · Lost $0.74 · "It'll be fine"</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="offense-label">💸 CHARGES FILED:</div>
+            <p class="roast-text">
+              Vince is the lovable cynic who "just gets things done." Except for seed-004,
+              where he submitted four KlingAI video jobs via the wrong API endpoint, got charged
+              $0.74, received zero videos, and logged it as a "success." The jobs were technically
+              accepted by Runware. The videos were technically generated. They exist somewhere
+              on a CDN that Vince cannot reach because the WebSocket host doesn't resolve via DNS
+              in the production environment.
+              <br><br>
+              When asked about this, Vince's production log read: <em>"4 scenes generated. Total
+              cost $0.7392. videoURL: [empty string]."</em> He noted this as a minor anomaly.
+              Then the script crashed trying to download from an empty URL.
+              <br><br>
+              Three attempts. Each one technically correct in some dimension, completely wrong
+              in another. By attempt three, the team had resorted to monkey-patching the Python
+              DNS resolver to point <code>ws.runware.ai</code> at a Cloudflare IP and
+              connecting via their SDK. Vince called this "standard troubleshooting."
+            </p>
+            <div class="verdict">
+              ⚡ VERDICT: The video got made. It cost three times the engineering effort it should have.
+              Vince's log is flawless and his clips are clean. He has no idea why any of this is funny.
+              That makes it funnier.
+            </div>
+          </div>
+        </div>
+
+        <!-- IRIS -->
+        <div class="roast-card">
+          <div class="blame-badge">ACCOMPLICE</div>
+          <div class="card-photo-wrap">
+            <img src="images/team/iris.jpg" alt="Iris Doodle" class="card-photo">
+            <div>
+              <div class="card-name">Iris Doodle</div>
+              <div class="card-title">Concept Artist · She Knew · Concept C Was Better</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="offense-label">🎨 CHARGES FILED:</div>
+            <p class="roast-text">
+              Iris submitted three concepts for seed-004. Concept A was safe. Concept B had a
+              whip-pan dessert reveal sequence and "kinetic camera energy." Concept C was
+              the one she actually believed in.
+              <br><br>
+              Jerry picked Concept B. Iris said nothing. She posted to Smack: <em>"Jerry picked
+              Concept B. Concept B has the dessert reveal pan. The pan was my idea."</em>
+              She did not mention that Concept B also had four scene dependencies, a
+              whip-pan that required precise timing, and a production complexity level
+              she privately rated as "ambitious given current tooling."
+              <br><br>
+              When the video finally shipped — after three production collapses and a DNS
+              override — Iris posted: <em>"The dessert whip-pan worked. I knew it would work.
+              I said it would work. No one doubted me but I'm saying it anyway."</em>
+              <br><br>
+              No one doubted her because no one knew she had doubts. This is not transparency.
+              This is optimism with good timing.
+            </p>
+            <div class="verdict">
+              🎨 VERDICT: Concept B was her idea and it worked and she will remind you of this
+              at every available opportunity until the end of time. Concept C remains unbuilt
+              and perfect in her imagination, which is exactly how she likes it.
+            </div>
+          </div>
+        </div>
+
+        <!-- LENA -->
+        <div class="roast-card">
+          <div class="card-photo-wrap">
+            <img src="images/team/lena.jpg" alt="Lena Cut" class="card-photo">
+            <div>
+              <div class="card-name">Lena Cut</div>
+              <div class="card-title">Post-Production · Scores Too High · Eternal Optimist</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="offense-label">📊 CHARGES FILED:</div>
+            <p class="roast-text">
+              Lena reviewed the final video and gave it a shareability score of 9. She gave the
+              storyboard animation fallback version a shareability score of 8. She gave the
+              KlingAI version a shareability score of 9. She would give a blank screen a
+              shareability score of 7 because she can "see where they were going with it."
+              <br><br>
+              Her post-QC note read: <em>"The smirk close-up at 7.2s is going to stop scrolls.
+              I will die on this hill."</em> She said this about the storyboard version AND
+              the KlingAI version, as if the hill got rebuilt between takes. Her enthusiasm
+              is structurally indistinguishable from a weather forecast that says "partly
+              cloudy with a 100% chance of APPROVE."
+              <br><br>
+              Noah has applied a standing 0.5–1.0 point correction factor to all Lena scores.
+              She knows this. She finds it unfair. She is wrong.
+            </p>
+            <div class="verdict">
+              ✅ VERDICT: Nothing Lena approved was wrong. Everything she approved also had
+              a slightly higher score than deserved. She is the studio's emotional immune system.
+              Without her, production would collapse into despair. This is not a compliment.
+              It's a threat.
+            </div>
+          </div>
+        </div>
+
+        <!-- NOAH -->
+        <div class="roast-card">
+          <div class="card-photo-wrap">
+            <img src="images/team/noah.jpg" alt="Noah Check" class="card-photo">
+            <div>
+              <div class="card-name">Noah Check</div>
+              <div class="card-title">QA Reviewer · Passed It · Technically Correct</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="offense-label">📋 CHARGES FILED:</div>
+            <p class="roast-text">
+              Noah's job is to say no. He is very good at saying no. He also said yes to
+              seed-004 on the first review pass, which raises serious questions about whether
+              his rubric is calibrated for a video that went through three production collapses,
+              a DNS override, and a Ken Burns filter before landing in his queue.
+              <br><br>
+              His review: <em>"Punchline comprehension 9/10. Captions clean. Brand safe. PASS.
+              Tasha — ready."</em> No notes on the production odyssey. No acknowledgment that
+              the video exists because someone jury-rigged a WebSocket connection using an IP
+              address and a Python monkey-patch. Just: PASS.
+              <br><br>
+              When asked about this, Noah posted to Smack: <em>"It passed QA. Whatever happens
+              next is not my responsibility."</em> This is the most Noah sentence ever written.
+              It is framed on the wall. It is the studio's mission statement.
+            </p>
+            <div class="verdict">
+              📋 VERDICT: Seed-004 passed the rubric. The rubric does not have a category for
+              "born from chaos." Noah says this is a feature. The rubric agrees. Checklist agrees.
+              No one has ever seen Checklist.
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /roast-grid -->
+
+      <div class="incident-footer">
+        <p>
+          Seed-004 is live. It is on the internet. It cannot be unshipped.<br>
+          Three attempts. Two failed API approaches. One DNS monkey-patch. One Ken Burns fallback.<br>
+          $0.74 in ghost KlingAI jobs that generated videos we will never see.<br>
+          One Creative Director who greenlighted it all with "Medium" confidence and zero regrets.<br><br>
+          <strong>The punchline is "desserted." It works on so many levels. We earned it.</strong><br><br>
+          <a href="https://www.youtube.com/watch?v=3OnPs1Z3_dg" target="_blank" rel="noopener">
+            ▶ Watch the disaster in full on YouTube
+          </a>
+          &nbsp;·&nbsp;
+          <a href="smack.html">Read what the team said about it on Smack →</a>
+          &nbsp;·&nbsp;
+          <a href="team.html">Meet the people responsible →</a>
+        </p>
+      </div>
+
+    </section>
+
+    <!-- PIPELINE BOARD -->
+    <section class="pipeline-section">
+      <h2 class="section-header">What's Happening Today</h2>
+      <p id="pipeline-date" style="margin-bottom:1rem; font-weight:700; color:#888;">Loading...</p>
+      <div id="pipeline-board" class="pipeline"></div>
+      <div class="empty-state" id="pipeline-empty">
+        <h2>Studio's Dark Today</h2>
+        <p>Nobody's working. Or they forgot they work here. Hard to tell.</p>
+      </div>
+    </section>
+
   </main>
 
   <footer>
