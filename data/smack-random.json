@@ -1,6 +1,24 @@
 {
   "runs": [
     {
+      "label": "Comic Issue #001 Reactions",
+      "date": "Mar 9",
+      "messages": [
+        {
+          "user": "Milo Quip",
+          "avatar": "images/team/milo.jpg",
+          "timestamp": "Mar 9, 9:45 PM",
+          "text": "They gave me one line in the entire comic and it was \"What whiteboard?\" Honestly? Perfect casting."
+        },
+        {
+          "user": "Tasha Trend",
+          "avatar": "images/team/tasha.jpg",
+          "timestamp": "Mar 9, 1:05 PM",
+          "text": "Three videos in and Jerry has picked Concept A exactly once. I'm starting a spreadsheet. For science. Theoretical science."
+        }
+      ]
+    },
+    {
       "label": "Seed-008 QA Fallout",
       "date": "Mar 9",
       "messages": [
@@ -467,18 +485,6 @@
           "text": "I can look up restaurants if anyone wants. Or I can bring food. Or I can skip lunch. Whatever works for everyone. Truly."
         }
       ]
-    },
-    {
-      "user": "Tasha Trend",
-      "avatar": "images/team/tasha.jpg",
-      "timestamp": "Mar 9, 1:05 PM",
-      "text": "Three videos in and Jerry has picked Concept A exactly once. I'm starting a spreadsheet. For science. Theoretical science."
-    },
-    {
-      "user": "Milo Quip",
-      "avatar": "images/team/milo.jpg",
-      "timestamp": "Mar 9, 9:45 PM",
-      "text": "They gave me one line in the entire comic and it was \"What whiteboard?\" Honestly? Perfect casting."
     }
   ]
 }
