@@ -157,7 +157,7 @@
     renderShortsPage();
   }
 
-  /* --- Team Smack --- */
+  /* --- Team Smack (runs-based) --- */
   const channelTopics = {
     production: 'Actual work updates. Supposedly.',
     random: 'Off-topic. On-brand.'
@@ -165,15 +165,64 @@
 
   let smackChannelData = {};
   let smackActive = 'production';
+  let smackShowingPrevious = {};
 
-  function renderSmackMessages(messages) {
+  function renderSmackMessages(runs) {
     const el = document.getElementById('smack-messages');
     if (!el) return;
-    if (!messages || messages.length === 0) {
+
+    if (!runs || runs.length === 0) {
       el.innerHTML = '<div style="padding:2rem;text-align:center;color:#999;">No messages yet. Suspiciously quiet.</div>';
       return;
     }
-    el.innerHTML = messages.map(m => `
+
+    const channel = smackActive;
+    const showAll = smackShowingPrevious[channel];
+    const latestRun = runs[0];
+    const olderRuns = runs.slice(1);
+
+    let html = '';
+
+    // "Show Previous Messages" button at top (if there are older runs)
+    if (olderRuns.length > 0 && !showAll) {
+      html += `<button class="smack-show-previous" id="smack-show-prev-btn">Show Previous Messages (${olderRuns.length} earlier thread${olderRuns.length > 1 ? 's' : ''})</button>`;
+    }
+
+    // Render older runs if expanded
+    if (showAll && olderRuns.length > 0) {
+      html += `<button class="smack-show-previous" id="smack-hide-prev-btn">Hide Previous Messages</button>`;
+      for (const run of olderRuns.slice().reverse()) {
+        html += `<div class="smack-run-divider">${run.label} &mdash; ${run.date}</div>`;
+        html += renderMessageList(run.messages);
+      }
+      html += `<div class="smack-run-divider" style="background:var(--paper-dark);font-size:0.85rem;color:var(--blue);">Current: ${latestRun.label}</div>`;
+    }
+
+    // Always show latest run
+    html += renderMessageList(latestRun.messages);
+
+    el.innerHTML = html;
+
+    // Bind show/hide buttons
+    const showBtn = document.getElementById('smack-show-prev-btn');
+    if (showBtn) {
+      showBtn.addEventListener('click', function () {
+        smackShowingPrevious[channel] = true;
+        renderSmackMessages(smackChannelData[channel]);
+      });
+    }
+    const hideBtn = document.getElementById('smack-hide-prev-btn');
+    if (hideBtn) {
+      hideBtn.addEventListener('click', function () {
+        smackShowingPrevious[channel] = false;
+        renderSmackMessages(smackChannelData[channel]);
+      });
+    }
+  }
+
+  function renderMessageList(messages) {
+    if (!messages || messages.length === 0) return '';
+    return messages.map(m => `
       <div class="smack-msg">
         <img class="smack-msg-avatar" src="${m.avatar}" alt="${m.user}" onerror="this.style.display='none'">
         <div class="smack-msg-body">
@@ -198,6 +247,17 @@
     renderSmackMessages(smackChannelData[channel] || []);
   }
 
+  function parseSmackData(data) {
+    // Support both old flat array and new runs format
+    if (Array.isArray(data)) {
+      return [{ label: 'Messages', date: '', messages: data }];
+    }
+    if (data && data.runs) {
+      return data.runs;
+    }
+    return [];
+  }
+
   async function loadSmack() {
     const el = document.getElementById('smack-messages');
     if (!el) return;
@@ -206,8 +266,8 @@
       loadJSON('data/smack-production.json'),
       loadJSON('data/smack-random.json')
     ]);
-    smackChannelData.production = production || [];
-    smackChannelData.random = random || [];
+    smackChannelData.production = parseSmackData(production);
+    smackChannelData.random = parseSmackData(random);
 
     renderSmackMessages(smackChannelData[smackActive]);
 
@@ -218,6 +278,45 @@
     });
   }
 
+  /* --- Studio: dynamic article loading --- */
+  async function loadStudioArticle() {
+    const articleEl = document.getElementById('studio-article');
+    const archiveEl = document.getElementById('studio-archive-list');
+    if (!articleEl) return;
+
+    const articles = await loadJSON('data/studio-articles.json');
+    if (!articles || articles.length === 0) {
+      articleEl.innerHTML = '<div class="empty-state"><h2>No Articles Yet</h2><p>The studio is quiet. Too quiet.</p></div>';
+      return;
+    }
+
+    // Load latest article
+    const latest = articles[0];
+    try {
+      const resp = await fetch('studio/articles/' + latest.slug + '.html');
+      if (!resp.ok) throw new Error('Not found');
+      let html = await resp.text();
+      // Fix image paths (article fragments use ../images/, studio.html needs images/)
+      html = html.replace(/src="\.\.\/images\//g, 'src="images/');
+      articleEl.innerHTML = html;
+    } catch (e) {
+      articleEl.innerHTML = '<div class="empty-state"><h2>Could not load article</h2><p>' + latest.title + '</p></div>';
+    }
+
+    // Render archive list (all articles except the first/current one)
+    if (archiveEl && articles.length > 1) {
+      const older = articles.slice(1);
+      archiveEl.innerHTML = older.map(a =>
+        `<a class="studio-archive-list-item" href="studio/article.html?slug=${encodeURIComponent(a.slug)}">
+          <span class="archive-date">${a.date}</span>
+          <span class="archive-title">${a.title}</span>
+        </a>`
+      ).join('');
+    } else if (archiveEl) {
+      archiveEl.innerHTML = '<p style="color:#888;font-style:italic;">No archived articles yet. Give it time.</p>';
+    }
+  }
+
   /* Boot */
   loadLatestComic();
   loadArchive();
@@ -225,4 +324,5 @@
   loadTeam();
   loadShorts();
   loadSmack();
+  loadStudioArticle();
 })();

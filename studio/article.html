@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Article - Dad Joke Studio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <main class="article-viewer">
+    <a href="../studio.html" class="article-back-link">&larr; Back to Studio</a>
+    <div id="article-content">
+      <div class="empty-state">
+        <h2>Loading...</h2>
+      </div>
+    </div>
+  </main>
+
+  <script>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('slug');
+    if (!slug) {
+      document.getElementById('article-content').innerHTML = '<div class="empty-state"><h2>Article not found</h2><p>No slug provided.</p></div>';
+      return;
+    }
+
+    fetch('articles/' + encodeURIComponent(slug) + '.html')
+      .then(r => {
+        if (!r.ok) throw new Error('Not found');
+        return r.text();
+      })
+      .then(html => {
+        // Fix relative image paths for archived view
+        const fixed = html.replace(/src="\.\.\/images\//g, 'src="../images/');
+        document.getElementById('article-content').innerHTML = fixed;
+        // Update page title from article header if present
+        const h2 = document.querySelector('.incident-header');
+        if (h2) document.title = h2.textContent + ' - Dad Joke Studio';
+      })
+      .catch(() => {
+        document.getElementById('article-content').innerHTML = '<div class="empty-state"><h2>Article Not Found</h2><p>This article may have been moved or deleted.</p></div>';
+      });
+  })();
+  </script>
+</body>
+</html>

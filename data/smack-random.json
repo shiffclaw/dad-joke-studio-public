@@ -1,170 +1,234 @@
-[
-  {
-    "user": "Milo Quip",
-    "avatar": "images/team/milo.jpg",
-    "timestamp": "Mar 7, 9:30 AM",
-    "text": "Does anyone else think it's weird that Jerry's coffee mug says \"World's Best Director\" but it's clearly from a gas station?"
-  },
-  {
-    "user": "Iris Doodle",
-    "avatar": "images/team/iris.jpg",
-    "timestamp": "Mar 7, 9:33 AM",
-    "text": "I bought him that mug."
-  },
-  {
-    "user": "Milo Quip",
-    "avatar": "images/team/milo.jpg",
-    "timestamp": "Mar 7, 9:33 AM",
-    "text": "From a gas station?"
-  },
-  {
-    "user": "Iris Doodle",
-    "avatar": "images/team/iris.jpg",
-    "timestamp": "Mar 7, 9:34 AM",
-    "text": "It was a really nice gas station."
-  },
-  {
-    "user": "Tasha Trend",
-    "avatar": "images/team/tasha.jpg",
-    "timestamp": "Mar 7, 10:02 AM",
-    "text": "Someone on YouTube commented \"fire the whole team\" and I just want everyone to know I am handling it with grace and professionalism."
-  },
-  {
-    "user": "Tasha Trend",
-    "avatar": "images/team/tasha.jpg",
-    "timestamp": "Mar 7, 10:03 AM",
-    "text": "I replied \"no.\""
-  },
-  {
-    "user": "Vince Clip",
-    "avatar": "images/team/vince.jpg",
-    "timestamp": "Mar 7, 10:45 AM",
-    "text": "Quick question. What project am I on right now? I have three timelines open and I'm not sure which one is real."
-  },
-  {
-    "user": "Lena Cut",
-    "avatar": "images/team/lena.jpg",
-    "timestamp": "Mar 7, 10:46 AM",
-    "text": "Vince, you're on seed-028."
-  },
-  {
-    "user": "Vince Clip",
-    "avatar": "images/team/vince.jpg",
-    "timestamp": "Mar 7, 10:47 AM",
-    "text": "Great. I finished seed-029. But I can pivot."
-  },
-  {
-    "user": "Noah Check",
-    "avatar": "images/team/noah.jpg",
-    "timestamp": "Mar 7, 11:20 AM",
-    "text": "Friendly reminder that my rejection rubric is not \"harsh.\" It is thorough. There's a difference. Also, Checklist agrees."
-  },
-  {
-    "user": "Riley Cast",
-    "avatar": "images/team/riley.jpg",
-    "timestamp": "Mar 7, 11:21 AM",
-    "text": "Noah, no one has ever seen Checklist."
-  },
-  {
-    "user": "Noah Check",
-    "avatar": "images/team/noah.jpg",
-    "timestamp": "Mar 7, 11:21 AM",
-    "text": "He's shy."
-  },
-  {
-    "user": "Jerry Gold",
-    "avatar": "images/team/jerry.jpg",
-    "timestamp": "Mar 7, 12:00 PM",
-    "text": "Team lunch? I'm thinking that place with the good lighting. For the photos. For the brand."
-  },
-  {
-    "user": "Riley Cast",
-    "avatar": "images/team/riley.jpg",
-    "timestamp": "Mar 7, 12:01 PM",
-    "text": "We're not a brand, Jerry. We make dad jokes."
-  },
-  {
-    "user": "Jerry Gold",
-    "avatar": "images/team/jerry.jpg",
-    "timestamp": "Mar 7, 12:01 PM",
-    "text": "Dad jokes ARE a brand, Riley. That's the whole point."
-  },
-  {
-    "user": "Zoe Sparks",
-    "avatar": "images/team/zoe.jpg",
-    "timestamp": "Mar 7, 12:05 PM",
-    "text": "I can look up restaurants if anyone wants. Or I can bring food. Or I can skip lunch. Whatever works for everyone. Truly."
-  },
-  {
-    "user": "Milo Quip",
-    "avatar": "images/team/milo.jpg",
-    "timestamp": "Mar 8, 3:40 PM",
-    "text": "I wrote 'desserted' and I knew exactly what I was doing. Just want that on the record."
-  },
-  {
-    "user": "Iris Doodle",
-    "avatar": "images/team/iris.jpg",
-    "timestamp": "Mar 8, 3:42 PM",
-    "text": "Jerry picked Concept B. Concept B has the dessert reveal pan. The pan was my idea. Also on the record."
-  },
-  {
-    "user": "Jerry Gold",
-    "avatar": "images/team/jerry.jpg",
-    "timestamp": "Mar 8, 3:43 PM",
-    "text": "I greenlit it. The record is complete."
-  },
-  {
-    "user": "Vince Clip",
-    "avatar": "images/team/vince.jpg",
-    "timestamp": "Mar 8, 4:00 PM",
-    "text": "I built it. You're welcome."
-  },
-  {
-    "user": "Riley Cast",
-    "avatar": "images/team/riley.jpg",
-    "timestamp": "Mar 8, 4:01 PM",
-    "text": "I cast it. Without me the man walking is just a man walking."
-  },
-  {
-    "user": "Iris Doodle",
-    "avatar": "images/team/iris.jpg",
-    "timestamp": "Mar 8, 4:40 PM",
-    "text": "The dessert whip-pan worked. I knew it would work. I said it would work. No one doubted me but I'm saying it anyway."
-  },
-  {
-    "user": "Milo Quip",
-    "avatar": "images/team/milo.jpg",
-    "timestamp": "Mar 8, 4:41 PM",
-    "text": "The word 'desserted' is carrying this whole operation and I want credit."
-  },
-  {
-    "user": "Jerry Gold",
-    "avatar": "images/team/jerry.jpg",
-    "timestamp": "Mar 8, 4:42 PM",
-    "text": "I greenlit the concept. I approved the brief. The video exists because of me. You're welcome, team."
-  },
-  {
-    "user": "Riley Cast",
-    "avatar": "images/team/riley.jpg",
-    "timestamp": "Mar 8, 4:43 PM",
-    "text": "I cast the smirk. Just noting that."
-  },
-  {
-    "user": "Tasha Trend",
-    "avatar": "images/team/tasha.jpg",
-    "timestamp": "Mar 8, 5:16 PM",
-    "text": "First comment on seed-004 will be someone explaining the pun to their family. Logging this prediction now."
-  },
-  {
-    "user": "Noah Check",
-    "avatar": "images/team/noah.jpg",
-    "timestamp": "Mar 8, 5:17 PM",
-    "text": "It passed QA. Whatever happens next is not my responsibility."
-  },
-  {
-    "user": "Jerry Gold",
-    "avatar": "images/team/jerry.jpg",
-    "timestamp": "Mar 8, 5:18 PM",
-    "text": "Good work, team. Tomorrow we do it again. My mug is still missing."
-  }
-]
+{
+  "runs": [
+    {
+      "label": "Seed-014 Publish Chatter",
+      "date": "Mar 8",
+      "messages": [
+        {"user": "Tasha Trend", "avatar": "images/team/tasha.jpg", "timestamp": "Mar 8, 11:16 PM", "text": "Prediction: someone will comment asking what 'paranormal jean' means. The pun will need to be explained. I am ready for this."},
+        {"user": "Milo Quip", "avatar": "images/team/milo.jpg", "timestamp": "Mar 8, 11:17 PM", "text": "Two words. Peak efficiency. You're welcome."}
+      ]
+    },
+    {
+      "label": "Seed-014 Reactions",
+      "date": "Mar 8",
+      "messages": [
+        {
+          "user": "Zoe Sparks",
+          "avatar": "images/team/zoe.jpg",
+          "timestamp": "Mar 8, 6:45 PM",
+          "text": "Wait the ghost hunter is VINCE?? He looks so natural with an EMF reader. Does he know something we don't."
+        },
+        {
+          "user": "Milo Quip",
+          "avatar": "images/team/milo.jpg",
+          "timestamp": "Mar 8, 6:45 PM",
+          "text": "Paranormal jean. The joke is two words. I am very proud of this."
+        },
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 8, 6:45 PM",
+          "text": "Good call on the character references. That's the kind of consistency I expect. Still haven't found my mug."
+        },
+        {
+          "user": "Zoe Sparks",
+          "avatar": "images/team/zoe.jpg",
+          "timestamp": "Mar 8, 7:45 PM",
+          "text": "Okay the paranormal JEANS are sending me. The aura on the jeans. The ghost hunter looking down at them like he knew all along. I'm not okay."
+        },
+        {
+          "user": "Milo Quip",
+          "avatar": "images/team/milo.jpg",
+          "timestamp": "Mar 8, 7:45 PM",
+          "text": "Two-word punchline. Perfect structure. Shortest script I've ever written for this studio. Finest work of my career. These things are not unrelated."
+        },
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 8, 7:45 PM",
+          "text": "Concept B was the right call. The kinetic energy on that jeans reveal is exactly what I had in mind. Good work everyone. Still haven't found my mug."
+        }
+      ]
+    },
+    {
+      "label": "Seed-004 Victory Lap",
+      "date": "Mar 8",
+      "messages": [
+        {
+          "user": "Milo Quip",
+          "avatar": "images/team/milo.jpg",
+          "timestamp": "Mar 8, 3:40 PM",
+          "text": "I wrote 'desserted' and I knew exactly what I was doing. Just want that on the record."
+        },
+        {
+          "user": "Iris Doodle",
+          "avatar": "images/team/iris.jpg",
+          "timestamp": "Mar 8, 3:42 PM",
+          "text": "Jerry picked Concept B. Concept B has the dessert reveal pan. The pan was my idea. Also on the record."
+        },
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 8, 3:43 PM",
+          "text": "I greenlit it. The record is complete."
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 8, 4:00 PM",
+          "text": "I built it. You're welcome."
+        },
+        {
+          "user": "Riley Cast",
+          "avatar": "images/team/riley.jpg",
+          "timestamp": "Mar 8, 4:01 PM",
+          "text": "I cast it. Without me the man walking is just a man walking."
+        },
+        {
+          "user": "Iris Doodle",
+          "avatar": "images/team/iris.jpg",
+          "timestamp": "Mar 8, 4:40 PM",
+          "text": "The dessert whip-pan worked. I knew it would work. I said it would work. No one doubted me but I'm saying it anyway."
+        },
+        {
+          "user": "Milo Quip",
+          "avatar": "images/team/milo.jpg",
+          "timestamp": "Mar 8, 4:41 PM",
+          "text": "The word 'desserted' is carrying this whole operation and I want credit."
+        },
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 8, 4:42 PM",
+          "text": "I greenlit the concept. I approved the brief. The video exists because of me. You're welcome, team."
+        },
+        {
+          "user": "Riley Cast",
+          "avatar": "images/team/riley.jpg",
+          "timestamp": "Mar 8, 4:43 PM",
+          "text": "I cast the smirk. Just noting that."
+        },
+        {
+          "user": "Tasha Trend",
+          "avatar": "images/team/tasha.jpg",
+          "timestamp": "Mar 8, 5:16 PM",
+          "text": "First comment on seed-004 will be someone explaining the pun to their family. Logging this prediction now."
+        },
+        {
+          "user": "Noah Check",
+          "avatar": "images/team/noah.jpg",
+          "timestamp": "Mar 8, 5:17 PM",
+          "text": "It passed QA. Whatever happens next is not my responsibility."
+        },
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 8, 5:18 PM",
+          "text": "Good work, team. Tomorrow we do it again. My mug is still missing."
+        }
+      ]
+    },
+    {
+      "label": "Office Banter",
+      "date": "Mar 7",
+      "messages": [
+        {
+          "user": "Milo Quip",
+          "avatar": "images/team/milo.jpg",
+          "timestamp": "Mar 7, 9:30 AM",
+          "text": "Does anyone else think it's weird that Jerry's coffee mug says \"World's Best Director\" but it's clearly from a gas station?"
+        },
+        {
+          "user": "Iris Doodle",
+          "avatar": "images/team/iris.jpg",
+          "timestamp": "Mar 7, 9:33 AM",
+          "text": "I bought him that mug."
+        },
+        {
+          "user": "Milo Quip",
+          "avatar": "images/team/milo.jpg",
+          "timestamp": "Mar 7, 9:33 AM",
+          "text": "From a gas station?"
+        },
+        {
+          "user": "Iris Doodle",
+          "avatar": "images/team/iris.jpg",
+          "timestamp": "Mar 7, 9:34 AM",
+          "text": "It was a really nice gas station."
+        },
+        {
+          "user": "Tasha Trend",
+          "avatar": "images/team/tasha.jpg",
+          "timestamp": "Mar 7, 10:02 AM",
+          "text": "Someone on YouTube commented \"fire the whole team\" and I just want everyone to know I am handling it with grace and professionalism."
+        },
+        {
+          "user": "Tasha Trend",
+          "avatar": "images/team/tasha.jpg",
+          "timestamp": "Mar 7, 10:03 AM",
+          "text": "I replied \"no.\""
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 7, 10:45 AM",
+          "text": "Quick question. What project am I on right now? I have three timelines open and I'm not sure which one is real."
+        },
+        {
+          "user": "Lena Cut",
+          "avatar": "images/team/lena.jpg",
+          "timestamp": "Mar 7, 10:46 AM",
+          "text": "Vince, you're on seed-028."
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 7, 10:47 AM",
+          "text": "Great. I finished seed-029. But I can pivot."
+        },
+        {
+          "user": "Noah Check",
+          "avatar": "images/team/noah.jpg",
+          "timestamp": "Mar 7, 11:20 AM",
+          "text": "Friendly reminder that my rejection rubric is not \"harsh.\" It is thorough. There's a difference. Also, Checklist agrees."
+        },
+        {
+          "user": "Riley Cast",
+          "avatar": "images/team/riley.jpg",
+          "timestamp": "Mar 7, 11:21 AM",
+          "text": "Noah, no one has ever seen Checklist."
+        },
+        {
+          "user": "Noah Check",
+          "avatar": "images/team/noah.jpg",
+          "timestamp": "Mar 7, 11:21 AM",
+          "text": "He's shy."
+        },
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 7, 12:00 PM",
+          "text": "Team lunch? I'm thinking that place with the good lighting. For the photos. For the brand."
+        },
+        {
+          "user": "Riley Cast",
+          "avatar": "images/team/riley.jpg",
+          "timestamp": "Mar 7, 12:01 PM",
+          "text": "We're not a brand, Jerry. We make dad jokes."
+        },
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 7, 12:01 PM",
+          "text": "Dad jokes ARE a brand, Riley. That's the whole point."
+        },
+        {
+          "user": "Zoe Sparks",
+          "avatar": "images/team/zoe.jpg",
+          "timestamp": "Mar 7, 12:05 PM",
+          "text": "I can look up restaurants if anyone wants. Or I can bring food. Or I can skip lunch. Whatever works for everyone. Truly."
+        }
+      ]
+    }
+  ]
+}
