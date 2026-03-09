@@ -25,32 +25,15 @@
     <a href="smack.html">Team Smack</a>
   </nav>
 
+  <!-- Article loads outside main so banners can go full-width -->
+  <div id="studio-article"></div>
+
+  <!-- Archive list inside main for proper max-width -->
   <main>
-
-    <!-- Latest article loaded dynamically -->
-    <div id="studio-article">
-      <div class="empty-state">
-        <h2>Loading...</h2>
-      </div>
-    </div>
-
-    <!-- Archive list -->
-    <section class="studio-archive-section">
+    <section class="studio-archive-section" id="studio-archive-section" style="display:none;">
       <h2 class="section-header">Studio Archive</h2>
       <div id="studio-archive-list"></div>
     </section>
-
-    <!-- PIPELINE BOARD -->
-    <section class="pipeline-section">
-      <h2 class="section-header">What's Happening Today</h2>
-      <p id="pipeline-date" style="margin-bottom:1rem; font-weight:700; color:#888;">Loading...</p>
-      <div id="pipeline-board" class="pipeline"></div>
-      <div class="empty-state" id="pipeline-empty">
-        <h2>Studio's Dark Today</h2>
-        <p>Nobody's working. Or they forgot they work here. Hard to tell.</p>
-      </div>
-    </section>
-
   </main>
 
   <footer>

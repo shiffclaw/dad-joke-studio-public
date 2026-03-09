@@ -721,7 +721,7 @@ footer {
 }
 
 /* --- Studio Article System --- */
-.incident-banner {
+.article-banner {
   background: var(--red);
   color: #fff;
   text-align: center;
@@ -732,13 +732,13 @@ footer {
   border-bottom: 3px solid var(--ink);
 }
 
-.incident-section {
+.article-section {
   max-width: 860px;
   margin: 2.5rem auto;
   padding: 0 1.5rem;
 }
 
-.incident-header {
+.article-header {
   font-family: 'Bangers', cursive;
   font-size: clamp(2rem, 5vw, 3.2rem);
   letter-spacing: 2px;
@@ -749,13 +749,29 @@ footer {
   margin-bottom: 0.25rem;
 }
 
-.incident-subheader {
+.article-subheader {
   text-align: center;
   font-weight: 700;
   font-style: italic;
   color: #666;
   margin-bottom: 2rem;
   font-size: 1.05rem;
+}
+
+.article-subhead {
+  font-family: 'Bangers', cursive;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: var(--blue);
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px dashed #ccc;
+}
+
+.article-section p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
 }
 
 .yt-embed-wrap {
@@ -922,18 +938,54 @@ footer {
   font-style: italic;
 }
 
-.incident-footer {
+.article-footer {
   border-top: 3px solid var(--ink);
   margin-top: 1rem;
   padding-top: 1.5rem;
   text-align: center;
 }
 
-.incident-footer p {
+.article-footer p {
   font-style: italic;
   color: #888;
   font-size: 0.9rem;
   line-height: 1.7;
+}
+
+/* --- Article flavor: Roast (red — post-mortems, blame) --- */
+.article-banner.flavor-roast { background: var(--red); }
+.flavor-roast .article-header { color: var(--red); }
+
+/* --- Article flavor: Dispatch (blue — production recaps) --- */
+.article-banner.flavor-dispatch { background: var(--blue); }
+.flavor-dispatch .article-header { color: var(--blue); text-shadow: 2px 2px 0 var(--ink); }
+
+/* --- Article flavor: Drama (purple — interpersonal tensions, deep dives) --- */
+.article-banner.flavor-drama { background: var(--purple); }
+.flavor-drama .article-header { color: var(--purple); text-shadow: 2px 2px 0 var(--ink); }
+
+/* --- Article flavor: Bulletin (orange — breaking news, short incidents, oddities) --- */
+.article-banner.flavor-bulletin { background: var(--orange); }
+.flavor-bulletin .article-header { color: var(--orange); text-shadow: 2px 2px 0 var(--ink); }
+
+/* Blockquote styling for Smack quotes in articles */
+.article-section blockquote {
+  border-left: 4px solid var(--blue);
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  background: #fff;
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.article-section blockquote .quote-attr {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.3rem;
 }
 
 /* Pipeline section (studio page) */
@@ -946,8 +998,9 @@ footer {
 /* Studio archive list */
 .studio-archive-section {
   max-width: 860px;
-  margin: 3rem auto 1rem;
-  padding: 0 1.5rem;
+  margin: 0 auto 2rem;
+  padding: 2rem 1.5rem;
+  border-top: 3px solid var(--ink);
 }
 
 .studio-archive-list-item {

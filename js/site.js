@@ -282,11 +282,12 @@
   async function loadStudioArticle() {
     const articleEl = document.getElementById('studio-article');
     const archiveEl = document.getElementById('studio-archive-list');
+    const archiveSection = document.getElementById('studio-archive-section');
     if (!articleEl) return;
 
     const articles = await loadJSON('data/studio-articles.json');
     if (!articles || articles.length === 0) {
-      articleEl.innerHTML = '<div class="empty-state"><h2>No Articles Yet</h2><p>The studio is quiet. Too quiet.</p></div>';
+      articleEl.innerHTML = '<main><div class="empty-state"><h2>No Articles Yet</h2><p>The studio is quiet. Too quiet.</p></div></main>';
       return;
     }
 
@@ -300,11 +301,12 @@
       html = html.replace(/src="\.\.\/images\//g, 'src="images/');
       articleEl.innerHTML = html;
     } catch (e) {
-      articleEl.innerHTML = '<div class="empty-state"><h2>Could not load article</h2><p>' + latest.title + '</p></div>';
+      articleEl.innerHTML = '<main><div class="empty-state"><h2>Could not load article</h2><p>' + latest.title + '</p></div></main>';
     }
 
-    // Render archive list (all articles except the first/current one)
-    if (archiveEl && articles.length > 1) {
+    // Render archive list (only show if there are older articles)
+    if (archiveEl && archiveSection && articles.length > 1) {
+      archiveSection.style.display = '';
       const older = articles.slice(1);
       archiveEl.innerHTML = older.map(a =>
         `<a class="studio-archive-list-item" href="studio/article.html?slug=${encodeURIComponent(a.slug)}">
@@ -312,8 +314,6 @@
           <span class="archive-title">${a.title}</span>
         </a>`
       ).join('');
-    } else if (archiveEl) {
-      archiveEl.innerHTML = '<p style="color:#888;font-style:italic;">No archived articles yet. Give it time.</p>';
     }
   }
 

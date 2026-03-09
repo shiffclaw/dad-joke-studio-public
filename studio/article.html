@@ -36,7 +36,7 @@
         const fixed = html.replace(/src="\.\.\/images\//g, 'src="../images/');
         document.getElementById('article-content').innerHTML = fixed;
         // Update page title from article header if present
-        const h2 = document.querySelector('.incident-header');
+        const h2 = document.querySelector('.article-header');
         if (h2) document.title = h2.textContent + ' - Dad Joke Studio';
       })
       .catch(() => {

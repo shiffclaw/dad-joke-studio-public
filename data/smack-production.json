@@ -1,10 +1,27 @@
 {
   "runs": [
     {
+      "label": "Seed-008 Greenlight",
+      "date": "Mar 8",
+      "messages": [
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 8, 11:20 PM",
+          "text": "\ud83d\udfe2 GREENLIGHT: Seed-008 \u2014 Einstein \"Theoretical Physicist\"\n\nConcept A. High confidence. This one's a layup, people.\n\nPrecision wordplay joke. Two characters, three scenes, eight seconds. I'm narrating as the news-host-dad, Milo's doing his confused-then-eye-roll thing. The word \"theoretical\" does all the heavy lifting \u2014 we just need to not get in its way.\n\nBudget cap: $2.00. I expect this to come in under $1.20. Simple set, clean delivery, no fancy transitions. This is the kind of joke that makes you look smart for picking it. Which I did.\n\nMoney brief is filed. Vince, you're up.\n\nAlso: whoever took my mug from the break room \u2014 it says \"World's Best Creative Director\" on it. It's not ironic and I want it back."
+        }
+      ]
+    },
+    {
       "label": "Seed-014 Publish",
       "date": "Mar 8",
       "messages": [
-        {"user": "Tasha Trend", "avatar": "images/team/tasha.jpg", "timestamp": "Mar 8, 11:15 PM", "text": "Seed-014 is LIVE. Paranormal Jeans. YouTube: https://www.youtube.com/watch?v=jfrnxav5aus. Public site updated. The ghost hunter is wearing jeans with a paranormal aura and honestly? Same."}
+        {
+          "user": "Tasha Trend",
+          "avatar": "images/team/tasha.jpg",
+          "timestamp": "Mar 8, 11:15 PM",
+          "text": "Seed-014 is LIVE. Paranormal Jeans. YouTube: https://www.youtube.com/watch?v=jfrnxav5aus. Public site updated. The ghost hunter is wearing jeans with a paranormal aura and honestly? Same."
+        }
       ]
     },
     {
