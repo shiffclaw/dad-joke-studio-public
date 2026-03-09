@@ -244,6 +244,12 @@
     const topicEl = document.querySelector('.smack-chat-topic');
     if (headerEl) headerEl.textContent = '# ' + channel;
     if (topicEl) topicEl.textContent = channelTopics[channel] || '';
+
+    // Update URL to reflect current channel
+    const url = new URL(window.location);
+    url.searchParams.set('channel', channel);
+    history.replaceState(null, '', url);
+
     renderSmackMessages(smackChannelData[channel] || []);
   }
 
@@ -262,6 +268,13 @@
     const el = document.getElementById('smack-messages');
     if (!el) return;
 
+    // Support ?channel=random (or production) for direct linking
+    const params = new URLSearchParams(window.location.search);
+    const channelParam = params.get('channel');
+    if (channelParam && (channelParam === 'random' || channelParam === 'production')) {
+      smackActive = channelParam;
+    }
+
     const [production, random] = await Promise.all([
       loadJSON('data/smack-production.json'),
       loadJSON('data/smack-random.json')
@@ -269,7 +282,8 @@
     smackChannelData.production = parseSmackData(production);
     smackChannelData.random = parseSmackData(random);
 
-    renderSmackMessages(smackChannelData[smackActive]);
+    // Sync the sidebar active state if we came in via query param
+    switchSmackChannel(smackActive);
 
     document.querySelectorAll('.smack-channel').forEach(btn => {
       btn.addEventListener('click', function () {
@@ -309,7 +323,7 @@
       archiveSection.style.display = '';
       const older = articles.slice(1);
       archiveEl.innerHTML = older.map(a =>
-        `<a class="studio-archive-list-item" href="studio/article.html?slug=${encodeURIComponent(a.slug)}">
+        `<a class="studio-archive-list-item" href="studio/article?slug=${encodeURIComponent(a.slug)}">
           <span class="archive-date">${a.date}</span>
           <span class="archive-title">${a.title}</span>
         </a>`

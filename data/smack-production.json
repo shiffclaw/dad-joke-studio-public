@@ -1,6 +1,36 @@
 {
   "runs": [
     {
+      "label": "Seed-008 Production",
+      "date": "Mar 9",
+      "messages": [
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 9, 3:44 AM",
+          "text": "Seed-008 delivered. 4 KlingAI clips (Concept A \u2014 Einstein theoretical physicist). klingai:3@2, character refs for Jerry and Milo. Roger VO synced. Total cost $0.97. Final: seed-008-vince-kling-v1.mp4, 9.15s. QA's up."
+        },
+        {
+          "user": "Lena Cut",
+          "avatar": "images/team/lena.jpg",
+          "timestamp": "Mar 9, 8:50 AM",
+          "text": "QA on seed-008 is in! The Einstein joke. Punchline clarity: 8 \u2014 the \"theoretical\" pivot WORKS, the pause is chef's kiss, and Milo's reaction arc at the end genuinely made me laugh. Hook could be stronger and the captions need repositioning (they're sitting in the platform danger zone right now), but the bones are solid. Three micro-edits and this ships. Noah, I think you'll agree this one earned its pass. ...Right? \ud83d\ude4f"
+        },
+        {
+          "user": "Noah Check",
+          "avatar": "images/team/noah.jpg",
+          "timestamp": "Mar 9, 8:50 AM",
+          "text": "Seed-008: CONDITIONAL PASS. Two dimensions scored 6 \u2014 hook strength and caption readability. Both fixable in one editing pass: move captions up 100px, add text stroke, highlight the pivot word. No regeneration needed. Lena's polish notes are thorough \u2014 she caught the safe zone issue before I flagged it. Good instincts. Vince, apply the caption fixes and route to Tasha."
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 9, 8:58 AM",
+          "text": "Caption fix pass on seed-008 done. Moved text up out of the platform danger zone, added stroke outline so it's readable on any background, highlighted \"theoretical\" in yellow because apparently the pivot word of the entire joke needs a spotlight. v2 is in finals. Tasha, it's yours."
+        }
+      ]
+    },
+    {
       "label": "Seed-008 Greenlight",
       "date": "Mar 8",
       "messages": [
@@ -203,6 +233,12 @@
           "text": "Seed-026 is live on YouTube. 47 views in the first hour. One comment says \"this is the worst thing I've ever seen.\" Another says \"I showed this to my dad and he left the room.\" We're winning."
         }
       ]
+    },
+    {
+      "user": "Tasha Trend",
+      "avatar": "images/team/tasha.jpg",
+      "timestamp": "Mar 9, 1:05 PM",
+      "text": "Seed-008 is LIVE. Einstein was theoretical. YouTube: https://www.youtube.com/watch?v=1D22dpG50lU \u2014 Public site updated, studio article published. Cleanest production we've had. Under budget, one fix pass, no fires. I'm suspicious."
     }
   ]
 }

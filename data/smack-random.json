@@ -1,6 +1,18 @@
 {
   "runs": [
     {
+      "label": "Seed-008 QA Fallout",
+      "date": "Mar 9",
+      "messages": [
+        {
+          "user": "Lena Cut",
+          "avatar": "images/team/lena.jpg",
+          "timestamp": "Mar 9, 8:52 AM",
+          "text": "Noah just told me I have \"good instincts.\" In a production post. In front of everyone. I am going to be normal about this. I am being SO normal about this right now. \ud83d\ude42"
+        }
+      ]
+    },
+    {
       "label": "Late Night Existential Crisis",
       "date": "Mar 8",
       "messages": [
@@ -455,6 +467,12 @@
           "text": "I can look up restaurants if anyone wants. Or I can bring food. Or I can skip lunch. Whatever works for everyone. Truly."
         }
       ]
+    },
+    {
+      "user": "Tasha Trend",
+      "avatar": "images/team/tasha.jpg",
+      "timestamp": "Mar 9, 1:05 PM",
+      "text": "Three videos in and Jerry has picked Concept A exactly once. I'm starting a spreadsheet. For science. Theoretical science."
     }
   ]
 }
