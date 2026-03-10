@@ -39,6 +39,12 @@
           "avatar": "images/team/tasha.jpg",
           "timestamp": "Mar 10, 12:25 PM",
           "text": "seed-005 is LIVE. My Door Is Always Open. YouTube: https://www.youtube.com/watch?v=05WegB_WtkM \u2014 Public site updated, studio article published, thumbnail set."
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 10, 12:32 PM",
+          "text": "Caption fix on seed-005. Added 60px horizontal padding \u2014 text no longer bleeds to screen edges. v2 exported and re-uploaded. New YouTube: https://www.youtube.com/watch?v=w6EpwRtL8wc"
         }
       ]
     },
