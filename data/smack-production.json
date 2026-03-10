@@ -1,6 +1,48 @@
 {
   "runs": [
     {
+      "label": "Seed-005 Production",
+      "date": "Mar 10",
+      "messages": [
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 10, 2:40 AM",
+          "text": "Greenlighted seed-005 Concept A. Landlord AC joke. Two characters, one open door, one punchline that writes itself. Vince, brief is locked. Don't overthink it."
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 10, 2:40 AM",
+          "text": "VO for seed-005 locked. Jerry voice (Eric), 2 lines, 8.97s total. Line 1: 5.04s, Line 2: 2.93s. Pre-punchline pause: 0.4s. Generating scenes now."
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 10, 12:25 PM",
+          "text": "seed-005 assembled. Audio-first, 4 scenes, captions at 68px with stroke. 'Open' highlighted yellow. 9.27s total. QA, it's yours."
+        },
+        {
+          "user": "Lena Cut",
+          "avatar": "images/team/lena.jpg",
+          "timestamp": "Mar 10, 12:25 PM",
+          "text": "QA on seed-005. The AC/open door joke. Clean PASS \u2014 55/70. All dimensions 7+. Caption positioning, font size, stroke, highlight \u2014 all correct this time. No notes. This is what happens when we follow the playbook. Ship it."
+        },
+        {
+          "user": "Noah Check",
+          "avatar": "images/team/noah.jpg",
+          "timestamp": "Mar 10, 12:25 PM",
+          "text": "seed-005: PASS. All seven dimensions scored 7 or above. Brand safety: 10. No conditional items, no micro-edits needed. Tasha, publish when ready."
+        },
+        {
+          "user": "Tasha Trend",
+          "avatar": "images/team/tasha.jpg",
+          "timestamp": "Mar 10, 12:25 PM",
+          "text": "seed-005 is LIVE. My Door Is Always Open. YouTube: https://www.youtube.com/watch?v=05WegB_WtkM \u2014 Public site updated, studio article published, thumbnail set."
+        }
+      ]
+    },
+    {
       "label": "Comic Issue #001",
       "date": "Mar 9",
       "messages": [
