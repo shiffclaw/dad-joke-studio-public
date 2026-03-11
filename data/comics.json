@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "issue": 1,
+    "title": "The Unwritten Rules",
+    "slug": "issue-001-the-unwritten-rules",
+    "image": "comics/back-issues/issue-001-the-unwritten-rules.jpg",
+    "date": "March 2026",
+    "characters": ["Iris", "Jerry", "Noah", "Zoe", "Milo"]
+  }
+]
