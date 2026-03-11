@@ -1,17 +1,17 @@
 [
   {
-    "issue": 2,
-    "title": "The Open Door Policy",
-    "slug": "issue-002-the-open-door-policy",
-    "image": "comics/back-issues/issue-002-the-open-door-policy.jpg",
-    "date": "March 2026",
-    "characters": ["Iris", "Jerry", "Noah", "Zoe", "Milo"]
-  },
-  {
     "issue": 1,
     "title": "The Unwritten Rules",
     "slug": "issue-001-the-unwritten-rules",
     "image": "comics/back-issues/issue-001-the-unwritten-rules.jpg",
+    "date": "March 2026",
+    "characters": ["Iris", "Jerry", "Noah", "Zoe", "Milo"]
+  },
+  {
+    "issue": 2,
+    "title": "The Open Door Policy",
+    "slug": "issue-002-the-open-door-policy",
+    "image": "comics/back-issues/issue-002-the-open-door-policy.jpg",
     "date": "March 2026",
     "characters": ["Iris", "Jerry", "Noah", "Zoe", "Milo"]
   }
