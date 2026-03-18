@@ -1,0 +1,89 @@
+{
+  "joke": {
+    "seed_id": "seed-002",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/dadjokes/comments/1rku2ez/my_son_was_just_born/",
+    "raw_joke": "My son was just born \u2014 My son was just born and another dad at the nursery congratulated me and said his daughter was born yesterday... said maybe they'll marry each other. Sure, like my son is going to marry someone twice his age...",
+    "theme": "one-liner",
+    "caption_safe": "no",
+    "originality_risk": "medium",
+    "status": "published",
+    "rewrite_status": "published",
+    "created_at": "2026-03-06 19:32:45",
+    "updated_at": "2026-03-08 04:43:51"
+  },
+  "blocks": [
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "RILEY_CASTING_PLAN_v1\n\nPrimary Cast (2-3 roles):\n1. role_needed: New dad narrator\n   selected_cast_persona: jerry \u00b7 coach-dad\n   why_this_fit: Warm dad energy and clear comedic timing.\n2. role_needed: Other nursery dad\n   selected_cast_persona: noah \u00b7 dad\n   why_this_fit: Grounded secondary dad for setup handoff.\n3. role_needed: Nurse / staff (optional)\n   selected_cast_persona: iris \u00b7 startup-founder\n   why_this_fit: Professional look without distracting costume cues.\n\nAdaptation Notes:\n1. Hospital/nursery backdrop; no medical gore detail.\n2. Keep babies implied (off-screen bassinet or blanket bundle).\n\nShot Intent:\n- setup_shot: Setup: two dads chatting in nursery hallway.\n- punchline_reaction_shot: Punchline: narrator side-eye reaction close-up after \"twice his age\" line.\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "iris",
+      "marker": "IRIS_VIDEO_PROMPT_v2",
+      "version": 1,
+      "content": "IRIS_VIDEO_PROMPT_v2\n\nseed_id: seed-002\naspect_ratio: 9:16 (vertical portrait)\nconcept_count: 3\n\nConcept A \u2014 Performance-First Character Comedy\nduration_target: 9.8s\nduration_reason: Dialogue requires two dad beats plus reaction button. Keep straightforward continuity cuts for readability.\nmaster_video_prompt:\nHospital nursery hallway cartoon, cast jerry coach-dad + noah dad (+ optional iris startup-founder nurse cameo), family-safe tone, soft pastel medical setting, clear facial acting, 9:16 framing, strong caption-safe regions, quick conversational cuts. Prioritize facial acting and clean two-shot/close-up rhythm; minimal background motion.\nscene_plan:\n1) Scene 1 (0.0\u20131.6s): Hook title beat \u201cMy son was just born,\u201d narrator proud smile.\n2) Scene 2 (1.6\u20134.7s): Other dad congratulates and says kids might marry, over-shoulder shot swap.\n3) Scene 3 (4.7\u20137.5s): Narrator processes line, slight pause, eye-shift reaction.\n4) Scene 4 (7.5\u20139.8s): Punchline close-up: \u201cLike my son is gonna marry someone twice his age\u2026\u201d with deadpan stare.\ncaption_plan:\n1. 0.1s: \u201cMy son was just born.\u201d\n2. 1.8s: \u201cAnother dad said maybe our kids will marry someday\u2026\u201d\n3. 5.1s: \u201cSure\u2026\u201d\n4. 7.7s: \u201cLike my son is gonna marry someone twice his age.\u201d\nperformance_notes:\n- Conversational speed, micro-pause before \u201cSure\u2026\u201d, punchline with dry incredulity. Balanced pace, clear pause before punchline.\nrisk_and_fallback:\n1. Risk: newborn visuals distracting \u2192 keep babies implied/off-screen.\n2. Fallback: use nursery sign + two-dad dialogue only.\nwhy_jerry_might_greenlight_this:\n- Most reliable laugh-read and easiest to produce under budget/time pressure.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 9.8\n- sceneCount: 4\n- mustKeep: Scene 2 proposal line + Scene 4 age punchline\n- optionalTrims: Compress Scene 1 to 1.0s if under 9s target needed\n\n---\n\nConcept B \u2014 Kinetic Camera + Visual Gag Emphasis\nduration_target: 9.2s\nduration_reason: Dialogue requires two dad beats plus reaction button. Add one energetic transition beat between setup and punchline.\nmaster_video_prompt:\nHospital nursery hallway cartoon, cast jerry coach-dad + noah dad (+ optional iris startup-founder nurse cameo), family-safe tone, soft pastel medical setting, clear facial acting, 9:16 framing, strong caption-safe regions, quick conversational cuts. Use dynamic push-ins, whip pans, and one stronger visual gag transition while preserving caption readability.\nscene_plan:\n1) Scene 1 (0.0\u20131.6s): Hook title beat \u201cMy son was just born,\u201d narrator proud smile.\n2) Scene 2 (1.6\u20134.7s): Other dad congratulates and says kids might marry, over-shoulder shot swap.\n3) Scene 3 (4.7\u20137.5s): Narrator processes line, slight pause, eye-shift reaction.\n4) Scene 4 (7.5\u20139.8s): Punchline close-up: \u201cLike my son is gonna marry someone twice his age\u2026\u201d with deadpan stare.\ncaption_plan:\n1. 0.1s: \u201cMy son was just born.\u201d\n2. 1.8s: \u201cAnother dad said maybe our kids will marry someday\u2026\u201d\n3. 5.1s: \u201cSure\u2026\u201d\n4. 7.7s: \u201cLike my son is gonna marry someone twice his age.\u201d\nperformance_notes:\n- Conversational speed, micro-pause before \u201cSure\u2026\u201d, punchline with dry incredulity. Faster delivery with tighter setup beat.\nrisk_and_fallback:\n1. Risk: newborn visuals distracting \u2192 keep babies implied/off-screen.\n2. Fallback: use nursery sign + two-dad dialogue only.\nwhy_jerry_might_greenlight_this:\n- Higher scroll-stopping energy; better chance at early retention if the motion lands cleanly.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 9.2\n- sceneCount: 4\n- mustKeep: Hook visual + punchline reaction hold\n- optionalTrims: Trim setup exposition and keep strongest visual gag only\n\n---\n\nConcept C \u2014 Situational World-Build + Ensemble Reactions\nduration_target: 10.6s\nduration_reason: Dialogue requires two dad beats plus reaction button. Include one contextual insert shot (prop/sign/location) to strengthen premise clarity.\nmaster_video_prompt:\nHospital nursery hallway cartoon, cast jerry coach-dad + noah dad (+ optional iris startup-founder nurse cameo), family-safe tone, soft pastel medical setting, clear facial acting, 9:16 framing, strong caption-safe regions, quick conversational cuts. Lean into environment storytelling and one extra reaction/cutaway to sell context before payoff.\nscene_plan:\n1) Scene 1 (0.0\u20131.6s): Hook title beat \u201cMy son was just born,\u201d narrator proud smile.\n2) Scene 2 (1.6\u20134.7s): Other dad congratulates and says kids might marry, over-shoulder shot swap.\n3) Scene 3 (4.7\u20137.5s): Narrator processes line, slight pause, eye-shift reaction.\n4) Scene 4 (7.5\u20139.8s): Punchline close-up: \u201cLike my son is gonna marry someone twice his age\u2026\u201d with deadpan stare.\ncaption_plan:\n1. 0.1s: \u201cMy son was just born.\u201d\n2. 1.8s: \u201cAnother dad said maybe our kids will marry someday\u2026\u201d\n3. 5.1s: \u201cSure\u2026\u201d\n4. 7.7s: \u201cLike my son is gonna marry someone twice his age.\u201d\nperformance_notes:\n- Conversational speed, micro-pause before \u201cSure\u2026\u201d, punchline with dry incredulity. Slightly slower setup with stronger context cue.\nrisk_and_fallback:\n1. Risk: newborn visuals distracting \u2192 keep babies implied/off-screen.\n2. Fallback: use nursery sign + two-dad dialogue only.\nwhy_jerry_might_greenlight_this:\n- Best for jokes where context confusion is a risk; improves comprehension before payoff.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 10.6\n- sceneCount: 4\n- mustKeep: Context insert + final punchline close-up\n- optionalTrims: Remove contextual insert if runtime/complexity is too high\n\nstatus: ready_for_jerry_review\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "jerry",
+      "marker": "JERRY_GREENLIGHT_v1",
+      "version": 1,
+      "content": "JERRY_GREENLIGHT_v1\nselected_concept: A\ndecision: GREENLIGHT\nconfidence: High\nrationale: Dialogue-heavy joke benefits from stable coverage and clear reaction timing. Concept A keeps emotional readability and avoids overcutting hospital context.\ncost_note: Low-medium: simple hallway set, limited cast blocking.\nmust_keep: Other-dad proposal line + final age punchline reaction\ntrim_if_needed: Shorten opening title beat\nnext_owner: Vince\n\n---\n\nJERRY_KICKOFF_v1\nseed_id: seed-002\npriority: STAT\ninstruction: Vince begin scene generation immediately from selected concept + money-brief constraints.\nnext_owner: Vince\nnext_status: queued_for_scene_production\nnotes: Expedite this joke through scene generation, assembly, and post handoff.\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "jerry",
+      "marker": "JERRY_MONEY_BRIEF_v1",
+      "version": 1,
+      "content": "JERRY_MONEY_BRIEF_v1\nseed_id: seed-002\nselected_concept: A\nobjective: Deliver a clear nursery conversation setup with a crisp age-gap punchline reaction.\nformat:\n  - aspect_ratio: 9:16\n  - target_duration_sec: 10.0\n  - fps: 30\n  - resolution_target: 1080x1920\ncast_and_personas:\n  - jerry \u00b7 coach-dad (new dad narrator)\n  - noah \u00b7 dad (other nursery dad)\n  - optional iris \u00b7 startup-founder (nurse cameo)\nfinal_script_lines:\n  1) \"My son was just born.\"\n  2) \"Another dad in the nursery congratulated me and said maybe our kids will marry someday.\"\n  3) \"Sure...\"\n  4) \"Like my son is going to marry someone twice his age.\"\nscene_timeline:\n  - Scene 1 (0.0\u20131.8s): New dad intro in nursery hallway.\n  - Scene 2 (1.8\u20134.9s): Other dad delivers marriage-someday line.\n  - Scene 3 (4.9\u20137.4s): Narrator beat: \"Sure...\" reaction hold.\n  - Scene 4 (7.4\u201310.0s): Punchline close-up and deadpan stare.\ncamera_and_motion_notes:\n  - Keep coverage simple: two-shot -> shot/reverse -> reaction close-up.\n  - Prioritize facial readability over motion flair.\ncaption_plan:\n  - 0.2s: \"My son was just born.\"\n  - 2.0s: \"Another dad said maybe our kids will marry someday...\"\n  - 5.2s: \"Sure...\"\n  - 7.6s: \"Like my son is going to marry someone twice his age.\"\naudio_voice_notes:\n  - Warm conversational delivery; 0.35s pause before final line.\nmust_keep:\n  - Marriage-someday setup line\n  - Final age punchline reaction close-up\noptional_trims:\n  - Trim Scene 1 intro by up to 0.6s if pacing drifts long.\ncost_guardrails:\n  - max_generation_attempts: 1 per scene\n  - max_fallback_attempts: 1 total across all scenes\n  - stop_conditions: Escalate if >1 scene fails continuity or if total scene generation cost exceeds 1.6 credits.\ndeliverable_checklist:\n  - 9:16 export\n  - Runtime 9.2s\u201310.8s\n  - Mobile-readable captions\nhandoff_to: Vince\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "vince",
+      "marker": "VINCE_OFFICIAL_CLIP_SET_v1",
+      "version": 1,
+      "content": "VINCE_OFFICIAL_CLIP_SET_v1\nseed_id: seed-002\nsource: /microanimatic/seed-002/\nstatus: official_clip_set_locked\nclips:\n- scene_01_establishing: /official-clips/seed-002/scene_01_establishing.mp4\n- scene_02_setup_ots: /official-clips/seed-002/scene_02_setup_ots.mp4\n- scene_03_reveal_wide: /official-clips/seed-002/scene_03_reveal_wide.mp4\n- scene_04_punchline_closeup: /official-clips/seed-002/scene_04_punchline_closeup.mp4\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "vince",
+      "marker": "VINCE_PRODUCTION_v2",
+      "version": 1,
+      "content": "VINCE_PRODUCTION_v2\nseed_id: seed-002\nstatus: delivered_audio_first\nvoiceover: /data/audio/seed-002-voiceover-audiofirst.mp3\nfinal_output_path: /finals/seed-002-vince-audiofirst-v2.mp4\nvoice_name: Roger - Laid-Back, Casual, Resonant\nline_timings: [0.00-1.57], [1.69-6.47], [6.65-7.38], [7.60-10.60]\nscene_durations: 1.75, 4.96, 1.20, 3.30\nnotes: Audio-first timing lock applied before scene-duration trim.\n\n---\n\nTASHA_PUBLISH_v2\nseed_id: seed-002\npublish_targets: [youtube_shorts]\nchosen_video_path: /finals/seed-002-vince-audiofirst-v2.mp4\npublish_status: published\npost_urls: https://www.youtube.com/watch?v=VWNy1nkAzac\npublic_site_sync: complete\nvideo_id: VWNy1nkAzac\nyoutube_embeddable: true\nfinal_note: Reworked audio-first cut published to replace pacing-issue version.\n\n---\n\nVINCE_PRODUCTION_v3\nseed_id: seed-002\nstatus: delivered_final\nfinal_output_path: /finals/seed-002-vince-audiofirst-v3-safe.mp4\nnotes: Caption safe-zone fix applied (reduced font, constrained width, stronger side margins).\n\n---\n\nTASHA_PUBLISH_v3\nseed_id: seed-002\npublish_targets: [youtube_shorts]\nchosen_video_path: /finals/seed-002-vince-audiofirst-v3-safe.mp4\npublish_status: published\npost_urls: https://www.youtube.com/watch?v=NHZdwcs68Ks\nvideo_id: NHZdwcs68Ks\nyoutube_embeddable: true\npublic_site_sync: complete\nfinal_note: Published caption-safe corrected final.",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "lena",
+      "marker": "LENA_POST_QC_v1",
+      "version": 1,
+      "content": "LENA_POST_QC_v1\nseed_id: seed-002\nreviewed_video_path: /finals/seed-002-vince-generic-assemble.mp4\nscores:\n- hook_strength: 8.1\n- punchline_clarity: 8.0\n- caption_readability: 7.8\n- audio_comfort: 8.0\n- shareability: 8.0\ntop_wins:\n- Clear two-dad setup and reaction pacing.\n- Punchline is understandable on first watch.\nissues_found:\n- Minor cadence drag in middle beat.\nmicro_edits:\n- Tighten scene 3 by ~0.2s if doing a polish pass.\n- Keep caption line 2 slightly shorter on final social variant.\npublish_recommendation: APPROVE_WITH_EDITS\nrecommended_thumbnail_moment_sec: 8.6\nfinal_note: Ready for QA gate; no expensive regenerate required.\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "qa",
+      "marker": "QA_REVIEW_v1",
+      "version": 1,
+      "content": "QA_REVIEW_v1\nseed_id: seed-002\nreviewed_video_path: /finals/seed-002-vince-generic-assemble.mp4\nscores:\n- hook_strength: 8.0\n- punchline_comprehension: 8.1\n- caption_readability: 7.9\n- audio_quality: 8.0\n- visual_continuity: 7.8\n- brand_safety: 9.4\ncritical_issues: none\nminor_fixes:\n- optional: trim mid reaction by ~0.2s\ngate_decision: PASS\nnext_status: ready_to_publish\nfinal_note: QA pass granted.\n\n---\n\nTASHA_PUBLISH_v1\nseed_id: seed-002\npublish_targets: [youtube_shorts]\nchosen_video_path: /finals/seed-002-vince-generic-assemble.mp4\ncaption_copy_by_platform:\n- youtube_shorts: \"Nursery math hits different \ud83d\ude02\"\nhashtags_by_platform:\n- youtube_shorts: #dadjokes #shorts #comedy #dadhumor\nscheduled_time_by_platform:\n- youtube_shorts: published_immediately\npublish_status: published\npost_urls: https://www.youtube.com/watch?v=AcmmHAbUo0o\npublic_site_sync: complete\nfinal_note: Published to Dad Jokes channel as public + embeddable.\n\n---",
+      "created_at": "2026-03-09 02:41:11",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "noah",
+      "marker": "NOAH_QA_REVIEW_v1",
+      "version": 1,
+      "content": "NOAH_",
+      "created_at": "2026-03-09 02:41:11",
+      "updated_at": "2026-03-09 21:52:06"
+    }
+  ]
+}

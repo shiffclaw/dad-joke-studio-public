@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Production Pipeline - Dad Joke Studio</title>
+  <meta property="og:title" content="Dad Joke Studio — Production Pipeline">
+  <meta property="og:description" content="Where the jokes are bad and the drama is worse.">
+  <meta property="og:image" content="https://shiffclaw.github.io/dad-joke-studio-public/images/og-image-v2.png?v=2">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://shiffclaw.github.io/dad-joke-studio-public/images/og-image-v2.png?v=2">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <img src="../images/smack-logo.jpg" alt="Dad Joke Studio" class="site-logo">
+    <div class="masthead-text">
+      <h1>Dad Joke Studio</h1>
+      <p class="tagline">Where the jokes are bad and the drama is worse.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="../index.html">Latest Issue</a>
+    <a href="../archive.html">Back Issues</a>
+    <a href="../studio.html">The Studio</a>
+    <a href="../shorts.html">The Shorts</a>
+    <a href="../team.html">Meet the Team</a>
+    <a href="../smack.html">Team Smack</a>
+    <a href="../behind-the-scenes.html" class="active">Behind the Scenes</a>
+  </nav>
+
+  <main>
+    <a href="../behind-the-scenes.html" class="article-back-link">&larr; Behind the Scenes</a>
+    <h2 class="section-header">The Production Pipeline</h2>
+    <p id="pipeline-date" style="margin-bottom:1.5rem; font-size:0.95rem; line-height:1.6; color:#888;"></p>
+
+    <div id="pipeline-board"></div>
+    <div id="pipeline-empty" class="empty-state" style="display:none;">
+      <h2>No pipeline data</h2>
+      <p>The board is empty. Jerry says it's fine. It's not fine.</p>
+    </div>
+
+    <div style="margin-top:2.5rem;">
+      <h3 class="section-header" style="font-size:1.4rem;">How It Works</h3>
+      <p style="margin-bottom:1.5rem; font-size:0.9rem; line-height:1.6;">
+        Every joke gets a <strong>seed ID</strong> and passes through 8 stages.
+        Each stage is owned by one or two team members. If a joke stalls, everyone knows where it's stuck.
+      </p>
+      <div class="pipeline-explainer">
+        <div class="pipeline-stage-card">
+          <div class="pipeline-stage-label" style="background:var(--blue);">1. Scouting</div>
+          <p><strong>Zoe Sparks</strong> scours the internet for raw jokes, tags them by theme and risk, and drops them into the intake queue.</p>
+        </div>
+        <div class="pipeline-stage-card">
+          <div class="pipeline-stage-label" style="background:var(--green);">2. Writing</div>
+          <p><strong>Milo Quip</strong> cleans up the joke and scripts it for short-form delivery — setup, punchline, timing, captions.</p>
+        </div>
+        <div class="pipeline-stage-card">
+          <div class="pipeline-stage-label" style="background:var(--purple);">3. Casting</div>
+          <p><strong>Riley Cast</strong> matches characters to roles based on the script, selecting personas and performance styles.</p>
+        </div>
+        <div class="pipeline-stage-card">
+          <div class="pipeline-stage-label" style="background:var(--orange);">4. Visual Dev</div>
+          <p><strong>Iris Doodle</strong> produces 2-3 concept options with storyboards, scene timelines, and master video prompts.</p>
+        </div>
+        <div class="pipeline-stage-card">
+          <div class="pipeline-stage-label" style="background:var(--red);">5. Greenlight</div>
+          <p><strong>Jerry Gold</strong> picks the winning concept, writes a locked production brief, and sends it to the floor.</p>
+        </div>
+        <div class="pipeline-stage-card">
+          <div class="pipeline-stage-label" style="background:var(--ink);">6. Production</div>
+          <p><strong>Vince Clip</strong> generates voice-over, video scenes, captions, and assembles the final 9:16 short.</p>
+        </div>
+        <div class="pipeline-stage-card">
+          <div class="pipeline-stage-label" style="background:var(--blue);">7. QA</div>
+          <p><strong>Lena Cut</strong> polishes and <strong>Noah Check</strong> reviews. If it doesn't pass the rubric, it goes back.</p>
+        </div>
+        <div class="pipeline-stage-card">
+          <div class="pipeline-stage-label" style="background:var(--green);">8. Publish</div>
+          <p><strong>Tasha Trend</strong> posts to YouTube, updates the site, and writes the studio article.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; Dad Joke Studio &bull; A production nobody asked for
+  </footer>
+
+  <script>
+  (function() {
+    const BASE = '../';
+    const COLORS = {
+      blue: 'var(--blue)', green: 'var(--green)', purple: 'var(--purple)',
+      orange: 'var(--orange)', red: 'var(--red)', ink: 'var(--ink)'
+    };
+
+    function loadJSON(url) {
+      return fetch(url).then(r => r.json()).catch(() => null);
+    }
+
+    function agentAvatars(agents) {
+      return agents.map(a =>
+        '<img class="pipe-agent-avatar" src="' + BASE + 'images/team/' + a + '.jpg" alt="' + a + '">'
+      ).join('');
+    }
+
+    function renderCard(item) {
+      return '<a href="joke?seed=' + encodeURIComponent(item.seed) + '" class="pipe-card">' +
+        '<div class="pipe-card-title">' + (item.title || 'Untitled') + '</div>' +
+        '<div class="pipe-card-seed">' + item.seed + '</div>' +
+      '</a>';
+    }
+
+    function renderStage(stage) {
+      const color = COLORS[stage.color] || 'var(--blue)';
+      const cards = (stage.items || []).map(renderCard).join('');
+      const empty = stage.items.length === 0
+        ? '<div class="pipe-empty-slot">Empty</div>' : '';
+
+      return '<div class="pipe-box">' +
+        '<div class="pipe-box-header" style="background:' + color + ';">' +
+          '<span class="pipe-box-title">' + stage.name + '</span>' +
+          '<span class="pipe-box-agents">' + agentAvatars(stage.agents) + '</span>' +
+        '</div>' +
+        '<div class="pipe-box-body">' + cards + empty + '</div>' +
+      '</div>';
+    }
+
+    async function load() {
+      const data = await loadJSON(BASE + 'data/pipeline.json');
+      const board = document.getElementById('pipeline-board');
+      const emptyEl = document.getElementById('pipeline-empty');
+      const dateEl = document.getElementById('pipeline-date');
+
+      if (!data || !data.stages || data.stages.length === 0) {
+        emptyEl.style.display = '';
+        return;
+      }
+
+      if (data.date && dateEl) {
+        dateEl.textContent = 'Last updated: ' + data.date;
+      }
+
+      board.innerHTML = data.stages.map(renderStage).join('');
+    }
+
+    load();
+  })();
+  </script>
+</body>
+</html>

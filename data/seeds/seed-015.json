@@ -1,0 +1,41 @@
+{
+  "joke": {
+    "seed_id": "seed-015",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/dadjokes/comments/1rl80h4/i_accidentally_sprayed_axe_body_spray_into_my/",
+    "raw_joke": "I accidentally sprayed Axe body spray into my mouth. \u2014 Now I speak with an Axe scent.",
+    "theme": "one-liner",
+    "caption_safe": "yes",
+    "originality_risk": "medium",
+    "status": "published",
+    "rewrite_status": "jerry_greenlit_scene_descriptions",
+    "created_at": "2026-03-06 19:32:45",
+    "updated_at": "2026-03-11T20:18:00.480Z"
+  },
+  "blocks": [
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "RILEY_CASTING_PLAN_v1\n\nPrimary Cast (2-3 roles):\n1. role_needed: Narrator\n   selected_cast_persona: milo \u00b7 gamer-kid\n   why_this_fit: Teen chaos energy fits accidental spray gag.\n2. role_needed: Observer reacting\n   selected_cast_persona: zoe \u00b7 young-doctor\n   why_this_fit: Concerned-to-amused expression arc.\n\nAdaptation Notes:\n1. Use generic body spray can (no trademark logo close-up).\n2. Mouth-spray moment implied, not explicit.\n\nShot Intent:\n- setup_shot: Setup: accidental spray mishap beat.\n- punchline_reaction_shot: Punchline: exaggerated \"fancy voice\" reaction close-up.\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "iris",
+      "marker": "IRIS_VIDEO_PROMPT_v2",
+      "version": 1,
+      "content": "IRIS_VIDEO_PROMPT_v2\n\nseed_id: seed-015\naspect_ratio: 9:16 (vertical portrait)\nconcept_count: 3\n\nConcept A \u2014 Performance-First Character Comedy\nduration_target: 8.7s\nduration_reason: Physical mishap setup needs visual cue before line payoff. Keep straightforward continuity cuts for readability.\nmaster_video_prompt:\nTeen bedroom/bathroom doorway cartoon, cast milo gamer-kid + zoe young-doctor observer, generic body spray prop (no logos), playful motion, 9:16 with clear face framing for reactions. Prioritize facial acting and clean two-shot/close-up rhythm; minimal background motion.\nscene_plan:\n1) Scene 1 (0.0\u20131.8s): Milo fumbles spray can.\n2) Scene 2 (1.8\u20134.1s): Accidental spray mishap implied, startled face.\n3) Scene 3 (4.1\u20136.3s): Zoe reacts with concern-to-amused look.\n4) Scene 4 (6.3\u20138.7s): Punchline delivery: \u201cNow I speak with an Axe scent.\u201d\ncaption_plan:\n1. 0.2s: \u201cI accidentally sprayed body spray into my mouth.\u201d\n2. 4.4s: \u201c(beat)\u201d\n3. 6.5s: \u201cNow I speak with an Axe scent.\u201d\nperformance_notes:\n- Youthful quick pace, let punchline breathe for 0.4s at end. Balanced pace, clear pause before punchline.\nrisk_and_fallback:\n1. Risk: brand/logo issue \u2192 keep can unbranded/generic.\n2. Fallback: narrate accident without spray animation close-up.\nwhy_jerry_might_greenlight_this:\n- Most reliable laugh-read and easiest to produce under budget/time pressure.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 8.7\n- sceneCount: 4\n- mustKeep: Scene 2 mishap cue + Scene 4 verbal pun\n- optionalTrims: Merge Scenes 2+3 if rendering constraints\n\n---\n\nConcept B \u2014 Kinetic Camera + Visual Gag Emphasis\nduration_target: 8.1s\nduration_reason: Physical mishap setup needs visual cue before line payoff. Add one energetic transition beat between setup and punchline.\nmaster_video_prompt:\nTeen bedroom/bathroom doorway cartoon, cast milo gamer-kid + zoe young-doctor observer, generic body spray prop (no logos), playful motion, 9:16 with clear face framing for reactions. Use dynamic push-ins, whip pans, and one stronger visual gag transition while preserving caption readability.\nscene_plan:\n1) Scene 1 (0.0\u20131.8s): Milo fumbles spray can.\n2) Scene 2 (1.8\u20134.1s): Accidental spray mishap implied, startled face.\n3) Scene 3 (4.1\u20136.3s): Zoe reacts with concern-to-amused look.\n4) Scene 4 (6.3\u20138.7s): Punchline delivery: \u201cNow I speak with an Axe scent.\u201d\ncaption_plan:\n1. 0.2s: \u201cI accidentally sprayed body spray into my mouth.\u201d\n2. 4.4s: \u201c(beat)\u201d\n3. 6.5s: \u201cNow I speak with an Axe scent.\u201d\nperformance_notes:\n- Youthful quick pace, let punchline breathe for 0.4s at end. Faster delivery with tighter setup beat.\nrisk_and_fallback:\n1. Risk: brand/logo issue \u2192 keep can unbranded/generic.\n2. Fallback: narrate accident without spray animation close-up.\nwhy_jerry_might_greenlight_this:\n- Higher scroll-stopping energy; better chance at early retention if the motion lands cleanly.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 8.1\n- sceneCount: 4\n- mustKeep: Hook visual + punchline reaction hold\n- optionalTrims: Trim setup exposition and keep strongest visual gag only\n\n---\n\nConcept C \u2014 Situational World-Build + Ensemble Reactions\nduration_target: 9.5s\nduration_reason: Physical mishap setup needs visual cue before line payoff. Include one contextual insert shot (prop/sign/location) to strengthen premise clarity.\nmaster_video_prompt:\nTeen bedroom/bathroom doorway cartoon, cast milo gamer-kid + zoe young-doctor observer, generic body spray prop (no logos), playful motion, 9:16 with clear face framing for reactions. Lean into environment storytelling and one extra reaction/cutaway to sell context before payoff.\nscene_plan:\n1) Scene 1 (0.0\u20131.8s): Milo fumbles spray can.\n2) Scene 2 (1.8\u20134.1s): Accidental spray mishap implied, startled face.\n3) Scene 3 (4.1\u20136.3s): Zoe reacts with concern-to-amused look.\n4) Scene 4 (6.3\u20138.7s): Punchline delivery: \u201cNow I speak with an Axe scent.\u201d\ncaption_plan:\n1. 0.2s: \u201cI accidentally sprayed body spray into my mouth.\u201d\n2. 4.4s: \u201c(beat)\u201d\n3. 6.5s: \u201cNow I speak with an Axe scent.\u201d\nperformance_notes:\n- Youthful quick pace, let punchline breathe for 0.4s at end. Slightly slower setup with stronger context cue.\nrisk_and_fallback:\n1. Risk: brand/logo issue \u2192 keep can unbranded/generic.\n2. Fallback: narrate accident without spray animation close-up.\nwhy_jerry_might_greenlight_this:\n- Best for jokes where context confusion is a risk; improves comprehension before payoff.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 9.5\n- sceneCount: 4\n- mustKeep: Context insert + final punchline close-up\n- optionalTrims: Remove contextual insert if runtime/complexity is too high\n\nstatus: ready_for_jerry_review\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "jerry",
+      "marker": "JERRY_GREENLIGHT_v1",
+      "version": 1,
+      "content": "JERRY_GREENLIGHT_v1\nselected_concept: A\ndecision: GREENLIGHT\nconfidence: High\nrationale: Physical setup + line payoff are strongest in A\u2019s controlled pacing. Easy to execute and readable in vertical format.\ncost_note: Low-medium due action cue, still straightforward.\nmust_keep: Accident implication + final line close-up\ntrim_if_needed: Observer reaction length\nnext_owner: Vince",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    }
+  ]
+}

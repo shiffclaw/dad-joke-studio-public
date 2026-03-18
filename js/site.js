@@ -50,7 +50,7 @@
     if (!board) return;
 
     const data = await loadJSON('data/pipeline.json');
-    if (!data || !data.columns || data.columns.length === 0) {
+    if (!data || !data.stages || data.stages.length === 0) {
       board.style.display = 'none';
       return;
     }
@@ -58,20 +58,25 @@
     if (empty) empty.style.display = 'none';
     if (dateEl && data.date) dateEl.textContent = 'Last updated: ' + data.date;
 
-    const stageClasses = {
-      'Scouting': 'scouting',
-      'Writing': 'writing',
-      'Casting': 'casting',
-      'Visual Dev': 'visual',
-      'Production': 'production',
+    const COLORS = {
+      blue: 'var(--blue)', green: 'var(--green)', purple: 'var(--purple)',
+      orange: 'var(--orange)', red: 'var(--red)', ink: 'var(--ink)'
     };
 
-    board.innerHTML = data.columns.map(col => {
-      const cls = stageClasses[col.stage] || 'scouting';
-      const items = (col.items || []).map(it =>
-        `<div class="pipeline-item"><span class="joke-id">${it.id}</span> ${it.label || ''}</div>`
-      ).join('');
-      return `<div class="pipeline-col"><h3 class="${cls}">${col.stage}</h3>${items || '<div class="pipeline-item" style="color:#aaa;text-align:center">Empty</div>'}</div>`;
+    board.innerHTML = data.stages.map(function(stage) {
+      const color = COLORS[stage.color] || 'var(--blue)';
+      const avatars = (stage.agents || []).map(function(a) {
+        return '<img class="pipe-agent-avatar" src="images/team/' + a + '.jpg" alt="' + a + '">';
+      }).join('');
+      const cards = (stage.items || []).map(function(it) {
+        return '<a href="behind-the-scenes/joke?seed=' + encodeURIComponent(it.seed) + '" class="pipe-card"><div class="pipe-card-title">' + (it.title || 'Untitled') +
+          '</div><div class="pipe-card-seed">' + it.seed + '</div></a>';
+      }).join('');
+      const body = cards || '<div class="pipe-empty-slot">Empty</div>';
+      return '<div class="pipe-box"><div class="pipe-box-header" style="background:' + color + ';">' +
+        '<span class="pipe-box-title">' + stage.name + '</span>' +
+        '<span class="pipe-box-agents">' + avatars + '</span></div>' +
+        '<div class="pipe-box-body">' + body + '</div></div>';
     }).join('');
   }
 

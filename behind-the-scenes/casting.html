@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casting Bible - Dad Joke Studio</title>
+  <meta property="og:title" content="Dad Joke Studio — Casting Bible">
+  <meta property="og:description" content="Where the jokes are bad and the drama is worse.">
+  <meta property="og:image" content="https://shiffclaw.github.io/dad-joke-studio-public/images/og-image-v2.png?v=2">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://shiffclaw.github.io/dad-joke-studio-public/images/og-image-v2.png?v=2">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <img src="../images/smack-logo.jpg" alt="Dad Joke Studio" class="site-logo">
+    <div class="masthead-text">
+      <h1>Dad Joke Studio</h1>
+      <p class="tagline">Where the jokes are bad and the drama is worse.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="../index.html">Latest Issue</a>
+    <a href="../archive.html">Back Issues</a>
+    <a href="../studio.html">The Studio</a>
+    <a href="../shorts.html">The Shorts</a>
+    <a href="../team.html">Meet the Team</a>
+    <a href="../smack.html">Team Smack</a>
+    <a href="../behind-the-scenes.html" class="active">Behind the Scenes</a>
+  </nav>
+
+  <main>
+    <a href="../behind-the-scenes.html" class="article-back-link">&larr; Behind the Scenes</a>
+    <h2 class="section-header">The Casting Bible</h2>
+    <p style="margin-bottom:1rem; font-size:0.95rem; line-height:1.6;">
+      Every character. Every persona. Every reference image. This is the canonical source the team uses
+      to keep characters consistent across videos and comics.
+    </p>
+
+    <div class="cast-nav" id="cast-nav"></div>
+    <div id="casting-container"></div>
+  </main>
+
+  <footer>
+    &copy; Dad Joke Studio &bull; A production nobody asked for
+  </footer>
+
+  <script>
+  (function() {
+    const BASE = '../';
+
+    function loadJSON(url) {
+      return fetch(url).then(r => r.json()).catch(() => null);
+    }
+
+    function renderPersonaGrid(personas) {
+      return personas.map(p => `
+        <figure class="anchor-fig">
+          <img src="${BASE}${p.anchor}" alt="${p.name}" loading="lazy"
+               onerror="this.parentElement.style.display='none'">
+          <figcaption>${p.name}</figcaption>
+        </figure>
+      `).join('');
+    }
+
+    function renderConceptSheets(sheets) {
+      return sheets.map((src, i) => `
+        <figure class="concept-fig">
+          <img src="${BASE}${src}" alt="Concept Sheet ${i + 1}" loading="lazy">
+          <figcaption>${i === 0 ? 'Concept Sheet' : 'Concept Sheet (Wide)'}</figcaption>
+        </figure>
+      `).join('');
+    }
+
+    function renderCastMember(c) {
+      return `
+      <section class="cast-sheet" id="cast-${c.handle}">
+        <div class="cast-sheet-header">
+          <img src="${BASE}${c.avatar}" alt="${c.name}" class="cast-sheet-avatar">
+          <div>
+            <h3 class="cast-sheet-name">${c.name}</h3>
+            <div class="cast-sheet-role">${c.role}</div>
+            <div class="cast-sheet-archetypes">${c.archetypes.join(' · ')}</div>
+          </div>
+        </div>
+
+        <div class="cast-sheet-core">
+          <ul>${c.core.map(t => '<li>' + t + '</li>').join('')}</ul>
+        </div>
+
+        <div class="cast-sheet-section">
+          <h4>Persona Anchors</h4>
+          <div class="anchor-grid">${renderPersonaGrid(c.personas)}</div>
+        </div>
+
+        <div class="cast-sheet-section">
+          <h4>Concept Sheets</h4>
+          <div class="concept-grid">${renderConceptSheets(c.conceptSheets)}</div>
+        </div>
+      </section>`;
+    }
+
+    async function load() {
+      const cast = await loadJSON(BASE + 'data/cast-bible.json');
+      if (!cast) return;
+
+      // Jump nav
+      const nav = document.getElementById('cast-nav');
+      nav.innerHTML = cast.map(c =>
+        `<a href="#cast-${c.handle}" class="cast-nav-link">
+          <img src="${BASE}${c.avatar}" alt="${c.name}">
+          <span>${c.name.split(' ')[0]}</span>
+        </a>`
+      ).join('');
+
+      // Cast sheets
+      const container = document.getElementById('casting-container');
+      container.innerHTML = cast.map(renderCastMember).join('');
+    }
+
+    load();
+  })();
+  </script>
+</body>
+</html>

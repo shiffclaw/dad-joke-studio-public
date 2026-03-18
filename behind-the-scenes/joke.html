@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joke Details - Dad Joke Studio</title>
+  <meta property="og:title" content="Dad Joke Studio — Joke Details">
+  <meta property="og:description" content="Where the jokes are bad and the drama is worse.">
+  <meta property="og:image" content="https://shiffclaw.github.io/dad-joke-studio-public/images/og-image-v2.png?v=2">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <img src="../images/smack-logo.jpg" alt="Dad Joke Studio" class="site-logo">
+    <div class="masthead-text">
+      <h1>Dad Joke Studio</h1>
+      <p class="tagline">Where the jokes are bad and the drama is worse.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="../index.html">Latest Issue</a>
+    <a href="../archive.html">Back Issues</a>
+    <a href="../studio.html">The Studio</a>
+    <a href="../shorts.html">The Shorts</a>
+    <a href="../team.html">Meet the Team</a>
+    <a href="../smack.html">Team Smack</a>
+    <a href="../behind-the-scenes.html" class="active">Behind the Scenes</a>
+  </nav>
+
+  <main>
+    <a href="pipeline" class="article-back-link">&larr; Back to Pipeline</a>
+    <div id="joke-detail"></div>
+    <div id="joke-empty" class="empty-state" style="display:none;">
+      <h2>Joke Not Found</h2>
+      <p>No seed ID provided, or this joke hasn't been exported yet.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; Dad Joke Studio &bull; A production nobody asked for
+  </footer>
+
+  <script>
+  (function() {
+    var BASE = '../';
+    var params = new URLSearchParams(location.search);
+    var seedId = params.get('seed');
+
+    if (!seedId) {
+      document.getElementById('joke-empty').style.display = '';
+      return;
+    }
+
+    var AGENTS = {
+      zoe:       { name: 'Zoe Sparks',             role: 'Content Research',   avatar: 'images/team/zoe.jpg',   color: 'var(--blue)' },
+      milo:      { name: 'Milo Quip',              role: 'Script Development', avatar: 'images/team/milo.jpg',  color: 'var(--green)' },
+      riley:     { name: 'Riley Cast',              role: 'Casting Supervisor', avatar: 'images/team/riley.jpg', color: 'var(--purple)' },
+      iris:      { name: 'Iris Doodle',             role: 'Visual Development', avatar: 'images/team/iris.jpg',  color: 'var(--orange)' },
+      jerry:     { name: 'Jerry Gold',              role: 'Creative Director',  avatar: 'images/team/jerry.jpg', color: 'var(--red)' },
+      vince:     { name: 'Vince Clip',              role: 'Production',         avatar: 'images/team/vince.jpg', color: 'var(--ink)' },
+      lena_noah: { name: 'Lena Cut & Noah Check',   role: 'QA',                avatar: 'images/team/lena.jpg',  color: 'var(--blue)' },
+      tasha:     { name: 'Tasha Trend',             role: 'Distribution',       avatar: 'images/team/tasha.jpg', color: 'var(--green)' }
+    };
+
+    var STAGES = [
+      { key: 'intake',     label: '1. Scouting',   agent: 'zoe',       markers: [] },
+      { key: 'script',     label: '2. Writing',    agent: 'milo',      markers: ['MILO_OFFICIAL_SCRIPT_v1'] },
+      { key: 'casting',    label: '3. Casting',    agent: 'riley',     markers: ['RILEY_CASTING_PLAN_v1'] },
+      { key: 'visual',     label: '4. Visual Dev', agent: 'iris',      markers: ['IRIS_VIDEO_PROMPT_v1','IRIS_VIDEO_PROMPT_v2','IRIS_VIDEO_PROMPT_v3','IRIS_STORYBOARD_v1'] },
+      { key: 'greenlight', label: '5. Greenlight', agent: 'jerry',     markers: ['JERRY_GREENLIGHT_v1','JERRY_MONEY_BRIEF_v1'] },
+      { key: 'production', label: '6. Production', agent: 'vince',     markers: ['VINCE_PRODUCTION_v1','VINCE_PRODUCTION_v2','VINCE_OFFICIAL_CLIP_SET_v1'] },
+      { key: 'qa',         label: '7. QA',         agent: 'lena_noah', markers: ['QA_REVIEW_v1','NOAH_QA_REVIEW_v1','LENA_POST_QC_v1'] },
+      { key: 'publish',    label: '8. Publish',    agent: 'tasha',     markers: ['TASHA_PUBLISH_v1'] }
+    ];
+
+    function esc(s) {
+      var d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
+    function formatBlock(content) {
+      var lines = (content || '').trim().split('\n');
+      // Strip marker header line
+      if (lines[0] && /^[A-Z_]+_v\d/.test(lines[0].trim())) {
+        lines.shift();
+        if (lines[0] && lines[0].trim() === '') lines.shift();
+      }
+      return '<pre class="joke-block-content">' + esc(lines.join('\n').trim()) + '</pre>';
+    }
+
+    function renderHeader(joke) {
+      var statusLabel = (joke.status || '').replace(/_/g, ' ');
+      var cls = joke.status === 'published' ? 'published' :
+                joke.status === 'rejected' ? 'rejected' : 'active';
+      return '<div class="joke-header">' +
+        '<div class="joke-header-top">' +
+          '<span class="joke-seed-badge">' + esc(joke.seed_id || seedId) + '</span>' +
+          '<span class="joke-status-badge ' + cls + '">' + esc(statusLabel) + '</span>' +
+        '</div>' +
+        '<h2 class="joke-title">' + esc(joke.raw_joke || '') + '</h2>' +
+        '<div class="joke-meta-row">' +
+          (joke.source ? '<span>Source: ' + esc(joke.source) + '</span>' : '') +
+          (joke.theme ? '<span>Theme: ' + esc(joke.theme) + '</span>' : '') +
+          (joke.created_at ? '<span>Created: ' + esc(joke.created_at) + '</span>' : '') +
+        '</div>' +
+      '</div>';
+    }
+
+    function renderStage(stage, blockMap) {
+      var agent = AGENTS[stage.agent] || { name: stage.agent, avatar: '', color: 'var(--blue)', role: '' };
+      var relevant = stage.markers.filter(function(m) { return blockMap[m]; });
+
+      var headerHtml = '<div class="joke-stage-header" style="border-left-color:' + agent.color + ';">' +
+        '<img class="joke-stage-avatar" src="' + BASE + agent.avatar + '" alt="' + esc(agent.name) + '">' +
+        '<div><div class="joke-stage-label">' + stage.label + '</div>' +
+        '<div class="joke-stage-agent">' + esc(agent.name) + ' &middot; ' + esc(agent.role) + '</div></div></div>';
+
+      // Intake always shows
+      if (stage.key === 'intake') {
+        return '<div class="joke-stage">' + headerHtml +
+          '<div class="joke-stage-body"><div class="joke-stage-note">Raw joke captured and tagged for editorial review.</div></div></div>';
+      }
+
+      // No blocks yet
+      if (relevant.length === 0) {
+        return '<div class="joke-stage joke-stage-pending">' + headerHtml +
+          '<div class="joke-stage-body"><div class="joke-stage-waiting">Waiting</div></div></div>';
+      }
+
+      var blocksHtml = relevant.map(function(m) {
+        var b = blockMap[m];
+        return '<div class="joke-block">' +
+          '<div class="joke-block-marker">' + esc(b.marker) + '</div>' +
+          formatBlock(b.content) +
+        '</div>';
+      }).join('');
+
+      return '<div class="joke-stage">' + headerHtml +
+        '<div class="joke-stage-body">' + blocksHtml + '</div></div>';
+    }
+
+    // Load static JSON from data/seeds/
+    fetch(BASE + 'data/seeds/' + encodeURIComponent(seedId) + '.json')
+      .then(function(r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(data) {
+        var joke = data.joke;
+        var blocks = data.blocks || [];
+
+        document.title = (joke.seed_id || seedId) + ' — Dad Joke Studio';
+
+        var blockMap = {};
+        blocks.forEach(function(b) { blockMap[b.marker] = b; });
+
+        var stagesHtml = STAGES.map(function(s) { return renderStage(s, blockMap); }).join('');
+
+        document.getElementById('joke-detail').innerHTML =
+          renderHeader(joke) + '<div class="joke-stages">' + stagesHtml + '</div>';
+      })
+      .catch(function() {
+        document.getElementById('joke-empty').style.display = '';
+      });
+  })();
+  </script>
+</body>
+</html>

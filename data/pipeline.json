@@ -1,4 +1,55 @@
 {
-  "date": null,
-  "columns": []
+  "date": "2026-03-18",
+  "stages": [
+    {
+      "name": "Scouting",
+      "agents": ["zoe"],
+      "color": "blue",
+      "items": []
+    },
+    {
+      "name": "Writing",
+      "agents": ["milo"],
+      "color": "green",
+      "items": []
+    },
+    {
+      "name": "Casting",
+      "agents": ["riley"],
+      "color": "purple",
+      "items": [
+        { "seed": "seed-031", "title": "Shitty Clock" }
+      ]
+    },
+    {
+      "name": "Visual Dev",
+      "agents": ["iris"],
+      "color": "orange",
+      "items": []
+    },
+    {
+      "name": "Greenlight",
+      "agents": ["jerry"],
+      "color": "red",
+      "items": []
+    },
+    {
+      "name": "Production",
+      "agents": ["vince"],
+      "color": "ink",
+      "items": []
+    },
+    {
+      "name": "QA",
+      "agents": ["lena", "noah"],
+      "color": "blue",
+      "items": []
+    },
+    {
+      "name": "Publish",
+      "agents": ["tasha"],
+      "color": "green",
+      "items": []
+    }
+  ]
 }

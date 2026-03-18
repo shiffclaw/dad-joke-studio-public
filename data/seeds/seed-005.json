@@ -1,0 +1,73 @@
+{
+  "joke": {
+    "seed_id": "seed-005",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/dadjokes/comments/1rle56r/my_landlord_sent_me_a_text_saying_we_need_to_talk/",
+    "raw_joke": "My landlord sent me a text saying we need to talk about how high my air-conditioning bill is. \u2014 I responded: Come by any time, my door is always open.",
+    "theme": "one-liner",
+    "caption_safe": "no",
+    "originality_risk": "medium",
+    "status": "published",
+    "rewrite_status": "jerry_greenlit_scene_descriptions",
+    "created_at": "2026-03-06 19:32:45",
+    "updated_at": "2026-03-10T12:25:19.975655+00:00"
+  },
+  "blocks": [
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "RILEY_CASTING_PLAN_v1\n\nPrimary Cast (2-3 roles):\n1. role_needed: Tenant narrator\n   selected_cast_persona: jerry \u00b7 diy-dad\n   why_this_fit: Home-improvement vibe fits open-door AC gag.\n2. role_needed: Landlord\n   selected_cast_persona: riley \u00b7 realtor\n   why_this_fit: Natural authority + property-manager look.\n\nAdaptation Notes:\n1. Riley realtor persona as landlord: no sales signage, add keyring/tablet.\n2. Door visibly open during punchline.\n\nShot Intent:\n- setup_shot: Setup: phone text insert + tenant reading message.\n- punchline_reaction_shot: Punchline: wide shot with front door wide open + tenant grin.\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "iris",
+      "marker": "IRIS_VIDEO_PROMPT_v2",
+      "version": 1,
+      "content": "IRIS_VIDEO_PROMPT_v2\n\nseed_id: seed-005\naspect_ratio: 9:16 (vertical portrait)\nconcept_count: 3\n\nConcept A \u2014 Performance-First Character Comedy\nduration_target: 8.8s\nduration_reason: Text-message setup + visual door gag requires two setup beats. Keep straightforward continuity cuts for readability.\nmaster_video_prompt:\nHome interior cartoon, cast jerry diy-dad tenant + riley realtor as landlord, phone text insert, open front door visual gag, family-safe clean line art, 9:16 portrait, strong foreground readability. Prioritize facial acting and clean two-shot/close-up rhythm; minimal background motion.\nscene_plan:\n1) Scene 1 (0.0\u20131.8s): Tenant reads phone: landlord says AC bill too high.\n2) Scene 2 (1.8\u20134.4s): Tenant smirks and types response.\n3) Scene 3 (4.4\u20136.5s): Door swings wide open, breeze effect cues.\n4) Scene 4 (6.5\u20138.8s): Punchline delivery to camera: \u201cMy door is always open.\u201d\ncaption_plan:\n1. 0.2s: \u201cMy landlord texted: we need to talk about your AC bill.\u201d\n2. 2.2s: \u201cI replied\u2026\u201d\n3. 6.6s: \u201cCome by anytime. My door is always open.\u201d\nperformance_notes:\n- Matter-of-fact tone with tiny grin on final word \u201copen.\u201d Balanced pace, clear pause before punchline.\nrisk_and_fallback:\n1. Risk: text unreadable \u2192 use short on-screen SMS card.\n2. Fallback: remove text card and narrate line directly.\nwhy_jerry_might_greenlight_this:\n- Most reliable laugh-read and easiest to produce under budget/time pressure.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 8.8\n- sceneCount: 4\n- mustKeep: Scene 1 text setup + Scene 4 open-door punchline\n- optionalTrims: Shorten Scene 2 typing beat to 1.2s\n\n---\n\nConcept B \u2014 Kinetic Camera + Visual Gag Emphasis\nduration_target: 8.2s\nduration_reason: Text-message setup + visual door gag requires two setup beats. Add one energetic transition beat between setup and punchline.\nmaster_video_prompt:\nHome interior cartoon, cast jerry diy-dad tenant + riley realtor as landlord, phone text insert, open front door visual gag, family-safe clean line art, 9:16 portrait, strong foreground readability. Use dynamic push-ins, whip pans, and one stronger visual gag transition while preserving caption readability.\nscene_plan:\n1) Scene 1 (0.0\u20131.8s): Tenant reads phone: landlord says AC bill too high.\n2) Scene 2 (1.8\u20134.4s): Tenant smirks and types response.\n3) Scene 3 (4.4\u20136.5s): Door swings wide open, breeze effect cues.\n4) Scene 4 (6.5\u20138.8s): Punchline delivery to camera: \u201cMy door is always open.\u201d\ncaption_plan:\n1. 0.2s: \u201cMy landlord texted: we need to talk about your AC bill.\u201d\n2. 2.2s: \u201cI replied\u2026\u201d\n3. 6.6s: \u201cCome by anytime. My door is always open.\u201d\nperformance_notes:\n- Matter-of-fact tone with tiny grin on final word \u201copen.\u201d Faster delivery with tighter setup beat.\nrisk_and_fallback:\n1. Risk: text unreadable \u2192 use short on-screen SMS card.\n2. Fallback: remove text card and narrate line directly.\nwhy_jerry_might_greenlight_this:\n- Higher scroll-stopping energy; better chance at early retention if the motion lands cleanly.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 8.2\n- sceneCount: 4\n- mustKeep: Hook visual + punchline reaction hold\n- optionalTrims: Trim setup exposition and keep strongest visual gag only\n\n---\n\nConcept C \u2014 Situational World-Build + Ensemble Reactions\nduration_target: 9.6s\nduration_reason: Text-message setup + visual door gag requires two setup beats. Include one contextual insert shot (prop/sign/location) to strengthen premise clarity.\nmaster_video_prompt:\nHome interior cartoon, cast jerry diy-dad tenant + riley realtor as landlord, phone text insert, open front door visual gag, family-safe clean line art, 9:16 portrait, strong foreground readability. Lean into environment storytelling and one extra reaction/cutaway to sell context before payoff.\nscene_plan:\n1) Scene 1 (0.0\u20131.8s): Tenant reads phone: landlord says AC bill too high.\n2) Scene 2 (1.8\u20134.4s): Tenant smirks and types response.\n3) Scene 3 (4.4\u20136.5s): Door swings wide open, breeze effect cues.\n4) Scene 4 (6.5\u20138.8s): Punchline delivery to camera: \u201cMy door is always open.\u201d\ncaption_plan:\n1. 0.2s: \u201cMy landlord texted: we need to talk about your AC bill.\u201d\n2. 2.2s: \u201cI replied\u2026\u201d\n3. 6.6s: \u201cCome by anytime. My door is always open.\u201d\nperformance_notes:\n- Matter-of-fact tone with tiny grin on final word \u201copen.\u201d Slightly slower setup with stronger context cue.\nrisk_and_fallback:\n1. Risk: text unreadable \u2192 use short on-screen SMS card.\n2. Fallback: remove text card and narrate line directly.\nwhy_jerry_might_greenlight_this:\n- Best for jokes where context confusion is a risk; improves comprehension before payoff.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 9.6\n- sceneCount: 4\n- mustKeep: Context insert + final punchline close-up\n- optionalTrims: Remove contextual insert if runtime/complexity is too high\n\nstatus: ready_for_jerry_review\n\n---",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "jerry",
+      "marker": "JERRY_GREENLIGHT_v1",
+      "version": 1,
+      "content": "JERRY_GREENLIGHT_v1\nselected_concept: A\ndecision: GREENLIGHT\nconfidence: High\nrationale: Concept A lands the text-to-door visual gag clearly with minimal moving parts. Strong production reliability and obvious punchline readability.\ncost_note: Low: single location, two characters, one core prop action.\nmust_keep: Text setup + wide-open door payoff\ntrim_if_needed: Typing beat duration\nnext_owner: Vince",
+      "created_at": "2026-03-08 14:10:58",
+      "updated_at": "2026-03-09 21:52:06"
+    },
+    {
+      "owner": "jerry",
+      "marker": "JERRY_MONEY_BRIEF_v1",
+      "version": 1,
+      "content": "JERRY_MONEY_BRIEF_v1\nseed_id: seed-005\nselected_concept: A\nobjective: Deliver AC/open-door punchline with text-message setup and visual door gag.\nformat:\n  aspect_ratio: 9:16\n  target_duration_sec: 9.0\n  fps: 24\n  resolution_target: 1080x1920\ncast_and_personas:\n  - jerry \u00b7 diy-dad (tenant narrator, delivers both lines)\n  - riley \u00b7 realtor (landlord, visible in reaction shot)\nfinal_script_lines:\n  1: \"My landlord sent me a text saying we need to talk about how high my air conditioning bill is.\"\n  2: \"I responded: come by any time, my door is always open.\"\nscene_timeline:\n  scene_01_setup (0.0\u20133.5s): Jerry at home reading phone, text notification visible, mild concern on face. Indoor living room, casual clothes.\n  scene_02_beat (3.5\u20135.5s): Jerry pauses, gets a sly grin. Camera holds on his face \u2014 the idea forming.\n  scene_03_punchline (5.5\u20137.5s): Wide shot of Jerry's front door standing WIDE OPEN, snow/wind blowing in, Jerry standing next to it gesturing welcomingly. The visual gag.\n  scene_04_reaction (7.5\u20139.0s): Riley (landlord) arrives, sees the open door, face-palms or jaw drops. Jerry shrugs innocently.\ncamera_and_motion_notes: Mostly static shots. Scene 3 can have a slight zoom-out to reveal the absurdly open door.\ncaption_plan:\n  0.3\u20133.3s: Line 1 (setup)\n  4.0\u20135.3s: \"...\"\n  5.5\u20137.5s: Line 2 (punchline \u2014 highlight \"open\")\naudio_voice_notes:\n  jerry: Warm dad delivery. Line 1 is matter-of-fact storytelling. Line 2 is delivered with a knowing smirk \u2014 he knows the joke landed. Slight pause before \"my door is always open.\"\nmust_keep: Wide-open door visual, Riley's reaction\noptional_trims: Beat scene duration (scene 02), reaction hold time\ncost_guardrails:\n  max_generation_attempts: 3 per scene\n  max_fallback_attempts: 2\n  stop_conditions: Total cost > $2.00\ndeliverable_checklist:\n  - VO audio synced\n  - 4 scene clips assembled\n  - Captions overlaid\n  - Final MP4 exported\nhandoff_to: Vince",
+      "created_at": "2026-03-10T02:40:05.035497+00:00",
+      "updated_at": "2026-03-10T02:40:05.035497+00:00"
+    },
+    {
+      "owner": "vince",
+      "marker": "VINCE_PRODUCTION_v1",
+      "version": 1,
+      "content": "VINCE_PRODUCTION_v1\nseed_id: seed-005\nstatus: delivered\nvoice_used: jerry (Eric) \u2192 cjVigY5qzO86Huf0OWal\nline_timings:\n  line_1: 0.30\u20135.34s\n  line_2: 5.74\u20138.67s\nscene_clips:\n  scene_01_setup: 3.50s\n  scene_02_beat: 2.00s\n  scene_03_punchline: 2.00s\n  scene_04_reaction: 1.77s\ncaptions: 68px, y=0.50, 3px stroke, \"open\" highlighted yellow\ntotal_duration: 9.27s\nfinal_output: seed-005-vince-kling-v1.mp4",
+      "created_at": "2026-03-10T12:25:16.051244+00:00",
+      "updated_at": "2026-03-10T12:25:16.051244+00:00"
+    },
+    {
+      "owner": "lena_noah",
+      "marker": "QA_REVIEW_v1",
+      "version": 1,
+      "content": "QA_REVIEW_v1\nseed_id: seed-005\nreviewed_video_path: /public/finals/seed-005-vince-kling-v1.mp4\n\nlena_scores:\n  hook_strength: 7\n  punchline_clarity: 8\n  caption_readability: 8\n  audio_comfort: 7\n  shareability: 8\n\nnoah_scores:\n  visual_continuity: 7\n  brand_safety: 10\n\ntotal_score: 55/70\n\ntop_wins:\n  - Punchline pivot word \"open\" highlighted in yellow \u2014 immediate visual pop.\n  - Caption positioning at y=0.50 clears all platform UI overlays.\n  - 68px font with 3px stroke is readable on any background at mobile size.\n  - Pre-punchline pause gives the audience time to process.\n  - Two-character dynamic adds visual variety vs single-narrator format.\n\nissues:\n  - None critical. All caption/positioning lessons from seed-008 applied.\n\ngate_decision: PASS\nnext_status: ready_to_publish\nrecommended_thumbnail_moment_sec: 6.5\nlena_final_note: This is what happens when we actually follow the playbook. Clean pass. No notes. Ship it.\nnoah_final_note: All dimensions 7+. No conditional items. Pass. Tasha, publish.",
+      "created_at": "2026-03-10T12:25:17.113155+00:00",
+      "updated_at": "2026-03-10T12:25:17.113155+00:00"
+    },
+    {
+      "owner": "tasha",
+      "marker": "TASHA_PUBLISH_v1",
+      "version": 1,
+      "content": "TASHA_PUBLISH_v1\nseed_id: seed-005\nyoutube_url: https://www.youtube.com/watch?v=05WegB_WtkM\nyoutube_id: 05WegB_WtkM\ntitle: My Door Is Always Open \ud83d\udeaa\u2744\ufe0f | Dad Joke Studio\nthumbnail_frame_sec: 6.5\nthumbnail_uploaded: true\nplatforms_published: [youtube_shorts]\npublished_at: 2026-03-10T12:25:19.961589+00:00",
+      "created_at": "2026-03-10T12:25:19.962303+00:00",
+      "updated_at": "2026-03-10T12:25:19.962303+00:00"
+    }
+  ]
+}

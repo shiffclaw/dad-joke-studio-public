@@ -1,0 +1,137 @@
+[
+  {
+    "handle": "jerry",
+    "name": "Jerry Gold",
+    "role": "Creative Director",
+    "avatar": "images/team/jerry.jpg",
+    "core": ["Confident dad anchor with dry wit", "Reliable straight-man for punchline setups", "Can pivot into themed personas via wardrobe"],
+    "personas": [
+      {"name": "Coach Dad", "anchor": "cast/jerry/anchors/coach-dad__anchor.jpg"},
+      {"name": "DIY Dad", "anchor": "cast/jerry/anchors/diy-dad__anchor.jpg"},
+      {"name": "News Host Dad", "anchor": "cast/jerry/anchors/news-host-dad__anchor.jpg"},
+      {"name": "Suburban Detective", "anchor": "cast/jerry/anchors/suburban-detective__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/jerry/concept-sheet-v1.jpg", "cast/jerry/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Authority with comedic blind spots", "Reliable straight-man with occasional absurd punchline"]
+  },
+  {
+    "handle": "zoe",
+    "name": "Zoe Sparks",
+    "role": "Content Research",
+    "avatar": "images/team/zoe.jpg",
+    "core": ["Bubbly, versatile comedic lead", "Can switch between goofball and professional personas", "Strong reaction-face performer"],
+    "personas": [
+      {"name": "Goofball Neighbor", "anchor": "cast/zoe/anchors/goofball-neighbor__anchor.jpg"},
+      {"name": "Young Doctor", "anchor": "cast/zoe/anchors/young-doctor__anchor.jpg"},
+      {"name": "Optimistic Teacher", "anchor": "cast/zoe/anchors/optimistic-teacher__anchor.jpg"},
+      {"name": "Chaos Barista", "anchor": "cast/zoe/anchors/chaos-barista__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/zoe/concept-sheet-v1.jpg", "cast/zoe/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Charm-forward catalyst", "Emotional accelerator"]
+  },
+  {
+    "handle": "milo",
+    "name": "Milo Quip",
+    "role": "Script Development",
+    "avatar": "images/team/milo.jpg",
+    "core": ["Sarcastic teen foil with fast timing", "Dry reaction specialist and punchline sniper", "Keeps youthful face structure while wardrobe/hair shift by persona"],
+    "personas": [
+      {"name": "Teen Son", "anchor": "cast/milo/anchors/teen-son__anchor.jpg"},
+      {"name": "Gamer Kid", "anchor": "cast/milo/anchors/gamer-kid__anchor.jpg"},
+      {"name": "Snarky Student", "anchor": "cast/milo/anchors/snarky-student__anchor.jpg"},
+      {"name": "Preppy Student", "anchor": "cast/milo/anchors/preppy-student__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/milo/concept-sheet-v1.jpg", "cast/milo/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Youth skeptic", "Punchline sniper"]
+  },
+  {
+    "handle": "riley",
+    "name": "Riley Cast",
+    "role": "Casting Supervisor",
+    "avatar": "images/team/riley.jpg",
+    "core": ["Short-haired, hyper-refined Type A personality", "Demanding, opinionated, and sharply composed", "Stylized with thick linework and strong readability"],
+    "personas": [
+      {"name": "Prison Guard", "anchor": "cast/riley/anchors/prison-guard__anchor.jpg"},
+      {"name": "Dominatrix", "anchor": "cast/riley/anchors/dominatrix__anchor.jpg"},
+      {"name": "Town Karen", "anchor": "cast/riley/anchors/town-karen__anchor.jpg"},
+      {"name": "Realtor", "anchor": "cast/riley/anchors/realtor__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/riley/concept-sheet-v1.jpg", "cast/riley/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Authority with edge", "Controlled intensity"]
+  },
+  {
+    "handle": "iris",
+    "name": "Iris Doodle",
+    "role": "Visual Development",
+    "avatar": "images/team/iris.jpg",
+    "core": ["Visual wildcard with imaginative energy", "Can play artist, inventor, and design-driven personas", "Strong stylized reaction performer"],
+    "personas": [
+      {"name": "Art Teacher", "anchor": "cast/iris/anchors/art-teacher__anchor.jpg"},
+      {"name": "Eccentric Inventor", "anchor": "cast/iris/anchors/eccentric-inventor__anchor.jpg"},
+      {"name": "Costume Designer", "anchor": "cast/iris/anchors/costume-designer__anchor.jpg"},
+      {"name": "Startup Founder", "anchor": "cast/iris/anchors/startup-founder__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/iris/concept-sheet-v1.jpg", "cast/iris/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Creative wildcard", "Aesthetic authority"]
+  },
+  {
+    "handle": "vince",
+    "name": "Vince Clip",
+    "role": "Production",
+    "avatar": "images/team/vince.jpg",
+    "core": ["Grounded realist with practical humor", "Great for process-heavy and deadpan roles", "Flexible utility cast member"],
+    "personas": [
+      {"name": "Cameraman", "anchor": "cast/vince/anchors/cameraman__anchor.jpg"},
+      {"name": "Sports Commentator", "anchor": "cast/vince/anchors/sports-commentator__anchor.jpg"},
+      {"name": "Bartender", "anchor": "cast/vince/anchors/bartender__anchor.jpg"},
+      {"name": "Handyman", "anchor": "cast/vince/anchors/handyman__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/vince/concept-sheet-v1.jpg", "cast/vince/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Process realist", "Scene stabilizer"]
+  },
+  {
+    "handle": "lena",
+    "name": "Lena Cut",
+    "role": "Post-Production",
+    "avatar": "images/team/lena.jpg",
+    "core": ["High-energy charisma lead", "Strong host and hype roles", "Excellent momentum builder in scene"],
+    "personas": [
+      {"name": "Cheer Captain", "anchor": "cast/lena/anchors/cheer-captain__anchor.jpg"},
+      {"name": "Motivational Trainer", "anchor": "cast/lena/anchors/motivational-trainer__anchor.jpg"},
+      {"name": "Influencer Host", "anchor": "cast/lena/anchors/influencer-host__anchor.jpg"},
+      {"name": "Event MC", "anchor": "cast/lena/anchors/event-mc__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/lena/concept-sheet-v1.jpg", "cast/lena/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Bright extrovert", "Momentum builder"]
+  },
+  {
+    "handle": "noah",
+    "name": "Noah Check",
+    "role": "Quality Assurance",
+    "avatar": "images/team/noah.jpg",
+    "core": ["No-nonsense authority figure", "Great rational foil for absurd scenes", "Compliance/safety comedy specialist"],
+    "personas": [
+      {"name": "Dad", "anchor": "cast/noah/anchors/dad__anchor.jpg"},
+      {"name": "Safety Officer", "anchor": "cast/noah/anchors/safety-officer__anchor.jpg"},
+      {"name": "Principal", "anchor": "cast/noah/anchors/principal__anchor.jpg"},
+      {"name": "HR Rep", "anchor": "cast/noah/anchors/hr-rep__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/noah/concept-sheet-v1.jpg", "cast/noah/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Compliance comedy", "Rational foil"]
+  },
+  {
+    "handle": "tasha",
+    "name": "Tasha Trend",
+    "role": "Distribution & Feedback",
+    "avatar": "images/team/tasha.jpg",
+    "core": ["Principled challenger with strong POV", "Debate/ethics pressure in scene", "Great conflict driver and commentary role"],
+    "personas": [
+      {"name": "Activist Organizer", "anchor": "cast/tasha/anchors/activist-organizer__anchor.jpg"},
+      {"name": "Ethics Consultant", "anchor": "cast/tasha/anchors/ethics-consultant__anchor.jpg"},
+      {"name": "Podcaster", "anchor": "cast/tasha/anchors/podcaster__anchor.jpg"},
+      {"name": "Council Candidate", "anchor": "cast/tasha/anchors/council-candidate__anchor.jpg"}
+    ],
+    "conceptSheets": ["cast/tasha/concept-sheet-v1.jpg", "cast/tasha/concept-sheet-wide-v2.jpg"],
+    "archetypes": ["Principled challenger", "Moral pressure"]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "joke": {
+    "seed_id": "seed-031",
+    "source": "message board",
+    "url": "",
+    "raw_joke": "A woman tells her husband, \"the clock fell off the wall and almost hit my mother in the head!\" The husband replie - 'Shitty clock, always late!'",
+    "theme": "mother-in-law",
+    "caption_safe": "yes",
+    "originality_risk": "low",
+    "status": "queued_for_casting",
+    "rewrite_status": "milo_script_complete",
+    "created_at": "2026-03-18 13:57:41",
+    "updated_at": "2026-03-18 13:57:57"
+  },
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "MILO_OFFICIAL_SCRIPT_v1\n\nseed_id: seed-031\nedit_level: rewrite\nscript:\n  setup: \"My wife said the clock fell off the wall and almost hit her mother.\"\n  punchline: \"Shitty clock. Always late.\"\n  tag: ~\nchanges_made: Converted third-person framing to first-person for VO delivery. Cut \"in the head\" \u2014 redundant after \"almost hit.\" Kept profanity \u2014 \"shitty\" is doing real work here, it sells the disappointment. Clean version (\"that clock\") loses the edge.\ncaption_notes: Setup as one card. Punchline as second card \u2014 \"Shitty clock.\" and \"Always late.\" can be one card or split into two beats depending on Iris concept. Single card preferred.\ntiming_notes: Setup delivered straight, casual, like telling a friend. 0.5s pause before punchline. Punchline deadpan \u2014 the humor is in the flat disappointment, not the anger. Emphasize \"always.\"\ntts_notes: ~\nquality_flag: strong",
+      "created_at": "2026-03-18 13:57:57",
+      "updated_at": "2026-03-18 13:57:57"
+    }
+  ]
+}
