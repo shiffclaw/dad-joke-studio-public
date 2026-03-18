@@ -7,10 +7,10 @@
     "theme": "mother-in-law",
     "caption_safe": "yes",
     "originality_risk": "low",
-    "status": "queued_for_visual",
+    "status": "queued_for_greenlight",
     "rewrite_status": "milo_script_complete",
     "created_at": "2026-03-18 13:57:41",
-    "updated_at": "2026-03-18 18:00:44"
+    "updated_at": "2026-03-18 18:10:46"
   },
   "blocks": [
     {
@@ -28,6 +28,14 @@
       "content": "RILEY_CASTING_PLAN_v1\n\n):\n\n1. Jerry Gold \u2014 Husband / VO narrator\n   persona: Deadpan News Host\n   why: The punchline is a single flat verdict. Jerry does not react. He evaluates. \"Shitty clock. Always late.\" is not frustration \u2014 it is a ruling. Nobody delivers rulings like Jerry.\n   notes: VO preferred. If on-camera: no expression, possible slow shrug. Not looking at his wife when he speaks.\n\n2. Zoe Sparks \u2014 Wife (setup carrier)\n   persona: Optimistic Teacher\n   why: Zoe reads as genuinely alarmed, not performatively alarmed. The joke requires a real emotional setup so Jerry can flatten it. Her wide-eyed mid-report energy is exactly right.\n   notes: Casual home wardrobe. No props. She is telling a story, not staging one.\n\n3. Tasha Trend \u2014 Mother-in-law (near-miss victim, background)\n   persona: Council Candidate (softened to Visiting Guest)\n   why: Tasha carries inherent self-importance. She arrives with an agenda. The idea that a clock nearly hit her is funnier because she clearly feels the universe owes her better. Visually neutral relative to the joke target role \u2014 no uncomfortable racial subtext. Strong background anchor.\n   notes: Remove any activist/campaign props. Upscale casual: blazer or structured cardigan, minimal accessories. Seated or standing near the wall, unaware of how close it was. Her baseline expression should read as vaguely dissatisfied with the visit so far \u2014 that is Tasha in a home environment without a podium.\n\nShot Intent:\n- Setup: Clock-gap on wall visible. Zoe in foreground, mid-report, visibly distressed. Tasha in soft background \u2014 touching hair or adjusting collar where the clock almost hit, still slightly indignant about it.\n- Punchline: Hold on Jerry. Full deadpan. Half-beat pause. \"Always late.\" \u2014 if splitting to two caption beats, cut on that word. If single card, let the pause do the work.\n\nCaption alignment (per Milo v1):\n- Setup card: \"My wife said the clock fell off the wall and almost hit her mother.\"\n- Punchline card: \"Shitty clock. Always late.\" (single card preferred)\n\nStatus: CAST LOCKED \u2014 ready for Iris visual concept.",
       "created_at": "2026-03-18 17:59:15",
       "updated_at": "2026-03-18 17:59:15"
+    },
+    {
+      "owner": "iris",
+      "marker": "IRIS_VIDEO_PROMPT_v1",
+      "version": 1,
+      "content": "IRIS_VIDEO_PROMPT_v1\n\nseed_id: seed-031\nconcepts_count: 3\nsurreal_flagged: false (but Concept C goes surreal voluntarily \u2014 this joke earns it)\n\n## Concept A \u2014 \"The Living Room Report\"\nStyle: Domestic sitcom, warm lighting, classic setup-punchline framing\nDuration: 8.8s\nScenes: 4 (empty wall hook \u2192 Zoe report w/ Tasha bg \u2192 Jerry pause \u2192 Jerry punchline deadpan)\nJerry hook: Clean, safe, classic two-hander. Default greenlight \u2014 nothing gets in the way of the punchline.\nVince: 9:16, 8.8s, 4 scenes, mustKeep=[punchline, setup+Tasha]\n\n## Concept B \u2014 \"The Newsdesk Verdict\"\nStyle: Deadpan news broadcast, Jerry as anchor\nDuration: 9.4s\nScenes: 5 (breaking news chyron \u2192 anchor setup \u2192 editorial pause \u2192 punchline as commentary \u2192 \"back to you\" tag)\nJerry hook: Jerry gets the whole show. Deadpan News Host is his strongest persona. Format does the heavy lifting.\nVince: 9:16, 9.4s, 5 scenes, mustKeep=[punchline, anchor delivery]\n\n## Concept C [SURREAL] \u2014 \"The Clock's Confession\"\nStyle: Courtroom drama meets absurdist animation \u2014 the clock is on trial\nDuration: 10.2s\nsurreal_element: Anthropomorphic clock as defendant, Jerry as judge. Clock literally arrives late (shows 3:15 vs courtroom's 3:00). \"Always late\" becomes a judicial ruling.\nWeirdness budget: 6/10 (Pixar-meets-Judge-Judy)\nScenes: 5 (courtroom reveal + nervous clock \u2192 Zoe prosecutes \u2192 transformation beat (time mismatch reveal) \u2192 gavel + punchline \u2192 Tasha vindication nod)\nJerry hook: Weird on purpose. AI will make it weirder. That's the bit. Courtroom sells \"always late\" as a legal finding.\nVince: 9:16, 10.2s, 5 scenes, mustKeep=[gavel+punchline, transformation beat, clock reveal]\n\nFull scene-by-scene breakdowns, master prompts, caption plans, voice timing, and fallbacks included in complete notes.\n\nquality_gate: PASS (3 distinct concepts, all timestamped, all feasible, punchline clear, vertical preserved, fallbacks provided, Jerry hooks present)\nstatus: ready_for_jerry_review",
+      "created_at": "2026-03-18 18:10:46",
+      "updated_at": "2026-03-18 18:10:46"
     }
   ]
 }

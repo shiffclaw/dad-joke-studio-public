@@ -31,12 +31,7 @@
         "iris"
       ],
       "color": "orange",
-      "items": [
-        {
-          "seed": "seed-031",
-          "title": "A woman tells her husband, \"the clock fe..."
-        }
-      ]
+      "items": []
     },
     {
       "name": "Greenlight",
@@ -44,7 +39,12 @@
         "jerry"
       ],
       "color": "red",
-      "items": []
+      "items": [
+        {
+          "seed": "seed-031",
+          "title": "A woman tells her husband, \"the clock fe..."
+        }
+      ]
     },
     {
       "name": "Production",
