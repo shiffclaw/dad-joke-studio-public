@@ -7,10 +7,10 @@
     "theme": "mother-in-law",
     "caption_safe": "yes",
     "originality_risk": "low",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "milo_script_complete",
     "created_at": "2026-03-18 13:57:41",
-    "updated_at": "2026-03-18 13:57:57"
+    "updated_at": "2026-03-18 17:46:33"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "MILO_OFFICIAL_SCRIPT_v1\n\nseed_id: seed-031\nedit_level: rewrite\nscript:\n  setup: \"My wife said the clock fell off the wall and almost hit her mother.\"\n  punchline: \"Shitty clock. Always late.\"\n  tag: ~\nchanges_made: Converted third-person framing to first-person for VO delivery. Cut \"in the head\" \u2014 redundant after \"almost hit.\" Kept profanity \u2014 \"shitty\" is doing real work here, it sells the disappointment. Clean version (\"that clock\") loses the edge.\ncaption_notes: Setup as one card. Punchline as second card \u2014 \"Shitty clock.\" and \"Always late.\" can be one card or split into two beats depending on Iris concept. Single card preferred.\ntiming_notes: Setup delivered straight, casual, like telling a friend. 0.5s pause before punchline. Punchline deadpan \u2014 the humor is in the flat disappointment, not the anger. Emphasize \"always.\"\ntts_notes: ~\nquality_flag: strong",
       "created_at": "2026-03-18 13:57:57",
       "updated_at": "2026-03-18 13:57:57"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "RILEY_CASTING_PLAN_v1 ---\nPrimary Cast:\n1. Jerry Gold (Husband, VO narrator) - Deadpan News Host persona. Flat delivery is essential.\n2. Zoe Sparks (Wife, on-camera) - Optimistic Teacher persona. Sells the \"did he really just blame the clock?\" beat.\n3. Lena Cut (Mother-in-law, near-miss victim) - Pageant Judge persona. High-energy reaction to the falling clock.\n\nAdaptation Notes:\n- Zoe: Casual home wardrobe, no costume. Concerned wife reacting to a real event.\n- Lena: Add reading glasses or upscale casual cardigan to read as visiting mother-in-law.\n- Jerry: No adaptation. Pure deadpan required.\n\nShot Intent:\n- Setup: Clock on wall visible. Zoe reacting with concern. Lena exasperated about near-miss.\n- Punchline: Jerry's face (or wider shot with shrug) as he delivers \"Always late.\" Humor is in his refusal to take the situation seriously.\n\nStatus: Ready for Iris visual concept.",
+      "created_at": "2026-03-18 17:46:33",
+      "updated_at": "2026-03-18 17:46:33"
     }
   ]
 }

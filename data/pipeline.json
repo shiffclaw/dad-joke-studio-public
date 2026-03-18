@@ -3,51 +3,71 @@
   "stages": [
     {
       "name": "Scouting",
-      "agents": ["zoe"],
+      "agents": [
+        "zoe"
+      ],
       "color": "blue",
       "items": []
     },
     {
       "name": "Writing",
-      "agents": ["milo"],
+      "agents": [
+        "milo"
+      ],
       "color": "green",
       "items": []
     },
     {
       "name": "Casting",
-      "agents": ["riley"],
+      "agents": [
+        "riley"
+      ],
       "color": "purple",
-      "items": [
-        { "seed": "seed-031", "title": "Shitty Clock" }
-      ]
-    },
-    {
-      "name": "Visual Dev",
-      "agents": ["iris"],
-      "color": "orange",
       "items": []
     },
     {
+      "name": "Visual Dev",
+      "agents": [
+        "iris"
+      ],
+      "color": "orange",
+      "items": [
+        {
+          "seed": "seed-031",
+          "title": "A woman tells her husband, \"the clock fe..."
+        }
+      ]
+    },
+    {
       "name": "Greenlight",
-      "agents": ["jerry"],
+      "agents": [
+        "jerry"
+      ],
       "color": "red",
       "items": []
     },
     {
       "name": "Production",
-      "agents": ["vince"],
+      "agents": [
+        "vince"
+      ],
       "color": "ink",
       "items": []
     },
     {
       "name": "QA",
-      "agents": ["lena", "noah"],
+      "agents": [
+        "lena",
+        "noah"
+      ],
       "color": "blue",
       "items": []
     },
     {
       "name": "Publish",
-      "agents": ["tasha"],
+      "agents": [
+        "tasha"
+      ],
       "color": "green",
       "items": []
     }
