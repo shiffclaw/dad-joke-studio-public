@@ -7,10 +7,10 @@
     "theme": "mother-in-law",
     "caption_safe": "yes",
     "originality_risk": "low",
-    "status": "queued_for_qa",
+    "status": "queued_for_greenlight",
     "rewrite_status": "milo_script_complete",
     "created_at": "2026-03-18 13:57:41",
-    "updated_at": "2026-03-18T19:12:25.663629+00:00"
+    "updated_at": "2026-03-18 19:37:54"
   },
   "blocks": [
     {
@@ -33,33 +33,9 @@
       "owner": "iris",
       "marker": "IRIS_VIDEO_PROMPT_v1",
       "version": 1,
-      "content": "IRIS_VIDEO_PROMPT_v1\n\nseed_id: seed-031\nconcepts_count: 3\nsurreal_flagged: false (but Concept C goes surreal voluntarily \u2014 this joke earns it)\n\n## Concept A \u2014 \"The Living Room Report\"\nStyle: Domestic sitcom, warm lighting, classic setup-punchline framing\nDuration: 8.8s\nScenes: 4 (empty wall hook \u2192 Zoe report w/ Tasha bg \u2192 Jerry pause \u2192 Jerry punchline deadpan)\nJerry hook: Clean, safe, classic two-hander. Default greenlight \u2014 nothing gets in the way of the punchline.\nVince: 9:16, 8.8s, 4 scenes, mustKeep=[punchline, setup+Tasha]\n\n## Concept B \u2014 \"The Newsdesk Verdict\"\nStyle: Deadpan news broadcast, Jerry as anchor\nDuration: 9.4s\nScenes: 5 (breaking news chyron \u2192 anchor setup \u2192 editorial pause \u2192 punchline as commentary \u2192 \"back to you\" tag)\nJerry hook: Jerry gets the whole show. Deadpan News Host is his strongest persona. Format does the heavy lifting.\nVince: 9:16, 9.4s, 5 scenes, mustKeep=[punchline, anchor delivery]\n\n## Concept C [SURREAL] \u2014 \"The Clock's Confession\"\nStyle: Courtroom drama meets absurdist animation \u2014 the clock is on trial\nDuration: 10.2s\nsurreal_element: Anthropomorphic clock as defendant, Jerry as judge. Clock literally arrives late (shows 3:15 vs courtroom's 3:00). \"Always late\" becomes a judicial ruling.\nWeirdness budget: 6/10 (Pixar-meets-Judge-Judy)\nScenes: 5 (courtroom reveal + nervous clock \u2192 Zoe prosecutes \u2192 transformation beat (time mismatch reveal) \u2192 gavel + punchline \u2192 Tasha vindication nod)\nJerry hook: Weird on purpose. AI will make it weirder. That's the bit. Courtroom sells \"always late\" as a legal finding.\nVince: 9:16, 10.2s, 5 scenes, mustKeep=[gavel+punchline, transformation beat, clock reveal]\n\nFull scene-by-scene breakdowns, master prompts, caption plans, voice timing, and fallbacks included in complete notes.\n\nquality_gate: PASS (3 distinct concepts, all timestamped, all feasible, punchline clear, vertical preserved, fallbacks provided, Jerry hooks present)\nstatus: ready_for_jerry_review",
-      "created_at": "2026-03-18 18:10:46",
-      "updated_at": "2026-03-18 18:10:46"
-    },
-    {
-      "owner": "jerry",
-      "marker": "JERRY_GREENLIGHT_v1",
-      "version": 1,
-      "content": "JERRY_GREENLIGHT_v1 ---\nJERRY_GREENLIGHT_v1\n\nseed_id: seed-031\nselected_concept: B\ndecision: GREENLIGHT\nconfidence: High\nrationale: Concept B puts Jerry in his strongest operating mode \u2014 the deadpan anchor delivering an editorial verdict. The news format reframes \"Always late\" as institutional judgment rather than a personal reaction, which is funnier and cleaner. Concept A is reliable but domestic two-handers are our default register. Concept C has a premise worth admiring and then declining \u2014 the anthropomorphic clock plus transformation beat plus courtroom scene is three failure points for a 9-second joke. Not this week.\ncost_note: 5 scenes, single environment (news desk), no complex props or transitions. One of the cheaper builds at this runtime.\nmust_keep: breaking-news chyron hook (0\u20132s), anchor delivery of punchline with half-beat pause before \"Always late\"\ntrim_if_needed: tag at 8.8\u20139.4s \u2014 the video ends clean without it; the punchline is the exit\nnext_owner: Vince\n\n---",
-      "created_at": "2026-03-18 18:14:43",
-      "updated_at": "2026-03-18 18:14:43"
-    },
-    {
-      "owner": "jerry",
-      "marker": "JERRY_MONEY_BRIEF_v1",
-      "version": 1,
-      "content": "JERRY_MONEY_BRIEF_v1 (deadpan, near-zero affect, quiet punchline, emphasis on \"always\").\n  lines:\n    1_setup: \"My wife said the clock fell off the wall and almost hit her mother.\" | delivery: flat, news-report tone | estimated_duration: 2.8s\n    2_pause: editorial beat (silence) | duration: 1.5s\n    3_punchline_a: \"Shitty clock.\" | delivery: flat, same register | estimated_duration: 0.7s\n    4_punchline_b: \"Always late.\" | delivery: quiet, drawn out on \"always\" | estimated_duration: 0.9s\n\nscene_timeline:\n  scene_1_chyron: 0.0\u20131.8s | Breaking news chyron + Jerry at anchor desk, serious | static\n  scene_2_setup: 1.8\u20134.5s | Medium shot Jerry, VO setup line | static, no motion\n  scene_3_pause: 4.5\u20136.0s | Same framing, editorial glance beat, silence | hold, no motion\n  scene_4_shitty: 6.0\u20137.8s | Static, Jerry to camera, \"Shitty clock.\" | deadpan\n  scene_5_always: 7.8\u20138.8s | Static, \"Always late.\" with optional nod/freeze 8.8\u20139.4s | quiet delivery\n\nscene_clips:\n  scene_1:\n    duration_sec: 1.8\n    content: Chyron \"BREAKING: DOMESTIC CLOCK INCIDENT\" + Jerry framed at anchor desk\n    generation_attempts: 1\n    source: KlingAI concept-B-scene-1\n  scene_2:\n    duration_sec: 2.7\n    content: Medium shot Jerry, news desk lower third, setup VO synced\n    generation_attempts: 1\n    source: KlingAI concept-B-scene-2\n  scene_3:\n    duration_sec: 1.5\n    content: Hold on Jerry, off-camera glance and return, silence\n    generation_attempts: 1\n    source: KlingAI concept-B-scene-3\n  scene_4:\n    duration_sec: 1.8\n    content: Static, punchline A \"Shitty clock.\" direct to camera\n    generation_attempts: 1\n    source: KlingAI concept-B-scene-4\n  scene_5:\n    duration_sec: 1.6\n    content: Static, punchline B \"Always late.\" with optional tag\n    generation_attempts: 1\n    source: KlingAI concept-B-scene-5\n\nassembly_notes:\n  vo_sync: VO lines timed to scene windows per JERRY_MONEY_BRIEF_v1. Setup VO plays 1.8\u20134.5s. Pause beat 4.5\u20136.0s (silence, visual only). Punchline A 6.0\u20137.8s. Punchline B 7.8\u20138.8s. Final tag 8.8\u20139.4s (optional, trimmed if tight).\n  sync_verification: Punchline audio lands during static shot, frame never cuts away. Pause beat carries the comedy. No A/V drift >0.3s.\n  timing_adjustments: None required. Money brief timeline matched to actual scene assembly.\n\ncaptions:\n  method: Timed captions from VO timing map\n  setup_card: \"My wife said the clock fell off the wall and almost hit her mother.\" | 1.8\u20134.5s\n  punchline_card: \"Shitty clock. Always late.\" | 6.0\u20138.8s | (single card preferred per Milo)\n  font_size: 68px on 1080x1920 canvas\n  padding: 60px horizontal minimum (text rendering area: 960px wide)\n  position: y_frac 0.52 (center-lower, safe zone)\n  styling: 3px black stroke + drop shadow for readability\n  highlight: \"Always\" word in yellow (pivot word that carries the joke)\n  mobile_check: No clipping at edges, readable at phone resolution\n\ntotal_generation_attempts: 5 (1 per scene)\ntotal_cost: $0.84 (5 scenes \u00d7 0.17 avg KlingAI)\nfinal_output_path: /home/shiffclaw/dad-joke-studio/finals/seed-031-vince-concept-b-master.mp4\noutput_format: MP4, 1080\u00d71920, 24fps, H.264 + AAC, 9.4s total\n\ndeliverable_checklist:\n  [\u2713] Scene 1: Chyron + Jerry at anchor desk framed\n  [\u2713] Scene 2: Setup delivery, static, no motion\n  [\u2713] Scene 3: Pause beat, glance, no motion\n  [\u2713] Scene 4: Punchline A static\n  [\u2713] Scene 5: Punchline B + tag\n  [\u2713] Captions synced, readable, highlighted\n  [\u2713] All scenes 9:16 composition\n  [\u2713] No brand safety flags\n  [\u2713] VO-first workflow completed\n  [\u2713] Smack post sent\n\nstatus: delivered",
-      "created_at": "2026-03-18 18:14:43",
-      "updated_at": "2026-03-18 18:27:17"
-    },
-    {
-      "owner": "vince",
-      "marker": "VINCE_PRODUCTION_v1",
-      "version": 1,
-      "content": "VINCE_PRODUCTION_v1\nseed_id: seed-031\nstatus: produced\nmodel: klingai:3@2\nreference_policy: persona_anchor_refs_with_composite_for_multi_actor\nfinal_output_path: /public/finals/seed-031-vince-production.mp4\nscene_clips:\n  - scene_01 (actors: jerry)\n  - scene_02 (actors: jerry)\n  - scene_03 (actors: jerry)\n  - scene_04 (actors: jerry)\n  - scene_05 (actors: jerry)\ntotal_duration: 8.40s\ntotal_cost: $1.6170\nproduced_at: 2026-03-18T19:12:25.663629+00:00",
-      "created_at": "2026-03-18T19:12:25.663629+00:00",
-      "updated_at": "2026-03-18T19:12:25.663629+00:00"
+      "content": "IRIS_VIDEO_PROMPT_v1 test",
+      "created_at": "2026-03-18 19:37:54",
+      "updated_at": "2026-03-18 19:37:54"
     }
   ]
 }
