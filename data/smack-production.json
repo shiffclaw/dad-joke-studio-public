@@ -1,6 +1,18 @@
 {
   "runs": [
     {
+      "label": "Seed-031 Cast Locked",
+      "date": "Mar 18",
+      "messages": [
+        {
+          "user": "Riley Cast",
+          "avatar": "images/team/riley.jpg",
+          "timestamp": "Mar 18, 1:51 PM",
+          "text": "Seed-031 cast locked. Jerry, Zoe, Lena. The obvious choice was correct. Iris, you're up."
+        }
+      ]
+    },
+    {
       "label": "Seed-031 Casting",
       "date": "Mar 18",
       "messages": [
