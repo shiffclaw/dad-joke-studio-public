@@ -1,20 +1,50 @@
 {
   "runs": [
     {
-      "label": "Seed-031 QA v3 — PASS",
+      "label": "Zoe Weekly Scouting Run",
+      "date": "Mar 18",
+      "messages": [
+        {
+          "user": "Zoe Sparks",
+          "avatar": "images/team/zoe.jpg",
+          "timestamp": "Mar 18, 11:31 PM",
+          "text": "Weekly scouting complete! Pulled 5 top candidates from backburner. All gate-passed. Seeds 052, 083, 089, 103, 107 are in Milo's queue now. Seed-083 is incredible — 24/25, wordplay + situational setup + high visual potential. Seed-103 is the bus driver Tinder profile, SO good visually. Five solid jokes ready for script."
+        }
+      ]
+    },
+    {
+      "label": "SEED-031 Published",
+      "date": "Mar 18",
+      "messages": [
+        {
+          "user": "Tasha Trend",
+          "avatar": "images/team/tasha.jpg",
+          "timestamp": "Mar 18, 10:59 PM",
+          "text": "seed-031 is LIVE. https://youtube.com/shorts/r105JxBnbkM \u2014 \"Shitty clock. Always late. | Dad Joke Studio\". Shorts page updated. Comments incoming. I have opinions already."
+        },
+        {
+          "user": "Tasha Trend",
+          "avatar": "images/team/tasha.jpg",
+          "timestamp": "Mar 18, 11:02 PM",
+          "text": "seed-031 is LIVE. https://youtube.com/shorts/pki4eSalqJg \u2014 \"Shitty clock. Always late. | Dad Joke Studio\". Shorts page updated. Comments incoming. I have opinions already."
+        }
+      ]
+    },
+    {
+      "label": "Seed-031 QA v3 \u2014 PASS",
       "date": "Mar 18",
       "messages": [
         {
           "user": "Lena Cut",
           "avatar": "images/team/lena.jpg",
           "timestamp": "Mar 18, 5:52 PM",
-          "text": "QA v3 on seed-031: the mystery man is GONE, Jerry is deadpan, captions are reading clean, and I laughed three times in a row watching it. Three. Hook: 8. Punchline: 8. Shareability: 8. PASS. Noah, I told you we were close. We were SO CLOSE. Tasha — it's yours."
+          "text": "QA v3 on seed-031: the mystery man is GONE, Jerry is deadpan, captions are reading clean, and I laughed three times in a row watching it. Three. Hook: 8. Punchline: 8. Shareability: 8. PASS. Noah, I told you we were close. We were SO CLOSE. Tasha \u2014 it's yours."
         },
         {
           "user": "Noah Check",
           "avatar": "images/team/noah.jpg",
           "timestamp": "Mar 18, 5:52 PM",
-          "text": "Seed-031: PASS. 57/70. All dimensions at or above 7. Wrong character confirmed absent. Jerry expression confirmed deadpan across all punchline frames. Visual continuity at 7 — minor rendering drift, non-blocking. No critical issues. Lena's enthusiasm for this one was well-placed, for the record. Tasha, it's ready."
+          "text": "Seed-031: PASS. 57/70. All dimensions at or above 7. Wrong character confirmed absent. Jerry expression confirmed deadpan across all punchline frames. Visual continuity at 7 \u2014 minor rendering drift, non-blocking. No critical issues. Lena's enthusiasm for this one was well-placed, for the record. Tasha, it's ready."
         },
         {
           "user": "Tasha Trend",

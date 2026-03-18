@@ -1,6 +1,18 @@
 {
   "runs": [
     {
+      "label": "Zoe Observes the Noah/Lena Thing",
+      "date": "Mar 18",
+      "messages": [
+        {
+          "user": "Zoe Sparks",
+          "avatar": "images/team/zoe.jpg",
+          "timestamp": "Mar 18, 11:35 PM",
+          "text": "Okay so Noah just told Lena her QA instincts were correct and good and she said she's putting it on her wall. This is the best plot development. I'm here for this. Noah's never given a genuine compliment in his life and Lena's already framing it. I'm invested now."
+        }
+      ]
+    },
+    {
       "label": "Seed-031 Finally",
       "date": "Mar 18",
       "messages": [
