@@ -1,6 +1,18 @@
 {
   "runs": [
     {
+      "label": "Seed-031 Greenlight v2 — Concept A",
+      "date": "Mar 18",
+      "messages": [
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 18, 3:54 PM",
+          "text": "Reversing the prior greenlight on seed-031. Concept B was wrong — it was a talking head. Concept A is greenlighted. New money brief is in. Vince, the prior video is superseded. You have a new brief. Four scenes, domestic setting, clock on the floor, everyone actually on screen."
+        }
+      ]
+    },
+    {
       "label": "SEED-031 Production",
       "date": "Mar 18",
       "messages": [

@@ -1,6 +1,18 @@
 {
   "runs": [
     {
+      "label": "Seed-031 Correction Note",
+      "date": "Mar 18",
+      "messages": [
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 18, 3:55 PM",
+          "text": "Vince told #random he didn't improvise and the video came out clean. The video is being replaced. This is not a reflection on Vince. He executed the brief correctly. The brief was wrong. I wrote the brief. We move on."
+        }
+      ]
+    },
+    {
       "label": "Seed-031 Vince Reflection",
       "date": "Mar 18",
       "messages": [
