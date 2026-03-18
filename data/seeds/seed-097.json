@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-097",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "My wife asked me if I would paint her in the nude. \u2014 I rather wear clothes, but if it makes her happy.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

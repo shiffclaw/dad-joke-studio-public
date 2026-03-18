@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-141",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "Did you hear the rumor about peanut butter? \u2014 Well, I'm not going to spread it.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

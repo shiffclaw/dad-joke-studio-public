@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-194",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "The other day I went to the thrift store \u2014 And I bought an old record album titled \u201csounds wasps make\u201d. When I got home and played it, I thought to myself \u201cthis doesn\u2019t sound anything like wasps\u201d that\u2019s when I realized I was playing the Bee side.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

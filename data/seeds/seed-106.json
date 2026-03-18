@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-106",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "My wife think it is weird that I stare through the window during a heavy rainstorm. \u2014 It would be a lot less weird if she would just let me in",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

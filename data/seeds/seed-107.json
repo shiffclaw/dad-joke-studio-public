@@ -1,0 +1,25 @@
+{
+  "joke": {
+    "seed_id": "seed-107",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "This girl I've been dating just got a job at the zoo and I'm going to propose to her. \u2014 After all, she's a keeper!",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "handed_off",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18 23:32:17"
+  },
+  "blocks": [
+    {
+      "owner": "zoe",
+      "marker": "ZOE_OFFICIAL_INTAKE_v1",
+      "version": 1,
+      "content": "ZOE_OFFICIAL_INTAKE_v1 ---\nseed_id: seed-107\nsource: backburner\nraw_joke: This girl I've been dating just got a job at the zoo and I'm going to propose to her. \u2014 After all, she's a keeper!\ntheme: pun\ngate_result: PASS\nscores: Punchline 4, Visual 4, Cast 5, Originality 3, Replay 4 = 20/25\ndisposition: advance (classic setup with double-meaning punchline, strong Zoe/Iris cast potential)",
+      "created_at": "2026-03-18 23:32:17",
+      "updated_at": "2026-03-18 23:32:17"
+    }
+  ]
+}

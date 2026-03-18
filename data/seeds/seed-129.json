@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-129",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "The last time I got into a fist fight it was during my 5th period English literature class \u2014 Needless to say I can\u2019t teach at that high school ever again",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

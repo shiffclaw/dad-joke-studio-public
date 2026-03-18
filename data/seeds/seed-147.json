@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-147",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "I\u2019m worried. My dad just told me that diarrhea is hereditary. \u2014 He told me \u201cit runs in your genes.\u201d",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

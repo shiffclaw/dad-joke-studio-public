@@ -1,0 +1,25 @@
+{
+  "joke": {
+    "seed_id": "seed-089",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "My wife thinks I don't respect her privacy. \u2014 At least that's what she wrote in her diary.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "handed_off",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18 23:32:11"
+  },
+  "blocks": [
+    {
+      "owner": "zoe",
+      "marker": "ZOE_OFFICIAL_INTAKE_v1",
+      "version": 1,
+      "content": "ZOE_OFFICIAL_INTAKE_v1 ---\nseed_id: seed-089\nsource: backburner\nraw_joke: My wife thinks I don't respect her privacy. \u2014 At least that's what she wrote in her diary.\ntheme: observational\ngate_result: PASS\nscores: Punchline 5, Visual 2, Cast 4, Originality 4, Replay 4 = 19/25\ndisposition: advance (dark humor with strong double-punch, domestic scenario fits our cast well)",
+      "created_at": "2026-03-18 23:32:11",
+      "updated_at": "2026-03-18 23:32:11"
+    }
+  ]
+}

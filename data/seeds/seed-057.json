@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-057",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "Waitress noticed my kid didn\u2019t finish her meal and asked her \u201cwanna box for that?\u201d. \u2014 I said no ma\u2019am, but she\u2019ll wrestle you for it.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

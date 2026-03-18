@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-070",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "How many Psychologists does it take to change a light bulb? \u2014 Only one, but the lightbulb has to really want to change.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

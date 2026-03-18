@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-396",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "What is heavier? A gallon of water or a gallon of butane? \u2014 A gallon of water, because butane is a lighter fluid.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

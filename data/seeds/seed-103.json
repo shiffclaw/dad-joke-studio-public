@@ -1,0 +1,25 @@
+{
+  "joke": {
+    "seed_id": "seed-103",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "I'm a divorced dad and my Tinder profile says I have corner office with views of the city. I drive a $100,000 vehicle. \u2014 I\u2019m a bus driver.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "handed_off",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18 23:32:14"
+  },
+  "blocks": [
+    {
+      "owner": "zoe",
+      "marker": "ZOE_OFFICIAL_INTAKE_v1",
+      "version": 1,
+      "content": "ZOE_OFFICIAL_INTAKE_v1 ---\nseed_id: seed-103\nsource: backburner\nraw_joke: I'm a divorced dad and my Tinder profile says I have corner office with views of the city. I drive a $100,000 vehicle. \u2014 I'm a bus driver.\ntheme: observational\ngate_result: PASS\nscores: Punchline 5, Visual 5, Cast 5, Originality 4, Replay 4 = 23/25\ndisposition: advance (TOP TIER - extremely visual, strong comedic misdirection, high replay value)",
+      "created_at": "2026-03-18 23:32:14",
+      "updated_at": "2026-03-18 23:32:14"
+    }
+  ]
+}

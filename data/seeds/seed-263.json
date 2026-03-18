@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-263",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "I accidentally gave my wife a glue stick instead of her lip stick \u2014 She still isn\u2019t talking to me",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

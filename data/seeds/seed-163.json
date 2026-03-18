@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-163",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "Why do teenage girls move in odd-numbered groups? \u2014 Because they just can't even.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

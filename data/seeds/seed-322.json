@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-322",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "What happens when you get injured playing Peek-a-Boo? \u2014 You\u2019re taken to the ICU.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

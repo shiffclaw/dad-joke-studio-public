@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-168",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "Why should you never take sides in an argument at the dinner table? \u2014 Trick question. It's the perfect time to take sides because no one's paying attention. Bring Tupperware.",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}

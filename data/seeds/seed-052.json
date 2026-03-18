@@ -1,0 +1,25 @@
+{
+  "joke": {
+    "seed_id": "seed-052",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "I double majored in Geology and Piano \u2014 I've always had a passion for rock music",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "handed_off",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18 23:32:05"
+  },
+  "blocks": [
+    {
+      "owner": "zoe",
+      "marker": "ZOE_OFFICIAL_INTAKE_v1",
+      "version": 1,
+      "content": "ZOE_OFFICIAL_INTAKE_v1 ---\nseed_id: seed-052\nsource: backburner\nraw_joke: I double majored in Geology and Piano \u2014 I've always had a passion for rock music\ntheme: pun\ngate_result: PASS\nscores: Punchline 5, Visual 3, Cast 4, Originality 4, Replay 4 = 20/25\ndisposition: advance (recycled from backburner, strong pun structure)",
+      "created_at": "2026-03-18 23:32:05",
+      "updated_at": "2026-03-18 23:32:05"
+    }
+  ]
+}

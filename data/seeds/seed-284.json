@@ -1,0 +1,16 @@
+{
+  "joke": {
+    "seed_id": "seed-284",
+    "source": "csv-import",
+    "url": "",
+    "raw_joke": "Donald Trump tried to order a loyalty test on Amazon. \u2014 But Alexa said: \u201cSorry, that\u2019s not Prime eligible.\u201d",
+    "theme": "",
+    "caption_safe": "unknown",
+    "originality_risk": "unknown",
+    "status": "backburner",
+    "rewrite_status": "",
+    "created_at": "2026-03-18T23:26:26.667067+00:00",
+    "updated_at": "2026-03-18T23:26:26.667067+00:00"
+  },
+  "blocks": []
+}
