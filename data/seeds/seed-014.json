@@ -19,7 +19,7 @@
       "version": 1,
       "content": "RILEY_CASTING_PLAN_v1\n\nPrimary Cast (2-3 roles):\n1. role_needed: Riddle host\n   selected_cast_persona: jerry \u00b7 news-host-dad\n   why_this_fit: Quiz-show cadence suits this format.\n2. role_needed: Ghost hunter visual\n   selected_cast_persona: vince \u00b7 cameraman\n   why_this_fit: Gear-compatible silhouette for investigator vibe.\n\nAdaptation Notes:\n1. Ghost hunter role: add EMF gadget/flashlight, jeans visible in frame.\n2. No horror intensity; keep bright spooky-comedy style.\n\nShot Intent:\n- setup_shot: Setup: host asks riddle while ghost hunter scans room.\n- punchline_reaction_shot: Punchline: quick leg/jeans reveal + reaction beat.\n\n---",
       "created_at": "2026-03-08 14:10:58",
-      "updated_at": "2026-03-09 21:52:06"
+      "updated_at": "2026-03-18 23:53:36"
     },
     {
       "owner": "iris",
@@ -27,7 +27,7 @@
       "version": 1,
       "content": "IRIS_VIDEO_PROMPT_v2\n\nseed_id: seed-014\naspect_ratio: 9:16 (vertical portrait)\nconcept_count: 3\n\nConcept A \u2014 Performance-First Character Comedy\nduration_target: 8.4s\nduration_reason: Riddle structure with quick visual tag. Keep straightforward continuity cuts for readability.\nmaster_video_prompt:\nComedic paranormal investigator setup, cast jerry news-host-dad + vince cameraman as ghost hunter, flashlight + jeans cue, no horror intensity, bright spooky-comedy palette, 9:16 vertical. Prioritize facial acting and clean two-shot/close-up rhythm; minimal background motion.\nscene_plan:\n1) Scene 1 (0.0\u20132.7s): Host asks \u201cWhat kind of jeans does a ghost hunter wear?\u201d\n2) Scene 2 (2.7\u20134.8s): Ghost hunter scans room, suspense beat.\n3) Scene 3 (4.8\u20138.4s): Punchline with jeans reveal: \u201cparanormal jean.\u201d reaction nod.\ncaption_plan:\n1. 0.2s: \u201cWhat kind of jeans does a ghost hunter wear?\u201d\n2. 3.0s: \u201c(beat)\u201d\n3. 5.0s: \u201cJust a paranormal jean.\u201d\nperformance_notes:\n- Slight spooky voice for setup, normal tone on punchline. Balanced pace, clear pause before punchline.\nrisk_and_fallback:\n1. Risk: dark atmosphere overpowering joke \u2192 keep bright, playful colors.\n2. Fallback: simplify to host + text gag overlay.\nwhy_jerry_might_greenlight_this:\n- Most reliable laugh-read and easiest to produce under budget/time pressure.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 8.4\n- sceneCount: 3\n- mustKeep: Scene 1 question + Scene 3 jeans reveal\n- optionalTrims: Scene 2 can be reduced below 1.2s\n\n---\n\nConcept B \u2014 Kinetic Camera + Visual Gag Emphasis\nduration_target: 7.8s\nduration_reason: Riddle structure with quick visual tag. Add one energetic transition beat between setup and punchline.\nmaster_video_prompt:\nComedic paranormal investigator setup, cast jerry news-host-dad + vince cameraman as ghost hunter, flashlight + jeans cue, no horror intensity, bright spooky-comedy palette, 9:16 vertical. Use dynamic push-ins, whip pans, and one stronger visual gag transition while preserving caption readability.\nscene_plan:\n1) Scene 1 (0.0\u20132.7s): Host asks \u201cWhat kind of jeans does a ghost hunter wear?\u201d\n2) Scene 2 (2.7\u20134.8s): Ghost hunter scans room, suspense beat.\n3) Scene 3 (4.8\u20138.4s): Punchline with jeans reveal: \u201cparanormal jean.\u201d reaction nod.\ncaption_plan:\n1. 0.2s: \u201cWhat kind of jeans does a ghost hunter wear?\u201d\n2. 3.0s: \u201c(beat)\u201d\n3. 5.0s: \u201cJust a paranormal jean.\u201d\nperformance_notes:\n- Slight spooky voice for setup, normal tone on punchline. Faster delivery with tighter setup beat.\nrisk_and_fallback:\n1. Risk: dark atmosphere overpowering joke \u2192 keep bright, playful colors.\n2. Fallback: simplify to host + text gag overlay.\nwhy_jerry_might_greenlight_this:\n- Higher scroll-stopping energy; better chance at early retention if the motion lands cleanly.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 7.8\n- sceneCount: 3\n- mustKeep: Hook visual + punchline reaction hold\n- optionalTrims: Trim setup exposition and keep strongest visual gag only\n\n---\n\nConcept C \u2014 Situational World-Build + Ensemble Reactions\nduration_target: 9.2s\nduration_reason: Riddle structure with quick visual tag. Include one contextual insert shot (prop/sign/location) to strengthen premise clarity.\nmaster_video_prompt:\nComedic paranormal investigator setup, cast jerry news-host-dad + vince cameraman as ghost hunter, flashlight + jeans cue, no horror intensity, bright spooky-comedy palette, 9:16 vertical. Lean into environment storytelling and one extra reaction/cutaway to sell context before payoff.\nscene_plan:\n1) Scene 1 (0.0\u20132.7s): Host asks \u201cWhat kind of jeans does a ghost hunter wear?\u201d\n2) Scene 2 (2.7\u20134.8s): Ghost hunter scans room, suspense beat.\n3) Scene 3 (4.8\u20138.4s): Punchline with jeans reveal: \u201cparanormal jean.\u201d reaction nod.\ncaption_plan:\n1. 0.2s: \u201cWhat kind of jeans does a ghost hunter wear?\u201d\n2. 3.0s: \u201c(beat)\u201d\n3. 5.0s: \u201cJust a paranormal jean.\u201d\nperformance_notes:\n- Slight spooky voice for setup, normal tone on punchline. Slightly slower setup with stronger context cue.\nrisk_and_fallback:\n1. Risk: dark atmosphere overpowering joke \u2192 keep bright, playful colors.\n2. Fallback: simplify to host + text gag overlay.\nwhy_jerry_might_greenlight_this:\n- Best for jokes where context confusion is a risk; improves comprehension before payoff.\nvince_handoff:\n- aspectRatio: 9:16\n- durationSec: 9.2\n- sceneCount: 3\n- mustKeep: Context insert + final punchline close-up\n- optionalTrims: Remove contextual insert if runtime/complexity is too high\n\nstatus: ready_for_jerry_review\n\n---",
       "created_at": "2026-03-08 14:10:58",
-      "updated_at": "2026-03-09 21:52:06"
+      "updated_at": "2026-03-18 23:53:36"
     },
     {
       "owner": "jerry",
@@ -35,7 +35,7 @@
       "version": 1,
       "content": "JERRY_GREENLIGHT_v1\nselected_concept: B\ndecision: GREENLIGHT\nconfidence: Medium\nrationale: B adds useful kinetic energy for a simple riddle while keeping family-safe spooky-comedy tone. Good short-form scroller potential.\ncost_note: Low-medium with one motion transition.\nmust_keep: Question setup + jeans reveal punchline\ntrim_if_needed: Suspense beat length\nnext_owner: Vince",
       "created_at": "2026-03-08 14:10:58",
-      "updated_at": "2026-03-09 21:52:06"
+      "updated_at": "2026-03-18 23:53:36"
     },
     {
       "owner": "vince",
@@ -43,7 +43,7 @@
       "version": 1,
       "content": "VINCE_PRODUCTION_v1\nseed_id: seed-014\nstatus: delivered\nconcept: B (kinetic camera + visual gag, ghost hunter jeans reveal)\nfinal_output_path: /public/finals/seed-014-vince-kling-v1.mp4\napproach: KlingAI klingai:3@1 (720x1280) + ElevenLabs Roger VO\nscene_clips:\n  - scene_01_host_question.mp4\n  - scene_02_ghost_hunter_scan.mp4\n  - scene_03_jeans_reveal.mp4\ntotal_duration: 7.80s\ntotal_cost: $0.5544\nproduced_at: 2026-03-08T22:04:13.611304+00:00",
       "created_at": "2026-03-09 02:41:11",
-      "updated_at": "2026-03-09 21:52:06"
+      "updated_at": "2026-03-18 23:53:36"
     },
     {
       "owner": "vince",
@@ -51,7 +51,7 @@
       "version": 1,
       "content": "VINCE_PRODUCTION_v2\nseed_id: seed-014\nstatus: delivered\nconcept: B (kinetic camera + visual gag, ghost hunter jeans reveal)\nmodel: klingai:3@2\ncharacter_refs: jerry.jpg (scene 1), vince.jpg (scenes 2-3)\nfinal_output_path: /public/finals/seed-014-vince-kling-v2.mp4\nscene_clips:\n  - scene_01_host_question.mp4 (actor: jerry)\n  - scene_02_ghost_hunter_scan.mp4 (actor: vince)\n  - scene_03_jeans_reveal.mp4 (actor: vince)\ntotal_duration: 7.80s\ntotal_cost: $0.9702\nproduced_at: 2026-03-08T22:29:18.480807+00:00\n\n\nLENA_POST_QC_v1\nseed_id: seed-014\nstatus: APPROVE\nshareability_score: 9\nnotes: Character consistency locked in with reference images this time. The paranormal aura on the jeans is still the best thing we've made. APPROVE.\nreviewed_at: 2026-03-08T22:29:18.480807+00:00\n\n\nNOAH_PUBLISH_GATE_v1\nseed_id: seed-014\nstatus: PASS\npunchline_comprehension: 10\ncaption_clarity: PASS\nbrand_safety: PASS\nnotes: PASS. Same joke. Better clips. Rubric doesn't care about character consistency but I'm glad it's fixed. Tasha \u2014 ready.\nreviewed_at: 2026-03-08T22:29:18.480807+00:00",
       "created_at": "2026-03-09 02:41:11",
-      "updated_at": "2026-03-09 21:52:06"
+      "updated_at": "2026-03-18 23:53:36"
     },
     {
       "owner": "lena",
@@ -59,7 +59,7 @@
       "version": 1,
       "content": "LENA_POST_QC_v1\nseed_id: seed-014\nstatus: APPROVE\nshareability_score: 9\nnotes: The jeans close-up at 3.0s is going to stop scrolls. Paranormal aura on the jeans is a choice and I am choosing to love it. Strong concept-to-execution match. VO timing is clean.\nreviewed_at: 2026-03-08T22:04:13.611304+00:00\n\n\nNOAH_PUBLISH_GATE_v1\nseed_id: seed-014\nstatus: PASS\npunchline_comprehension: 10\ncaption_clarity: PASS\nbrand_safety: PASS\nnotes: Paranormal jean. Comprehension score is a 10. Either you get it instantly or you never get it and leave. Both outcomes acceptable. Rubric passed. PASS. Tasha \u2014 ready.\nreviewed_at: 2026-03-08T22:04:13.611304+00:00",
       "created_at": "2026-03-09 02:41:11",
-      "updated_at": "2026-03-09 21:52:06"
+      "updated_at": "2026-03-18 23:53:36"
     }
   ]
 }
