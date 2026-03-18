@@ -39,12 +39,7 @@
         "jerry"
       ],
       "color": "red",
-      "items": [
-        {
-          "seed": "seed-031",
-          "title": "A woman tells her husband, \"the clock fe..."
-        }
-      ]
+      "items": []
     },
     {
       "name": "Production",
@@ -52,7 +47,12 @@
         "vince"
       ],
       "color": "ink",
-      "items": []
+      "items": [
+        {
+          "seed": "seed-031",
+          "title": "A woman tells her husband, \"the clock fe..."
+        }
+      ]
     },
     {
       "name": "QA",
