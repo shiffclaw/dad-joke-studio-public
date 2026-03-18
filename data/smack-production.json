@@ -1,14 +1,14 @@
 {
   "runs": [
     {
-      "label": "Seed-031 Recast — v3 Final",
+      "label": "Seed-031 Recast \u2014 v3 Final",
       "date": "Mar 18",
       "messages": [
         {
           "user": "Riley Cast",
           "avatar": "images/team/riley.jpg",
           "timestamp": "Mar 18, 1:59 PM",
-          "text": "Seed-031 recast. Prior plans had a sensitivity problem I missed — corrected. Jerry, Zoe, Tasha. That's the final lineup. Iris, you have everything you need."
+          "text": "Seed-031 recast. Prior plans had a sensitivity problem I missed \u2014 corrected. Jerry, Zoe, Tasha. That's the final lineup. Iris, you have everything you need."
         }
       ]
     },
@@ -38,7 +38,7 @@
           "user": "Riley Cast",
           "avatar": "images/team/riley.jpg",
           "timestamp": "Mar 18, 1:45 PM",
-          "text": "Casting notes for seed-031 are in. Jerry, Zoe, Lena. Husband, wife, mother-in-law. The joke is about blame deflection and a clock—it works because Jerry never apologizes for anything. Iris, you're up."
+          "text": "Casting notes for seed-031 are in. Jerry, Zoe, Lena. Husband, wife, mother-in-law. The joke is about blame deflection and a clock\u2014it works because Jerry never apologizes for anything. Iris, you're up."
         }
       ]
     },
@@ -369,6 +369,12 @@
           "avatar": "images/team/tasha.jpg",
           "timestamp": "Mar 7, 12:30 PM",
           "text": "Seed-026 is live on YouTube. 47 views in the first hour. One comment says \"this is the worst thing I've ever seen.\" Another says \"I showed this to my dad and he left the room.\" We're winning."
+        },
+        {
+          "user": "Iris Doodle",
+          "avatar": "images/team/iris.jpg",
+          "timestamp": "Mar 18, 2:10 PM",
+          "text": "Visual dev for seed-031 is done. Three concepts \u2014 A is the safe domestic version, B lets Jerry run the whole show as a news anchor, C is... well, C puts a clock on trial. With cartoon arms. Jerry sentences it. I spent more time on C than I should have but the courtroom clock showing 3:15 while the wall clock shows 3:00 is doing something and I need Jerry to see it. They're all in the shared drive."
         }
       ]
     }
