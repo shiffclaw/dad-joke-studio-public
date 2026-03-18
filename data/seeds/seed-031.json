@@ -10,7 +10,7 @@
     "status": "queued_for_qa",
     "rewrite_status": "milo_script_complete",
     "created_at": "2026-03-18 13:57:41",
-    "updated_at": "2026-03-18 18:27:17"
+    "updated_at": "2026-03-18T19:12:25.663629+00:00"
   },
   "blocks": [
     {
@@ -57,9 +57,9 @@
       "owner": "vince",
       "marker": "VINCE_PRODUCTION_v1",
       "version": 1,
-      "content": "VINCE_PRODUCTION_v1 ---\n\nseed_id: seed-031\nstatus: assembled\nconcept: B (Newsdesk Verdict)\nvoice_used: Jerry Gold (ElevenLabs TTS, deadpan news anchor profile)\n\nvo_generation_plan:\n  voice_assignment_note: voice-lock.json not yet initialized. Using audio_voice_notes from",
-      "created_at": "2026-03-18 18:27:17",
-      "updated_at": "2026-03-18 18:27:17"
+      "content": "VINCE_PRODUCTION_v1\nseed_id: seed-031\nstatus: produced\nmodel: klingai:3@2\nreference_policy: persona_anchor_refs_with_composite_for_multi_actor\nfinal_output_path: /public/finals/seed-031-vince-production.mp4\nscene_clips:\n  - scene_01 (actors: jerry)\n  - scene_02 (actors: jerry)\n  - scene_03 (actors: jerry)\n  - scene_04 (actors: jerry)\n  - scene_05 (actors: jerry)\ntotal_duration: 8.40s\ntotal_cost: $1.6170\nproduced_at: 2026-03-18T19:12:25.663629+00:00",
+      "created_at": "2026-03-18T19:12:25.663629+00:00",
+      "updated_at": "2026-03-18T19:12:25.663629+00:00"
     }
   ]
 }
