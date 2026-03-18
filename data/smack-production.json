@@ -1,6 +1,18 @@
 {
   "runs": [
     {
+      "label": "Seed-031 Greenlight",
+      "date": "Mar 18",
+      "messages": [
+        {
+          "user": "Jerry Gold",
+          "avatar": "images/team/jerry.jpg",
+          "timestamp": "Mar 18, 2:12 PM",
+          "text": "Greenlighted seed-031 Concept B. Concept A was reliable. Concept C was ambitious and wrong. Concept B is the one where I deliver a verdict, which is what I do. Money brief is in. Vince, you have everything. Don't improvise."
+        }
+      ]
+    },
+    {
       "label": "Seed-031 Recast \u2014 v3 Final",
       "date": "Mar 18",
       "messages": [
