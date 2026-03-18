@@ -15,6 +15,14 @@
         "milo"
       ],
       "color": "green",
+      "items": []
+    },
+    {
+      "name": "Casting",
+      "agents": [
+        "riley"
+      ],
+      "color": "purple",
       "items": [
         {
           "seed": "seed-052",
@@ -37,14 +45,6 @@
           "title": "This girl I've been dating just got a jo..."
         }
       ]
-    },
-    {
-      "name": "Casting",
-      "agents": [
-        "riley"
-      ],
-      "color": "purple",
-      "items": []
     },
     {
       "name": "Visual Dev",

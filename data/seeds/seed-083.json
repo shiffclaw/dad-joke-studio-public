@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-18 23:32:08"
+    "updated_at": "2026-03-18 23:36:50"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "ZOE_OFFICIAL_INTAKE_v1 ---\nseed_id: seed-083\nsource: backburner\nraw_joke: When my wife and I divorced, the judge made us split everything evenly, including our pudding shop. \u2014 We now have shared custardy.\ntheme: wordplay\ngate_result: PASS\nscores: Punchline 5, Visual 4, Cast 5, Originality 5, Replay 5 = 24/25\ndisposition: advance (TOP TIER - excellent wordplay + situational comedy + high visual potential)",
       "created_at": "2026-03-18 23:32:08",
       "updated_at": "2026-03-18 23:32:08"
+    },
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "MILO_OFFICIAL_SCRIPT_v1 ---\nMILO_OFFICIAL_SCRIPT_v1\n\nseed_id: seed-083\nedit_level: polish\nscript:\n  setup: \"My wife and I divorced, and the judge made us split everything evenly \u2014 including our pudding shop.\"\n  punchline: \"We now have shared custardy.\"\n  tag: ~\nchanges_made: Trimmed the opening 'When' to drop directly into the scenario. 'When my wife and I divorced' -> 'My wife and I divorced' saves one beat and hits faster. Punchline is untouched \u2014 'shared custardy' is perfect construction and must not be altered. The specificity of 'pudding shop' is what sells the wordplay; keeping it.\ncaption_notes: Two cards. Setup: \"My wife and I divorced, and the judge made us split everything evenly \u2014 including our pudding shop.\" Punchline: \"We now have shared custardy.\" The em-dash in the setup can be a visual pause beat on screen.\ntiming_notes: Setup delivered with mild exasperation \u2014 this is someone explaining their divorce as if it's a mild inconvenience. Pause 0.5s before punchline. Punchline flat and resigned. Do NOT punchline the punchline \u2014 it lands deadpan.\ntts_notes: 'custardy' \u2014 TTS should read this correctly as it rhymes with 'custody.' If TTS mangles it, phonetic guide: KUSS-ter-dee.\nquality_flag: strong",
+      "created_at": "2026-03-18 23:36:50",
+      "updated_at": "2026-03-18 23:36:50"
     }
   ]
 }

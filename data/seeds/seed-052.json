@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-18 23:32:05"
+    "updated_at": "2026-03-18 23:36:50"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "ZOE_OFFICIAL_INTAKE_v1 ---\nseed_id: seed-052\nsource: backburner\nraw_joke: I double majored in Geology and Piano \u2014 I've always had a passion for rock music\ntheme: pun\ngate_result: PASS\nscores: Punchline 5, Visual 3, Cast 4, Originality 4, Replay 4 = 20/25\ndisposition: advance (recycled from backburner, strong pun structure)",
       "created_at": "2026-03-18 23:32:05",
       "updated_at": "2026-03-18 23:32:05"
+    },
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "MILO_OFFICIAL_SCRIPT_v1 ---\nMILO_OFFICIAL_SCRIPT_v1\n\nseed_id: seed-052\nedit_level: pass-through\nscript:\n  setup: \"I double majored in Geology and Piano.\"\n  punchline: \"I've always had a passion for rock music.\"\n  tag: ~\nchanges_made: Minimal. The raw version is already clean and tight. The comma after 'Piano' in the original dash version was reformatted as a period for caption split clarity. The pun lands on the overlap between geology (rocks) and rock music \u2014 both majors contribute to the punchline, which is good construction.\ncaption_notes: Two cards. Setup card: \"I double majored in Geology and Piano.\" Punchline card: \"I've always had a passion for rock music.\"\ntiming_notes: Deadpan delivery throughout. No emotional inflection \u2014 the drier the better. Slight pause (0.3s) before punchline. No emphasis needed; the pun does the work.\ntts_notes: ~\nquality_flag: solid",
+      "created_at": "2026-03-18 23:36:50",
+      "updated_at": "2026-03-18 23:36:50"
     }
   ]
 }
