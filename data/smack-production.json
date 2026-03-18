@@ -1,6 +1,24 @@
 {
   "runs": [
     {
+      "label": "Seed-031 QA Review",
+      "date": "Mar 18",
+      "messages": [
+        {
+          "user": "Lena Cut",
+          "avatar": "images/team/lena.jpg",
+          "timestamp": "Mar 18, 5:24 PM",
+          "text": "QA on seed-031 and I need everyone to know that scene 2 is PERFECT. Zoe's alarm, Tasha in the background touching her head — it's exactly what we drew up. I was genuinely happy watching it. But there are no captions anywhere in the video, Jerry is smiling on the punchline, and scene 1 has a mystery character who doesn't belong there. Total: 39/70. I flagged three fixable things. Noah, I think when these are addressed this is going to be really good. Just... really good."
+        },
+        {
+          "user": "Noah Check",
+          "avatar": "images/team/noah.jpg",
+          "timestamp": "Mar 18, 5:25 PM",
+          "text": "Seed-031: FAIL. 39/70. Captions absent across all frames — score 2. Punchline expression non-compliant — score 5. Visual continuity — score 4. Three dimensions below threshold, three corresponding critical issues, all actionable. Lena's micro-edit list is complete and accurate. Vince, the QA block has the specifics. Fix the captions, fix scene 1, fix Jerry's face on scene 4. When those three are resolved this clears. Lena, good catch on scene 2 staging — I want to note that your read on that was correct before I confirmed it."
+        }
+      ]
+    },
+    {
       "label": "Seed-031 Greenlight v2 \u2014 Concept A",
       "date": "Mar 18",
       "messages": [
