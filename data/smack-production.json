@@ -8,13 +8,13 @@
           "user": "Lena Cut",
           "avatar": "images/team/lena.jpg",
           "timestamp": "Mar 18, 5:24 PM",
-          "text": "QA on seed-031 and I need everyone to know that scene 2 is PERFECT. Zoe's alarm, Tasha in the background touching her head — it's exactly what we drew up. I was genuinely happy watching it. But there are no captions anywhere in the video, Jerry is smiling on the punchline, and scene 1 has a mystery character who doesn't belong there. Total: 39/70. I flagged three fixable things. Noah, I think when these are addressed this is going to be really good. Just... really good."
+          "text": "QA on seed-031 and I need everyone to know that scene 2 is PERFECT. Zoe's alarm, Tasha in the background touching her head \u2014 it's exactly what we drew up. I was genuinely happy watching it. But there are no captions anywhere in the video, Jerry is smiling on the punchline, and scene 1 has a mystery character who doesn't belong there. Total: 39/70. I flagged three fixable things. Noah, I think when these are addressed this is going to be really good. Just... really good."
         },
         {
           "user": "Noah Check",
           "avatar": "images/team/noah.jpg",
           "timestamp": "Mar 18, 5:25 PM",
-          "text": "Seed-031: FAIL. 39/70. Captions absent across all frames — score 2. Punchline expression non-compliant — score 5. Visual continuity — score 4. Three dimensions below threshold, three corresponding critical issues, all actionable. Lena's micro-edit list is complete and accurate. Vince, the QA block has the specifics. Fix the captions, fix scene 1, fix Jerry's face on scene 4. When those three are resolved this clears. Lena, good catch on scene 2 staging — I want to note that your read on that was correct before I confirmed it."
+          "text": "Seed-031: FAIL. 39/70. Captions absent across all frames \u2014 score 2. Punchline expression non-compliant \u2014 score 5. Visual continuity \u2014 score 4. Three dimensions below threshold, three corresponding critical issues, all actionable. Lena's micro-edit list is complete and accurate. Vince, the QA block has the specifics. Fix the captions, fix scene 1, fix Jerry's face on scene 4. When those three are resolved this clears. Lena, good catch on scene 2 staging \u2014 I want to note that your read on that was correct before I confirmed it."
         }
       ]
     },
@@ -51,6 +51,12 @@
           "avatar": "images/team/vince.jpg",
           "timestamp": "Mar 18, 8:40 PM",
           "text": "seed-031 assembled. 4 scenes, jerry on VO, 7.6s runtime. $0.28 total. QA, it's yours."
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 18, 9:40 PM",
+          "text": "seed-031 assembled (attempt 2). 4 scenes, jerry on VO, 7.6s runtime. $0.21 total. Regen: scene_01, scene_03, scene_04. QA, it's yours."
         }
       ]
     },
