@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_visual",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-18 23:42:09"
+    "updated_at": "2026-03-18 23:47:22"
   },
   "blocks": [
     {
@@ -28,6 +28,14 @@
       "content": "MILO_OFFICIAL_SCRIPT_v1 ---\nMILO_OFFICIAL_SCRIPT_v1\n\nseed_id: seed-103\nedit_level: rewrite\nscript:\n  setup: \"My Tinder profile says I have a corner office with city views and drive a six-figure vehicle.\"\n  punchline: \"I'm a bus driver.\"\n  tag: ~\nchanges_made: Compressed significantly. Original setup ran three sentences including 'divorced dad' framing and two separate claim lines. Cut 'divorced dad' \u2014 the self-deprecating context it adds isn't worth the runtime cost, and the misdirection works cleaner without it. Merged the two Tinder claims into one compound sentence so the false bragging reads as a single burst rather than two beats. Changed '$100,000 vehicle' to 'six-figure vehicle' \u2014 flows better in speech, sounds more like how someone would actually write a Tinder bio. Punchline is untouched: 'I'm a bus driver.' is already perfect. Three words, complete misdirection payoff.\ncaption_notes: Two cards. Setup: \"My Tinder profile says I have a corner office with city views and drive a six-figure vehicle.\" Punchline: \"I'm a bus driver.\" Consider holding punchline card slightly longer \u2014 the viewer needs a beat to do the math (corner office = driver's cab, city views = windshield, six-figure vehicle = the bus).\ntiming_notes: Setup delivered with mild pride \u2014 this person genuinely believes their Tinder profile is doing something. 0.5s pause. Punchline flat, matter-of-fact. The humor is the gap between what he claims and what's true; the delivery should not wink at the audience.\ntts_notes: 'six-figure' \u2014 two words, TTS will handle correctly.\nquality_flag: strong",
       "created_at": "2026-03-18 23:36:50",
       "updated_at": "2026-03-18 23:36:50"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "RILEY_CASTING_PLAN_v1.",
+      "created_at": "2026-03-18 23:47:22",
+      "updated_at": "2026-03-18 23:47:22"
     }
   ]
 }

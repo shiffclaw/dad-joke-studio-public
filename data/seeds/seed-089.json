@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_visual",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-18 23:42:09"
+    "updated_at": "2026-03-18 23:47:22"
   },
   "blocks": [
     {
@@ -28,6 +28,14 @@
       "content": "MILO_OFFICIAL_SCRIPT_v1 ---\nMILO_OFFICIAL_SCRIPT_v1\n\nseed_id: seed-089\nedit_level: pass-through\nscript:\n  setup: \"My wife thinks I don't respect her privacy.\"\n  punchline: \"At least, that's what she wrote in her diary.\"\n  tag: ~\nchanges_made: Minimal. Added a comma after 'At least' for TTS pacing \u2014 the micro-beat before 'that's what she wrote' lets the implication land before the audience finishes processing it. The self-incriminating structure is already doing all the work. No further changes needed.\ncaption_notes: Two cards. Setup: \"My wife thinks I don't respect her privacy.\" Punchline: \"At least, that's what she wrote in her diary.\" The punchline card should appear alone \u2014 the joke detonates on the word 'diary' and the caption needs space around it.\ntiming_notes: Setup casual, throwaway \u2014 like a man mildly defending himself. 0.4s pause. Punchline starts confident, loses steam on 'diary' \u2014 the last word is where the speaker realizes they've just confessed. Slight drop in delivery on the final word if voice acting allows.\ntts_notes: ~\nquality_flag: strong",
       "created_at": "2026-03-18 23:36:50",
       "updated_at": "2026-03-18 23:36:50"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "RILEY_CASTING_PLAN_v1.",
+      "created_at": "2026-03-18 23:47:22",
+      "updated_at": "2026-03-18 23:47:22"
     }
   ]
 }

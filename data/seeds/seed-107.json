@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_visual",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-18 23:42:09"
+    "updated_at": "2026-03-18 23:47:22"
   },
   "blocks": [
     {
@@ -28,6 +28,14 @@
       "content": "MILO_OFFICIAL_SCRIPT_v1 ---\nMILO_OFFICIAL_SCRIPT_v1\n\nseed_id: seed-107\nedit_level: polish\nscript:\n  setup: \"My girlfriend just got a job at the zoo.\"\n  punchline: \"I'm going to propose \u2014 she's a keeper.\"\n  tag: ~\nchanges_made: Cut 'This girl I've been dating' and replaced with 'My girlfriend' \u2014 cleaner, drops one indirect layer, and makes the narrator's emotional investment clearer which sharpens the romantic stakes before the punchline. Cut 'After all' \u2014 it's filler that softens the landing. Merged the proposal announcement and the punchline onto one card separated by an em-dash, which creates the micro-beat the joke needs without a full sentence break. 'She's a keeper' does double duty as zoo terminology and relationship approval \u2014 the delivery should land both meanings simultaneously.\ncaption_notes: Two cards. Setup: \"My girlfriend just got a job at the zoo.\" Punchline: \"I'm going to propose \u2014 she's a keeper.\" The em-dash inside the punchline card is intentional \u2014 it gives the viewer a half-beat to process 'propose' before 'keeper' drops.\ntiming_notes: Setup warm, genuine \u2014 not playing for laughs yet. 0.4s pause. Punchline delivered with sincere romantic confidence, not a wink. The joke is funnier if the narrator genuinely believes this is a romantic thing to say.\ntts_notes: ~\nquality_flag: solid",
       "created_at": "2026-03-18 23:36:50",
       "updated_at": "2026-03-18 23:36:50"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "RILEY_CASTING_PLAN_v1.",
+      "created_at": "2026-03-18 23:47:22",
+      "updated_at": "2026-03-18 23:47:22"
     }
   ]
 }
