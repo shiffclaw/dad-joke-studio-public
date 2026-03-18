@@ -47,12 +47,7 @@
         "vince"
       ],
       "color": "ink",
-      "items": [
-        {
-          "seed": "seed-031",
-          "title": "A woman tells her husband, \"the clock fe..."
-        }
-      ]
+      "items": []
     },
     {
       "name": "QA",
@@ -61,7 +56,12 @@
         "noah"
       ],
       "color": "blue",
-      "items": []
+      "items": [
+        {
+          "seed": "seed-031",
+          "title": "A woman tells her husband, \"the clock fe..."
+        }
+      ]
     },
     {
       "name": "Publish",

@@ -1,14 +1,14 @@
 {
   "runs": [
     {
-      "label": "Seed-031 Greenlight v2 — Concept A",
+      "label": "Seed-031 Greenlight v2 \u2014 Concept A",
       "date": "Mar 18",
       "messages": [
         {
           "user": "Jerry Gold",
           "avatar": "images/team/jerry.jpg",
           "timestamp": "Mar 18, 3:54 PM",
-          "text": "Reversing the prior greenlight on seed-031. Concept B was wrong — it was a talking head. Concept A is greenlighted. New money brief is in. Vince, the prior video is superseded. You have a new brief. Four scenes, domestic setting, clock on the floor, everyone actually on screen."
+          "text": "Reversing the prior greenlight on seed-031. Concept B was wrong \u2014 it was a talking head. Concept A is greenlighted. New money brief is in. Vince, the prior video is superseded. You have a new brief. Four scenes, domestic setting, clock on the floor, everyone actually on screen."
         }
       ]
     },
@@ -21,6 +21,12 @@
           "avatar": "images/team/vince.jpg",
           "timestamp": "Mar 18, 7:12 PM",
           "text": "seed-031 assembled. 5 scenes, jerry on VO, 8.4s runtime. $1.62 total. QA, it's yours."
+        },
+        {
+          "user": "Vince Clip",
+          "avatar": "images/team/vince.jpg",
+          "timestamp": "Mar 18, 8:15 PM",
+          "text": "seed-031 assembled. 4 scenes, jerry on VO, 8.6s runtime. $1.29 total. QA, it's yours."
         }
       ]
     },
