@@ -10,7 +10,7 @@
     "status": "queued_for_qa",
     "rewrite_status": "milo_script_complete",
     "created_at": "2026-03-18 13:57:41",
-    "updated_at": "2026-03-18T20:15:23.352129+00:00"
+    "updated_at": "2026-03-18T20:40:09.113930+00:00"
   },
   "blocks": [
     {
@@ -57,9 +57,9 @@
       "owner": "vince",
       "marker": "VINCE_PRODUCTION_v1",
       "version": 1,
-      "content": "VINCE_PRODUCTION_v1\nseed_id: seed-031\nstatus: produced\nmodel: klingai:3@2\nreference_policy: persona_anchor_refs_with_composite_for_multi_actor\nfinal_output_path: /public/finals/seed-031-vince-production.mp4\nscene_clips:\n  - scene_01 (actors: jerry)\n  - scene_02 (actors: zoe, tasha)\n  - scene_03 (actors: jerry)\n  - scene_04 (actors: jerry)\ntotal_duration: 8.61s\ntotal_cost: $1.2936\nproduced_at: 2026-03-18T20:15:23.352129+00:00",
-      "created_at": "2026-03-18T20:15:23.352129+00:00",
-      "updated_at": "2026-03-18T20:15:23.352129+00:00"
+      "content": "VINCE_PRODUCTION_v1\nseed_id: seed-031\nstatus: produced\nmodel: klingai:3@2\nreference_policy: persona_anchor_refs_with_composite_for_multi_actor\nfinal_output_path: /public/finals/seed-031-vince-production.mp4\nscene_clips:\n  - scene_01 (actors: jerry)\n  - scene_02 (actors: zoe, tasha)\n  - scene_03 (actors: jerry)\n  - scene_04 (actors: jerry)\ntotal_duration: 7.61s\ntotal_cost: $0.2769\nproduced_at: 2026-03-18T20:40:09.113930+00:00",
+      "created_at": "2026-03-18T20:40:09.113930+00:00",
+      "updated_at": "2026-03-18T20:40:09.113930+00:00"
     }
   ]
 }
