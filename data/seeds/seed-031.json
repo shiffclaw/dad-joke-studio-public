@@ -10,7 +10,7 @@
     "status": "queued_for_visual",
     "rewrite_status": "milo_script_complete",
     "created_at": "2026-03-18 13:57:41",
-    "updated_at": "2026-03-18 17:58:13"
+    "updated_at": "2026-03-18 18:00:44"
   },
   "blocks": [
     {
@@ -25,9 +25,9 @@
       "owner": "riley",
       "marker": "RILEY_CASTING_PLAN_v1",
       "version": 1,
-      "content": "RILEY_CASTING_PLAN_v1 ---\nPrimary Cast:\n1. Jerry Gold (Husband, VO narrator) - Deadpan News Host persona. Flat delivery is essential.\n2. Zoe Sparks (Wife, on-camera) - Optimistic Teacher persona. Sells the \"did he really just blame the clock?\" beat.\n3. Lena Cut (Mother-in-law, near-miss victim) - Pageant Judge persona. High-energy reaction to the falling clock.\n\nAdaptation Notes:\n- Zoe: Casual home wardrobe, no costume. Concerned wife reacting to a real event.\n- Lena: Add reading glasses or upscale casual cardigan to read as visiting mother-in-law.\n- Jerry: No adaptation. Pure deadpan required.\n\nShot Intent:\n- Setup: Clock on wall visible. Zoe reacting with concern. Lena exasperated about near-miss.\n- Punchline: Jerry's face (or wider shot with shrug) as he delivers \"Always late.\" Humor is in his refusal to take the situation seriously.\n\nStatus: Ready for Iris visual concept.",
-      "created_at": "2026-03-18 17:46:33",
-      "updated_at": "2026-03-18 17:46:33"
+      "content": "RILEY_CASTING_PLAN_v1 from scratch. IMPORTANT: Do NOT cast Lena (African American character) as the mother-in-law in this joke \u2014 the joke is about wishing the MIL got hit by a clock. Bad optics. Use Riley or Tasha for the mother-in-law role instead.",
+      "created_at": "2026-03-18 17:59:15",
+      "updated_at": "2026-03-18 17:59:15"
     }
   ]
 }
