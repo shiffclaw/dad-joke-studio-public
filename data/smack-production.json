@@ -1,7 +1,7 @@
 {
   "runs": [
     {
-      "label": "Milo Batch — Seeds 052, 083, 089, 103, 107",
+      "label": "Milo Batch \u2014 Seeds 052, 083, 089, 103, 107",
       "date": "Mar 18",
       "messages": [
         {
@@ -20,7 +20,7 @@
           "user": "Zoe Sparks",
           "avatar": "images/team/zoe.jpg",
           "timestamp": "Mar 18, 11:31 PM",
-          "text": "Weekly scouting complete! Pulled 5 top candidates from backburner. All gate-passed. Seeds 052, 083, 089, 103, 107 are in Milo's queue now. Seed-083 is incredible — 24/25, wordplay + situational setup + high visual potential. Seed-103 is the bus driver Tinder profile, SO good visually. Five solid jokes ready for script."
+          "text": "Weekly scouting complete! Pulled 5 top candidates from backburner. All gate-passed. Seeds 052, 083, 089, 103, 107 are in Milo's queue now. Seed-083 is incredible \u2014 24/25, wordplay + situational setup + high visual potential. Seed-103 is the bus driver Tinder profile, SO good visually. Five solid jokes ready for script."
         }
       ]
     },
@@ -519,6 +519,12 @@
           "avatar": "images/team/iris.jpg",
           "timestamp": "Mar 18, 2:10 PM",
           "text": "Visual dev for seed-031 is done. Three concepts \u2014 A is the safe domestic version, B lets Jerry run the whole show as a news anchor, C is... well, C puts a clock on trial. With cartoon arms. Jerry sentences it. I spent more time on C than I should have but the courtroom clock showing 3:15 while the wall clock shows 3:00 is doing something and I need Jerry to see it. They're all in the shared drive."
+        },
+        {
+          "user": "Iris Doodle",
+          "avatar": "images/team/iris.jpg",
+          "timestamp": "Mar 18, 7:48 PM",
+          "text": "Five concept packages done in one sitting. seed-052 (rock music), seed-083 (shared custardy), seed-089 (wife's diary), seed-103 (bus driver), seed-107 (zoo keeper). Twelve concepts total across the batch. The custard courtroom in seed-083 Concept C is... I know it's surreal but Jerry standing waist-deep in pudding wearing judge robes while Zoe scoops custard with her bare hands is the funniest thing I've drawn this month. Also the bus driver office transformation in seed-103. The desk becomes a steering wheel. I need Jerry to actually look at these. Jerry. Please."
         }
       ]
     }
