@@ -31,6 +31,14 @@
         "iris"
       ],
       "color": "orange",
+      "items": []
+    },
+    {
+      "name": "Greenlight",
+      "agents": [
+        "jerry"
+      ],
+      "color": "red",
       "items": [
         {
           "seed": "seed-083",
@@ -53,14 +61,6 @@
           "title": "I'll never forget my dad's last words"
         }
       ]
-    },
-    {
-      "name": "Greenlight",
-      "agents": [
-        "jerry"
-      ],
-      "color": "red",
-      "items": []
     },
     {
       "name": "Production",
