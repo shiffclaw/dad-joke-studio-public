@@ -39,6 +39,14 @@
         "jerry"
       ],
       "color": "red",
+      "items": []
+    },
+    {
+      "name": "Production",
+      "agents": [
+        "vince"
+      ],
+      "color": "ink",
       "items": [
         {
           "seed": "seed-052",
@@ -61,14 +69,6 @@
           "title": "This girl I've been dating just got a jo..."
         }
       ]
-    },
-    {
-      "name": "Production",
-      "agents": [
-        "vince"
-      ],
-      "color": "ink",
-      "items": []
     },
     {
       "name": "QA",
