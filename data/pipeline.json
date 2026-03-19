@@ -39,14 +39,6 @@
         "jerry"
       ],
       "color": "red",
-      "items": []
-    },
-    {
-      "name": "Production",
-      "agents": [
-        "vince"
-      ],
-      "color": "ink",
       "items": [
         {
           "seed": "seed-173",
@@ -69,6 +61,14 @@
           "title": "I volunteered at a wild animal rescue to..."
         }
       ]
+    },
+    {
+      "name": "Production",
+      "agents": [
+        "vince"
+      ],
+      "color": "ink",
+      "items": []
     },
     {
       "name": "QA",
