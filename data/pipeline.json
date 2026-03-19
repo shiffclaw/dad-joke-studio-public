@@ -31,6 +31,14 @@
         "iris"
       ],
       "color": "orange",
+      "items": []
+    },
+    {
+      "name": "Greenlight",
+      "agents": [
+        "jerry"
+      ],
+      "color": "red",
       "items": [
         {
           "seed": "seed-052",
@@ -53,14 +61,6 @@
           "title": "This girl I've been dating just got a jo..."
         }
       ]
-    },
-    {
-      "name": "Greenlight",
-      "agents": [
-        "jerry"
-      ],
-      "color": "red",
-      "items": []
     },
     {
       "name": "Production",
