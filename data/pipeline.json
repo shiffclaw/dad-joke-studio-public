@@ -39,28 +39,7 @@
         "jerry"
       ],
       "color": "red",
-      "items": [
-        {
-          "seed": "seed-084",
-          "title": "I cut my hand badly and went to the emer..."
-        },
-        {
-          "seed": "seed-106",
-          "title": "My wife think it is weird that I stare t..."
-        },
-        {
-          "seed": "seed-188",
-          "title": "I got thrown out of my local park after ..."
-        },
-        {
-          "seed": "seed-260",
-          "title": "I gorged on 14 cans of alphabet soup a f..."
-        },
-        {
-          "seed": "seed-313",
-          "title": "A gingerbread man went to the doctor\u2019s c..."
-        }
-      ]
+      "items": []
     },
     {
       "name": "Production",
@@ -68,7 +47,16 @@
         "vince"
       ],
       "color": "ink",
-      "items": []
+      "items": [
+        {
+          "seed": "seed-106",
+          "title": "My wife think it is weird that I stare t..."
+        },
+        {
+          "seed": "seed-313",
+          "title": "A gingerbread man went to the doctor\u2019s c..."
+        }
+      ]
     },
     {
       "name": "QA",
