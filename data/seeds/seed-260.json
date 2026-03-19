@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:16:33.752905+00:00"
+    "updated_at": "2026-03-19T14:18:26.429058+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-260\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-260\nedit_level: polish\n\nscript:\n- setup: \"I gorged on 14 cans of alphabet soup.\"\n- punchline: \"Ended up with a crippling vowel movement.\"\n- tag: ~\n\nchanges_made: Cut \"a few days ago\" \u2014 the time reference adds nothing and costs a beat. Changed \"having\" to \"with\" \u2014 fractionally crisper. Kept \"14 cans\" (specific numbers are funnier than round ones; 14 implies someone counted and kept going), kept \"crippling\" (it's doing real work; it commits to the bit in a way \"severe\" doesn't), kept \"vowel movement\" intact and untouched. The punchline was already correct.\n\ncaption_notes: Two cards. Setup: \"I gorged on 14 cans of alphabet soup.\" Punchline: \"Ended up with a crippling vowel movement.\" \u2014 punchline must read as one unbroken phrase. Do not wrap between \"vowel\" and \"movement.\" The two-word unit needs to land as a unit before the brain maps it to \"bowel movement.\"\n\ntiming_notes: Setup matter-of-fact \u2014 this is a fact being reported, not a confession. No shame, no build. 0.4s pause. Punchline flat. \"Crippling\" is the emotional payload \u2014 let it sit for a fraction before \"vowel movement\" follows. Don't rush the phrase. The audience is doing pronunciation work while the punchline plays, and they need the time.\n\ntts_notes: Confirm TTS reads \"vowel\" \u2014 not \"bowel.\" The joke is entirely dependent on TTS saying VOW-el. Some pipelines auto-correct or mishear. Verify audio before assembly. Phonetic confirmation: VOW-el MOO-vement.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-19T14:16:33.752905+00:00",
       "updated_at": "2026-03-19T14:16:33.752905+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-260\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Narrator (14-can alphabet soup incident, aftermath) | Iris Doodle \u2014 Inventor persona (adapted: Person Who Made a Creative Decision with Unforeseen Consequences) | Iris's \"imaginative visual thinker / creative wildcard\" archetype fits someone who ate 14 cans of alphabet soup for reasons that made sense in the moment \u2014 a project, an experiment, an impulse that felt artistic. Her earnest, specific delivery of \"a crippling vowel movement\" is funnier coming from someone who takes language seriously. She is reporting results. The irony is total and she is not fully in on it. |\n\n**Adaptation Notes:**\n- Iris: Standard Iris look \u2014 dark brown hair with red bow, glasses. Casual home or studio setting. She may be slightly recovered, slightly not. One empty alphabet soup can visible somewhere in frame as environmental context \u2014 not a prop she's holding, just evidence.\n- Expression: This is clinical reporting. Iris describes the outcome with the same energy she'd use to describe a failed experiment. She is not embarrassed. She is processing.\n\n**Shot Intent:**\n- **Setup:** Iris to camera, relaxed but precise. She is recounting a decision she made. Her tone is matter-of-fact. \"I gorged on 14 cans of alphabet soup\" is delivered like a research finding \u2014 the number is exact because she counted.\n- **Punchline:** Hold on Iris. \"Ended up with a crippling vowel movement.\" Same energy, same register. She says \"crippling\" with complete accuracy \u2014 it was crippling, that is the correct word for the severity. She moves on. The audience processes \"bowel\" while she's already done with this topic.\n\n---",
+      "created_at": "2026-03-19T14:18:26.429058+00:00",
+      "updated_at": "2026-03-19T14:18:26.429058+00:00"
     }
   ]
 }

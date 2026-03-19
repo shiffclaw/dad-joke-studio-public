@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:16:33.577239+00:00"
+    "updated_at": "2026-03-19T14:18:26.253739+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-084\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-084\nedit_level: polish\n\nscript:\n- setup: \"I cut my hand badly and went to the ER. Asked the doctor if I could do my own stitches.\"\n- punchline: \"She looked at me and said... 'Suture self.'\"\n- tag: ~\n\nchanges_made: Compressed \"emergency room\" to \"ER\" \u2014 same information, one beat faster. Split into two short sentences for rhythm: the incident, then the ask. The punchline's ellipsis is structural, not stylistic \u2014 the pause before \"self\" is the moment the wordplay snaps into place. Left everything else alone.\n\ncaption_notes: Two cards. Setup: \"I cut my hand badly and went to the ER. Asked the doctor if I could do my own stitches.\" Punchline: \"She looked at me and said... 'Suture self.'\" \u2014 do not compress the ellipsis out of the punchline card. The visual pause between \"suture\" and \"self\" is part of how the pun reads on screen.\n\ntiming_notes: Setup is a report, not a buildup \u2014 brisk delivery, no drama. 0.4s pause before punchline. The doctor's line is delivered flat, like she says it without thinking, like it's not even a joke to her. Any upward inflection on \"self\" kills it. The audience catches the pun after the fact; that's the mechanism.\n\ntts_notes: \"Suture\" \u2014 SOOT-chur. If TTS renders it as \"SOO-shur\" or \"SOO-cher\" the wordplay collapses. The ellipsis must produce an audible pause between \"suture\" and \"self\" \u2014 if TTS swallows it, add a comma: \"Suture, self.\" Confirm before final assembly.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-19T14:16:33.577239+00:00",
       "updated_at": "2026-03-19T14:16:33.577239+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-084\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Patient / Narrator | Vince Clip \u2014 Handyman persona (adapted: Guy Who Cut His Hand Doing Something Practical) | Vince reports an incident the way Vince reports everything \u2014 flatly, without self-pity, like this is just another Tuesday. \"I cut my hand and went to the ER\" is a Vince sentence. His practical cynic archetype sets the register the joke needs: no drama, just facts, just the outcome. |\n| Doctor (female) | Zoe Sparks \u2014 Young Doctor persona | Exact persona match. Zoe delivers \"suture self\" with warm professional confidence and zero awareness that it's a pun \u2014 she says it the way she says everything: like she's delighted to have an answer ready. Her energy bouncing off Vince's flatness is the visual contrast that makes the scene work. |\n\n**Adaptation Notes:**\n- Vince: Plain casualwear. One hand with a visible bandage or gauze wrap \u2014 the injury should be legible in frame without being dramatic. No camera equipment. This is off-duty Vince.\n- Zoe: White coat over her standard wardrobe. Stethoscope optional. Clipboard in hand. Her orange-magenta hair and teal glasses are fully visible \u2014 her visual signature reads through the doctor costume. She is helpful and pleased to be helpful.\n- Setting: ER exam bay or curtained exam room. Vince seated on an exam table puts him lower in frame; Zoe standing creates natural vertical composition for 9:16.\n- No family relationship. No casting sensitivity concerns.\n\n**Shot Intent:**\n- **Setup:** Vince to camera, one bandaged hand partially visible, explaining the incident with mild exasperation. He asked a reasonable question. He is recounting the response.\n- **Punchline:** Zoe delivers her line to Vince \u2014 not to camera \u2014 with bright clinical authority. Hold on Vince's face. The beat where he processes what she said. His expression moves from neutral toward something \u2014 he doesn't commit to a reaction. The audience catches the pun while Vince is still deciding if he did.\n\n---",
+      "created_at": "2026-03-19T14:18:26.253739+00:00",
+      "updated_at": "2026-03-19T14:18:26.253739+00:00"
     }
   ]
 }

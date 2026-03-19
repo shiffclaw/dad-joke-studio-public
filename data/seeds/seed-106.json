@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:16:33.637229+00:00"
+    "updated_at": "2026-03-19T14:18:26.315599+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-106\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-106\nedit_level: polish\n\nscript:\n- setup: \"My wife thinks it's weird that I stare through the window during a heavy rainstorm.\"\n- punchline: \"It would be a lot less weird if she just let me in.\"\n- tag: ~\n\nchanges_made: Fixed \"think\" to \"thinks\" and \"it is\" to \"it's.\" Cut \"would just\" to \"just\" in the punchline \u2014 tighter without losing the register. That's the whole edit. The perspective flip (inside-looking-out \u2192 outside-looking-in) is completely intact and correctly positioned. The punchline doesn't need a single additional word.\n\ncaption_notes: Two cards. Setup: \"My wife thinks it's weird that I stare through the window during a heavy rainstorm.\" Punchline: \"It would be a lot less weird if she just let me in.\" \u2014 the punchline needs its own card; the reversal requires the audience to fully absorb the setup before the frame flips.\n\ntiming_notes: Setup conversational, mild \u2014 this is a man registering a complaint, not building toward something. He's been standing outside for a while. 0.4s pause. Punchline flat, no uplift on \"in.\" He is stating a solution. He does not consider himself the weird one. Do not punch any word in the punchline \u2014 the comedy is in the total sincerity of the delivery.\n\ntts_notes: Watch for TTS adding a rising inflection to \"rainstorm\" \u2014 some models read it as a question. It's declarative. Also watch \"let me in\" \u2014 no stress on \"me,\" no stress on \"in.\" Flat line, flat line, flat line.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-19T14:16:33.637229+00:00",
       "updated_at": "2026-03-19T14:16:33.637229+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-106\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Husband / Narrator (locked outside) | Noah Check \u2014 Dad persona (adapted: Man Who Has Assessed the Situation and Found His Wife's Logic Wanting) | The entire joke hinges on the narrator delivering \"it would be a lot less weird if she just let me in\" as a completely sincere, rational observation \u2014 with no awareness that he is the problem. That is Noah's exact archetype. Compliance comedy. Rational foil. He has evaluated the situation. His analysis is correct, as far as he's concerned. |\n\n**Adaptation Notes:**\n- Noah: Casual home wardrobe \u2014 he was inside when this started. Now he is outside. His hair may be slightly damp. He may or may not have an umbrella that is not fully doing its job. No briefcase, no official gear \u2014 this is Noah at home, doing something inexplicable.\n- The wife is not on screen. Her presence is the warm light and her silhouette visible through the window behind Noah \u2014 she exists as the implicit audience for his explanation.\n- Setting: Exterior shot, rain visible or implied by wet environment. The window of the house is visible behind Noah, interior light glowing. He is out there. She is in there. He is fine with this.\n\n**Shot Intent:**\n- **Setup:** Noah to camera, standing in the rain, mildly aggrieved. He gestures very slightly toward the house. He is presenting his wife's complaint as the confusing part of this story.\n- **Punchline:** Hold on Noah. No gesture, no pointing, no shrug. He states the fix as if it is obvious and has been obvious the whole time. His expression is reasonable, patient, unbothered. The audience is ahead of him. He is not.\n\n---",
+      "created_at": "2026-03-19T14:18:26.315599+00:00",
+      "updated_at": "2026-03-19T14:18:26.315599+00:00"
     }
   ]
 }

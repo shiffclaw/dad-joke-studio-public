@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:16:33.695018+00:00"
+    "updated_at": "2026-03-19T14:18:26.370459+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-188\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-188\nedit_level: polish\n\nscript:\n- setup: \"I got thrown out of my local park for arranging the squirrels by height.\"\n- punchline: \"Turns out nobody likes critter sizing.\"\n- tag: ~\n\nchanges_made: Changed \"after arranging\" to \"for arranging\" \u2014 tighter causal link. Added \"Turns out\" to open the punchline \u2014 it frames the line as a discovered universal truth, which is funnier than a personal grievance. Changed \"didn't like me critter sizing\" to \"nobody likes critter sizing\" \u2014 the generalization is better; this is apparently a park-wide policy, maybe a broader social consensus, and the narrator is just finding out.\n\ncaption_notes: Two cards. Setup: \"I got thrown out of my local park for arranging the squirrels by height.\" Punchline: \"Turns out nobody likes critter sizing.\" \u2014 \"critter sizing\" should ideally be bolded or highlighted on the punchline card to give the viewer a visual beat to parse \"criticizing\" underneath it.\n\ntiming_notes: Setup delivered with mild aggrievement \u2014 he was ejected for something that seemed reasonable. 0.4s pause. Punchline at normal pace with slight emphasis on \"critter\" \u2014 it needs to hit clearly enough that the listener catches \"criticizing\" a half-second after landing. Do not rush the final word. Hold it just slightly.\n\ntts_notes: \"Critter sizing\" \u2014 KRIT-er SY-zing. The second syllable of \"sizing\" needs stress: SY, not siz. If the syllable stress is wrong the wordplay gets muddy. Phonetic fallback: \"KRIT-er SY-zing.\"\n\nquality_flag: solid\n\n---",
       "created_at": "2026-03-19T14:16:33.695018+00:00",
       "updated_at": "2026-03-19T14:16:33.695018+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-188\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Narrator (ejected from park, squirrel height incident) | Milo Quip \u2014 Snarky Student persona (adapted: Teen Who Did This and Sees No Problem With It) | The joke requires a narrator who arranged squirrels by height and will describe the ejection as the unreasonable part of the story. Milo's \"youth skeptic / punchline sniper\" archetype delivers the absurdist premise with complete deadpan sincerity \u2014 he would do this, it made sense at the time, and he is mildly aggrieved to have been ejected for it. The indignation is real. He stands by the activity. |\n\n**Adaptation Notes:**\n- Milo: Casual teen wardrobe. Post-ejection energy \u2014 slightly disheveled, maybe a leaf on his jacket. Could be sitting just outside the park gate or on a bench nearby. No props required, but a park-adjacent setting (bench, grass, fence line) establishes the scene immediately.\n- Visual background option for setup shot: 2-3 squirrels arranged in ascending height visible in background illustration \u2014 small, medium, large, spaced evenly. They should look deliberate. The arrangement is tidy. This is the work.\n\n**Shot Intent:**\n- **Setup:** Milo to camera, describing the incident with mild affront. His body language is still slightly in the \"arranging\" posture \u2014 arms at different heights, maybe. He was doing something organized. He was interrupted.\n- **Punchline:** Hold on Milo. \"Turns out nobody likes critter sizing.\" He delivers this as a universal law of nature he has only just discovered. His expression does not change after the punchline. He still doesn't see the problem. He might do it again.\n\n---",
+      "created_at": "2026-03-19T14:18:26.370459+00:00",
+      "updated_at": "2026-03-19T14:18:26.370459+00:00"
     }
   ]
 }
