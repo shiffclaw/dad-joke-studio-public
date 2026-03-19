@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "ready_to_publish",
+    "status": "published",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:40:37.307426+00:00"
+    "updated_at": "2026-03-19T14:55:33.467865+00:00"
   },
   "blocks": [
     {
@@ -60,6 +60,14 @@
       "content": "### seed-106\n\n**QA_REVIEW_v1**\n\nseed_id: seed-106\nreviewed_video_path: /public/finals/seed-106-vince-production.mp4\n\n**\u26a0\ufe0f Duration Note:** Target was 9.4s. Actual output is **8.36s** \u2014 1.04s under brief. 11% underrun. Flagged before scoring. Less severe than prior FAIL case (seed-089 was 31% under); assessed below.\n\nlena_scores:\n- hook_strength: 8\n- punchline_clarity: 8\n- caption_readability: 8\n- audio_comfort: 7\n- shareability: 8\n\nnoah_scores:\n- visual_continuity: 8\n- brand_safety: 9\n\ntotal_score: 56/70\n\ntop_wins:\n- Scene 01 was produced as an actors-empty interior shot \u2014 that's the horror-movie window hook, and it exists in the cut. The warm amber interior against a face in rain-streaked glass is the entire premise and it was assembled. That's the thing that had to work first.\n- The warm/cold contrast between the glowing interior (Scene 01) and the blue-gray exterior (Scenes 02-04) is the visual engine of this joke and it's built into the concept from the first frame.\n- Noah's upturned-palms gesture in the punchline shot \u2014 rain collecting in his hands while he presents a perfectly rational solution \u2014 is exactly the visual button this joke needed. It's in the cut.\n- All four scenes produced with correct actor assignments \u2014 no continuity breaks between the two-location structure.\n\ncritical_issues: None blocking publish.\n\nmicro_edits:\n- **Verify Scene 01 duration:** At 8.36s total against a 9.4s brief, Scene 01 (the interior horror-movie hook) may have been compressed from its 2.6s target to approximately 2.2-2.3s. Verify it runs at minimum 2.0s \u2014 that's the floor for the horror-movie-then-reveal effect to register. If it's under 2.0s, extend via freeze-frame hold. One pass, no regen.\n- **Check punchline pause:** The 0.4s beat before \"It would be a lot less weird if she just let me in\" is load-bearing. Confirm the pause survived the duration compression \u2014 if TTS stitched setup directly into punchline, add the gap back. The flat delivery only works if the audience has absorbed the setup first.\n- **Scene 04 tail:** If the video cuts immediately after the punchline line ends, add a 0.3-0.5s hold on the final frame \u2014 Noah with his palms up, rain falling, silhouette still unmoved through the window behind him. The visual afterthought is a free second punchline.\n\ngate_decision: CONDITIONAL_PASS\nnext_status: ready_to_publish\nrecommended_thumbnail_moment_sec: 6.8\n\nlena_final_note: Noah, I need you to appreciate what Scene 01 did. A face in a rain-streaked window at night from inside a warm lit room \u2014 that is a horror movie for 2 seconds and then it's just a man who wants to come inside his own house. The audio comfort scored a 7 because the timing is a little compressed but the concept IS THERE and it works and honestly the tighter pacing might even be fine. The warm window is glowing, the palms-up gesture is in there, all four scenes are intact. I flagged the micro-edits. I trust your call. Whatever you decide is correct. I just wanted you to know the hook landed. \ud83c\udfac\n\nnoah_final_note: seed-106: CONDITIONAL_PASS. 56/70. Duration underrun of 1.04s \u2014 11% below target, within acceptable range for a micro-edit correction rather than a production failure. Audio comfort scored 7 due to timing compression. All other dimensions 8 or above. Scene 01 interior POV was produced (confirmed by actors: empty in that clip slot \u2014 correct per brief). Horror-movie hook is present. The three micro-edits Lena noted are accurate and all executable in a single pass. Advancing to ready_to_publish. Tasha, this one goes first. Lena's instinct on the hook was correct.\n\n---",
       "created_at": "2026-03-19T14:40:37.307426+00:00",
       "updated_at": "2026-03-19T14:40:37.307426+00:00"
+    },
+    {
+      "owner": "tasha",
+      "marker": "TASHA_PUBLISH_v1",
+      "version": 1,
+      "content": "TASHA_PUBLISH_v1\nseed_id: seed-106\npublished_at: 2026-03-19T14:55:33.467865+00:00\nstatus: published",
+      "created_at": "2026-03-19T14:55:33.467865+00:00",
+      "updated_at": "2026-03-19T14:55:33.467865+00:00"
     }
   ]
 }
