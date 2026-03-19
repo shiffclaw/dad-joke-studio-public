@@ -64,16 +64,7 @@
         "tasha"
       ],
       "color": "green",
-      "items": [
-        {
-          "seed": "seed-083",
-          "title": "When my wife and I divorced, the judge m..."
-        },
-        {
-          "seed": "seed-089",
-          "title": "My wife thinks I don't respect her priva..."
-        }
-      ]
+      "items": []
     }
   ]
 }
