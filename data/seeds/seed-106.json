@@ -49,9 +49,9 @@
       "owner": "vince",
       "marker": "VINCE_PRODUCTION_v1",
       "version": 1,
-      "content": "VINCE_PRODUCTION_v1\nseed_id: seed-106\nstatus: produced\nattempt: 1\nmodel: google:4@3\nmethod: nano_banana_stills_with_ken_burns\nfinal_output_path: /public/finals/seed-106-vince-production.mp4\nscene_clips:\n  - scene_01 (actors: )\n  - scene_02 (actors: noah)\n  - scene_03 (actors: noah)\n  - scene_04 (actors: noah)\ntotal_duration: 8.36s\ntotal_cost: $0.2766\nproduced_at: 2026-03-19T14:32:27.221196+00:00",
+      "content": "VINCE_PRODUCTION_v1\nseed_id: seed-106\nstatus: produced\nattempt: 1\nmodel: google:4@3\nmethod: nano_banana_stills_with_ken_burns\nfinal_output_path: /public/finals/seed-106-vince-production.mp4\nscene_clips:\n  - scene_01 (actors: )\n  - scene_02 (actors: noah)\n  - scene_03 (actors: noah)\n  - scene_04 (actors: noah)\ntotal_duration: 8.36s\ntotal_cost: $0.2766\nproduced_at: 2026-03-19T14:32:27.221196+00:00\nyoutube_preview: https://youtube.com/shorts/ZIX2ytSLj6s",
       "created_at": "2026-03-19T14:32:27.221196+00:00",
-      "updated_at": "2026-03-19T14:32:27.221196+00:00"
+      "updated_at": "2026-03-19T14:44:10.978Z"
     },
     {
       "owner": "qa",
