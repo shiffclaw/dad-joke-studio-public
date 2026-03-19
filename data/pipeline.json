@@ -15,6 +15,14 @@
         "milo"
       ],
       "color": "green",
+      "items": []
+    },
+    {
+      "name": "Casting",
+      "agents": [
+        "riley"
+      ],
+      "color": "purple",
       "items": [
         {
           "seed": "seed-084",
@@ -37,14 +45,6 @@
           "title": "A gingerbread man went to the doctor\u2019s c..."
         }
       ]
-    },
-    {
-      "name": "Casting",
-      "agents": [
-        "riley"
-      ],
-      "color": "purple",
-      "items": []
     },
     {
       "name": "Visual Dev",
