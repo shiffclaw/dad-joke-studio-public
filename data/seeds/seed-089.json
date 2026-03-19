@@ -10,7 +10,7 @@
     "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:02:17.938983+00:00"
+    "updated_at": "2026-03-19T00:04:10.695368+00:00"
   },
   "blocks": [
     {
@@ -33,9 +33,9 @@
       "owner": "riley",
       "marker": "RILEY_CASTING_PLAN_v1",
       "version": 1,
-      "content": "Request was aborted.",
+      "content": "### seed-089\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Husband / Narrator | Jerry Gold \u2014 Classic Dad (adapted: Accidentally Self-Incriminating Husband) | \"Authority with blind spots.\" Jerry is genuinely defending himself. The diary is not contraband to him \u2014 it's evidence. He found her entry. He is citing it. He sees no problem. The punchline only works if the husband believes every word, and Jerry believes every word. |\n| Wife (background presence) | Zoe Sparks \u2014 Optimistic Teacher (adapted: Privacy-Conscious Wife) | Zoe's reaction energy is the audience surrogate. She doesn't need lines. Her progression from \"arms crossed\" to \"hands over mouth, vindicated\" is the emotional arc the joke needs to land visually. She knows what he doesn't know. |\n\n**Adaptation Notes:**\n- Jerry: Home casual. No blazer needed. This is a living room confession, not a job interview.\n- The diary prop is load-bearing. Small. Pink. Heart clasp. Jerry holds it like a man presenting documentation for a legal defense. If Iris's chosen concept uses it physically, that is non-negotiable for the visual payoff.\n- Zoe: Background or doorway. Two states \u2014 suspicious, then vindicated. She earns nothing from this except being right.\n\n**Shot Intent:**\n- **Setup:** Jerry to camera, casual defensive energy. One hand slightly raised in the \"let me explain\" position. Zoe visible but not focused on. He is not talking to her. He is talking to us, his witnesses.\n- **Punchline:** Jerry holds the open diary toward camera. Still earnest. Still certain he's making his case. Zoe's reaction is visible \u2014 the wider the eyes the better. The word \"diary\" is the detonator. Everything before it is fuse.\n\n---",
       "created_at": "2026-03-19T00:02:17.938983+00:00",
-      "updated_at": "2026-03-19T00:02:17.938983+00:00"
+      "updated_at": "2026-03-19T00:04:10.695368+00:00"
     }
   ]
 }

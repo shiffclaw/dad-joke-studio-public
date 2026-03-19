@@ -10,7 +10,7 @@
     "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:02:18.019149+00:00"
+    "updated_at": "2026-03-19T00:04:10.752451+00:00"
   },
   "blocks": [
     {
@@ -33,9 +33,9 @@
       "owner": "riley",
       "marker": "RILEY_CASTING_PLAN_v1",
       "version": 1,
-      "content": "Request was aborted.",
+      "content": "### seed-103\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Bus Driver / Tinder Profile Author (narrator) | Jerry Gold \u2014 Classic Dad (adapted: Genuinely Proud Bus Driver) | This is the one Jerry is irreplaceable for. The joke requires a narrator who reads his own Tinder profile with sincere pride and sees zero gap between \"corner office with city views\" and a bus cab. Jerry's \"authority with blind spots\" is not a quirk here \u2014 it IS the joke. He told the truth. He knows it. He's waiting for your admiration. |\n| Tinder Date (Concept B only) | Zoe Sparks \u2014 Overexcited Rep (adapted: Genuinely Impressed First Date) | Zoe frozen mid-sip as she does the math in real time. Wide eyes behind teal frames. The water glass doesn't move. She is recalculating everything she thought she knew about this date. |\n\n**Adaptation Notes:**\n- Jerry: Two wardrobe states depending on concept. For the profile/Concept A: cleaned-up date look, teal blazer. For Concept A's punchline reveal: bus driver uniform (blue, cap, name tag). For Concept B: date night outfit throughout, no uniform change needed \u2014 the reveal is verbal.\n- Key direction across all concepts: Jerry's expression does not change between setup and punchline. Same pride. Same sincerity. Same posture. The comedy is the environment shifting around a man who has not shifted at all.\n- Zoe (Concept B only): Nice blouse. Teal earrings. Date-appropriate. The water glass near her lips in Scene 4 is the money shot \u2014 Iris should hold that image.\n\n**Shot Intent:**\n- **Setup:** Jerry with mild pride. Stating facts. His Tinder profile is excellent and he would like you to know that.\n- **Punchline:** Jerry in bus driver seat (Concepts A/C) or folded hands at the restaurant table (Concept B). Same expression. Same pride. He told the truth. The corner office is real. The city views are real. The six-figure vehicle is real. He does not understand why you're making a face.\n\n---",
       "created_at": "2026-03-19T00:02:18.019149+00:00",
-      "updated_at": "2026-03-19T00:02:18.019149+00:00"
+      "updated_at": "2026-03-19T00:04:10.752451+00:00"
     }
   ]
 }

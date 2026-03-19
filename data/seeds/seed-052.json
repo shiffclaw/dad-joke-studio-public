@@ -10,7 +10,7 @@
     "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:02:17.787450+00:00"
+    "updated_at": "2026-03-19T00:04:10.577068+00:00"
   },
   "blocks": [
     {
@@ -33,9 +33,9 @@
       "owner": "riley",
       "marker": "RILEY_CASTING_PLAN_v1",
       "version": 1,
-      "content": "Request was aborted.",
+      "content": "### seed-052\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Narrator (solo, academic brag) | Vince Clip \u2014 Commentator persona | Deadpan delivery, zero irony. Vince isn't performing a joke; he's just explaining his degree. His \"process realist\" energy makes the pun land exactly because he sincerely believes rock music is the natural result of Geology + Piano. Solo jokes live or die on flat affect. Vince has the flattest affect on the roster. |\n\n**Adaptation Notes:**\n- Campus-adjacent wardrobe. Vince in a dark jacket, no goatee if Iris needs a cleaner read, though keep the spiky hair \u2014 it's his identity lock.\n- Optional props: a small geology hammer OR piano keys visible in background \u2014 not both. Or just a clean neutral background; this joke doesn't need visual support from the environment.\n- Solo shot. No supporting cast needed. Reaction comes from the audience, not another character.\n\n**Shot Intent:**\n- **Setup:** Vince to camera. Slightly tired, like he's been explaining his degree for 20 years. Flat. \"I double majored in Geology and Piano.\" No enthusiasm. No shame. This is just what happened.\n- **Punchline:** Same frame, same affect, no shift in energy. \"I've always had a passion for rock music.\" He means it. He sees no joke here. The punchline is the punchline precisely because Vince isn't winking at it.\n\n---",
       "created_at": "2026-03-19T00:02:17.787450+00:00",
-      "updated_at": "2026-03-19T00:02:17.787450+00:00"
+      "updated_at": "2026-03-19T00:04:10.577068+00:00"
     }
   ]
 }

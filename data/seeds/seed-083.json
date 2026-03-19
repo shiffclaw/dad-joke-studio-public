@@ -10,7 +10,7 @@
     "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:02:17.865599+00:00"
+    "updated_at": "2026-03-19T00:04:10.637532+00:00"
   },
   "blocks": [
     {
@@ -33,9 +33,9 @@
       "owner": "riley",
       "marker": "RILEY_CASTING_PLAN_v1",
       "version": 1,
-      "content": "Request was aborted.",
+      "content": "### seed-083\n\n**RILEY_CASTING_PLAN_v1**\n\n**Diversity flag:** Iris ran ahead of casting on this one and assigned Jerry as the divorced husband. I'm swapping Jerry and Noah. Noah narrates; Jerry sits on the bench. Better rotation, better character fit. Iris \u2014 this is a character name swap in your existing concepts, not a rebuild. The blocking, expressions, and scene structure all hold.\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Divorced Husband / Narrator | Noah Check \u2014 Dad persona (adapted: Exasperated Divorced Dad) | \"Compliance comedy.\" Noah is exactly the man who received an absurd court ruling and just... accepted it. He's not bitter. He filed the paperwork. He runs his half of the pudding shop. He explains his custody arrangement the way he explains a home insurance claim \u2014 mild inconvenience, procedural fact. \"We now have shared custardy\" lands 40% funnier from Noah than from Jerry because Noah sounds like he's reading from the actual court document. |\n| Ex-Wife (background visual anchor) | Zoe Sparks \u2014 Goofball Neighbor (adapted: Estranged Co-Owner) | Zoe on the other side of the divide. She is fine. She has thrived. Her energy (bubbly, undefeated) is the visual counterweight to Noah's resigned acceptance. She arranged her half of the shop with better signage. She found the shared custardy arrangement charming. This is deeply unfair to Noah. |\n| Judge | Jerry Gold \u2014 PTA/Coach Dad (adapted: Procedural Authority) | Jerry as the judge who issued this ruling with complete bureaucratic solemnity is excellent use of his \"authority with blind spots\" archetype. He thought \"shared custardy\" was well-worded. He is proud of it. He gaveled it in without hesitation. |\n\n**Adaptation Notes:**\n- Noah: No ring. Slightly rumpled business casual \u2014 a man who has been through some things but is maintaining. This is not a crisis; this is just his life now.\n- Zoe: Matching apron (Concept B shop) or tidy filing (Concept A courtroom). She's the one who kept the plants alive during the divorce.\n- Jerry: Judicial robes. Gavel. He is performing authority and doing it well. He has no awareness that the pun is a pun.\n- **Iris direction:** In your existing concept scenes, swap character assignments. Noah is now where Jerry was described (defendant's table / shop counter). Jerry is now where Noah was described (judge's bench / elevated position). Blocking, expressions, and prop notes all apply to the swapped characters.\n\n**Shot Intent:**\n- **Setup:** Noah to camera, mid-exasperation. The divorce was two years ago. He's past the anger phase. He's just explaining. Zoe is visible in the background, seemingly content. Jerry (as judge) is visible in elevated position if Concept A courtroom is used.\n- **Punchline:** Hold on Noah. Resigned. Flat. \"We now have shared custardy.\" He says it like reading from a filing. He made peace with this. The pun hasn't occurred to him.\n\n---",
       "created_at": "2026-03-19T00:02:17.865599+00:00",
-      "updated_at": "2026-03-19T00:02:17.865599+00:00"
+      "updated_at": "2026-03-19T00:04:10.637532+00:00"
     }
   ]
 }
