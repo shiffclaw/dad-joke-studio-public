@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:58:48.344372+00:00"
+    "updated_at": "2026-03-19T15:03:59.045575+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-239\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-239\nedit_level: pass-through\n\nscript:\n- setup: \"I told my wife she was drawing her eyebrows too high.\"\n- punchline: \"She looked surprised.\"\n- tag: ~\n\nchanges_made: Minimal \u2014 raw was already correct. No attribution to strip, no filler to cut, no structural problem. The setup plants the visual expectation of eyebrow placement and the punchline is the result: high eyebrows produce a surprised expression. It's a two-sentence joke that is already at its minimum viable size. Any edit would be subtraction. I didn't subtract anything.\n\ncaption_notes: Two cards. Setup: \"I told my wife she was drawing her eyebrows too high.\" Punchline: \"She looked surprised.\" \u2014 three words. The period after \"surprised\" is the only punctuation needed. Do not add an exclamation mark. Flat delivery, flat punctuation. The joke lands by itself.\n\ntiming_notes: Setup conversational, flat \u2014 a husband reporting a minor observation. Not a buildup, not a complaint. Just a fact he's relaying. 0.4s pause. Punchline deadpan. \"Surprised\" is the last word and carries both meanings \u2014 do not stress it, do not draw it out. State it. Move on. The less you do with the punchline, the harder it lands.\n\ntts_notes: No issues. Watch for TTS adding any rise in pitch on \"surprised\" \u2014 the word is declarative, not a question, not a punchline wink. Flat statement.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-19T14:58:48.344372+00:00",
       "updated_at": "2026-03-19T14:58:48.344372+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-239\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Husband / Narrator | Jerry Gold \u2014 Classic Dad persona | \"I told my wife she was drawing her eyebrows too high\" is a Jerry sentence in Jerry's voice at Jerry's energy level \u2014 mild, observational, unbothered. His flat delivery of the setup and his complete absence of reaction during the punchline is the comedic register the joke needs. He said a thing. He is reporting it. The result is not his problem. |\n| Wife | Zoe Sparks \u2014 Optimistic Teacher persona (adapted: Wife with Very High Eyebrows) | The entire punchline is a facial expression. It has to be on screen, legible, and undeniable. Zoe's expressiveness is the highest in the cast \u2014 her round teal glasses frame her eyes well, her face reads on small screens, and her eyebrows are clearly visible. The joke's visual requires her eyebrows to be drawn comically high on her forehead, creating a permanently startled expression. She doesn't know her expression looks this way. She looks exactly the way someone would look if they had just been told they looked surprised. |\n\n**Adaptation Notes:**\n- Jerry: Standard casual home wardrobe. He is a man who just told his wife something. He may still be looking at her. He may have looked away. Either works. No props needed.\n- Zoe: Standard Zoe presentation \u2014 orange-magenta two-tone hair, round teal glasses \u2014 with one critical visual modification: her eyebrows must be drawn/rendered noticeably higher on her forehead than anatomically normal. Not absurdist, not clown-level \u2014 just high enough that her resting expression reads as perpetually, mildly startled. This is the product of her own handiwork. She believes they look fine.\n- Family believability: Jerry (white male ~37) + Zoe (white female ~27) = plausible married couple.\n\n**Shot Intent:**\n- **Setup:** Jerry to camera, casual and flat. He is reporting an observation about his wife. His expression is mild, the face of someone who noticed something and mentioned it. Zoe is visible in the background or over his shoulder \u2014 slightly out of focus in the setup, her eyebrows present but not yet the subject.\n- **Punchline:** Hold on Zoe. Full face, in focus. Her eyebrows are very high. Her expression reads exactly as surprised \u2014 wide-eyed, eyebrows lifted, a look of mild perpetual astonishment \u2014 because that is what very high eyebrows do to a face. She is not aware that she looks this way. She looks this way.\n\n---",
+      "created_at": "2026-03-19T15:03:59.045575+00:00",
+      "updated_at": "2026-03-19T15:03:59.045575+00:00"
     }
   ]
 }

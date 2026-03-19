@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:58:48.228380+00:00"
+    "updated_at": "2026-03-19T15:03:58.912574+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-176\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-176\nedit_level: polish\n\nscript:\n- setup: \"I started a company where you can rent hunting dogs \u2014 but you have to give them back when asked.\"\n- punchline: \"We Lease the Hounds.\"\n- tag: ~\n\nchanges_made: Compressed \"borrow hunting dogs so long as you return them promptly when asked\" \u2014 \"rent\" is crisper than \"borrow,\" and \"give them back when asked\" is more natural spoken English than \"return them promptly when asked.\" The return condition has to be in the setup because it's what makes the company name work \u2014 \"lease\" implies temporary use and return. Everything else was already correct.\n\ncaption_notes: Two cards. Setup: \"I started a company where you can rent hunting dogs \u2014 but you have to give them back when asked.\" Punchline: \"We Lease the Hounds.\" \u2014 the punchline is a company name, so sentence case and no period. The capital letters on \"We Lease the Hounds\" on screen reinforce that this is a proper noun (brand name), which helps the listener parse \"lease\" / \"release.\"\n\ntiming_notes: Setup at steady informational pace \u2014 the narrator is pitching a business concept. Small natural pause after the em-dash before \"but you have to give them back\" \u2014 that phrase is the detail that makes the name funny. 0.4s pause before punchline. Punchline delivered with mild boardroom authority, like announcing a company name at a presentation. \"Lease\" should be naturally stressed in context; do not over-stress it or it telegraphs the pun.\n\ntts_notes: \"We Lease the Hounds\" \u2014 TTS should render this as: we LEESE the hownds (standard pronunciation). The wordplay relies on the listener parsing \"We Lease\" as the beginning of \"release.\" No pronunciation correction needed; the pun is phonetic and works on standard delivery.\n\nquality_flag: solid\n\n---",
       "created_at": "2026-03-19T14:58:48.228380+00:00",
       "updated_at": "2026-03-19T14:58:48.228380+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-176\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Founder / Narrator | Iris Doodle \u2014 Startup Founder persona | \"I started a company where...\" is a sentence Iris would say with genuine entrepreneurial pride. Her \"creative wildcard / aesthetic authority\" archetype delivers the business premise earnestly \u2014 she thought of this, she built it, she has a pitch deck. Announcing \"We Lease the Hounds\" as a company name with the same energy she'd announce an art exhibition title is exactly the register the joke needs: sincere, polished, proud, completely unaware of the pun in her own branding. |\n\n**Adaptation Notes:**\n- Iris: Startup-founder presentation mode \u2014 dark brown hair with red bow, glasses, a slightly more polished blazer or structured jacket over her standard aesthetic. Maybe a small logo pin or company badge that reads \"WLH\" (company initials visible but not legible). She's pitching. She has slides somewhere. She believes in this product.\n- Setting: Clean presentation-adjacent context \u2014 a minimal bright background, or a light room that implies an office or pitch meeting. Optionally: a laptop open behind her, or a simple whiteboard with \"We Lease the Hounds\" written on it \u2014 but only if the text can render legibly. If not, plain background only.\n\n**Shot Intent:**\n- **Setup:** Iris to camera, slight forward lean, the posture of someone presenting a business idea. Animated, confident, explaining the value proposition. The em-dash beat in the setup (\"but you have to give them back when asked\") is where her expression shifts to slightly more serious \u2014 she means this part.\n- **Punchline:** Iris delivers the company name with genuine founder pride \u2014 \"We Lease the Hounds\" \u2014 the way you'd say your company name at a pitch competition. Straight to camera. Shoulders back. She is proud of this name. She does not know why you would find it funny.\n\n---",
+      "created_at": "2026-03-19T15:03:58.912574+00:00",
+      "updated_at": "2026-03-19T15:03:58.912574+00:00"
     }
   ]
 }

@@ -23,6 +23,14 @@
         "riley"
       ],
       "color": "purple",
+      "items": []
+    },
+    {
+      "name": "Visual Dev",
+      "agents": [
+        "iris"
+      ],
+      "color": "orange",
       "items": [
         {
           "seed": "seed-173",
@@ -45,14 +53,6 @@
           "title": "I volunteered at a wild animal rescue to..."
         }
       ]
-    },
-    {
-      "name": "Visual Dev",
-      "agents": [
-        "iris"
-      ],
-      "color": "orange",
-      "items": []
     },
     {
       "name": "Greenlight",

@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:58:48.168296+00:00"
+    "updated_at": "2026-03-19T15:03:58.839736+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-173\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-173\nedit_level: pass-through\n\nscript:\n- setup: \"A dog limps into a saloon in the Old West.\"\n- punchline: \"Says: 'I'm lookin' for the man who shot my paw.'\"\n- tag: ~\n\nchanges_made: Minimal \u2014 split the raw into two clean beats (scene-set, then the line) and standardized punctuation. The original had it in one run-on sentence; splitting it gives the audience the visual beat of a limping dog before the dialogue lands. The \"lookin'\" contraction stays \u2014 it's doing accent work.\n\ncaption_notes: Two cards. Setup: \"A dog limps into a saloon in the Old West.\" Punchline: \"I'm lookin' for the man who shot my paw.\" \u2014 the punchline card is the entire joke. The apostrophe in \"lookin'\" should render correctly in caption formatting. \"Paw\" in isolation on its own card at the end of the line is where the double meaning lands \u2014 do not bold or highlight it, that telegraphs the joke.\n\ntiming_notes: Setup delivered at normal narration pace. 0.4s pause \u2014 give the audience time to picture the limping dog and assume this is a wounded-animal revenge story. Punchline in a slight Western drawl if TTS supports register adjustment; if not, flat delivery is fine. The joke parses on the second hearing without any vocal assistance. Do not stress \"paw.\"\n\ntts_notes: \"paw\" \u2014 one syllable, rhymes with \"pa.\" No pronunciation issue, but if TTS adds any extra stress or elongation to \"paw,\" the wordplay becomes too obvious too early. Flat, matter-of-fact delivery of the whole sentence including the final word.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-19T14:58:48.168296+00:00",
       "updated_at": "2026-03-19T14:58:48.168296+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-173\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Saloon Bartender / Scene Witness | Vince Clip \u2014 Bartender persona | Vince is the grounded human anchor in a scene that's otherwise pure absurdity. His \"process realist / scene stabilizer\" archetype puts him behind the bar watching this happen with the flat expression of a man who has seen some things, and this ranks among them. His deadpan is the visual punchline register \u2014 the dog delivers the line, Vince receives it. |\n| The Dog | Animated cartoon character \u2014 no cast anchor | The dog cannot be mapped to an existing cast member. This is a distinct illustrated character: cartoon western dog, wide-brimmed hat, bandana, visible limp on a rear leg. Designed by Iris as a one-off character for this concept only. See adaptation notes. |\n\n**Adaptation Notes:**\n- Vince: Western bartender wardrobe \u2014 collarless shirt, suspenders, bar apron. No camera equipment. His wild spiky black hair and rectangular glasses remain visible under or with the period-appropriate look. He is behind a wooden saloon bar, polishing a glass when the dog enters. He does not stop polishing the glass during the dog's line. He just watches.\n- The Dog (Iris direction): Cartoon illustration, quadruped, wearing a small wide-brimmed cowboy hat canted at a slight angle, a neckerchief, and a holster-and-belt arrangement that implies this dog came prepared. The rear left leg is visibly bent or raised \u2014 the limp is clear but not graphic. The dog stands in the saloon doorway with afternoon sun backlighting it. Expression: determined, weathered, looking for justice. Give it a slight squint. This is a dog with a mission.\n- Setting: Old West saloon interior \u2014 wooden bar, bottles on shelves behind it, sawdust floor, swinging saloon doors. The dog pushes through the swinging doors in the hook shot. Afternoon light floods in from outside.\n\n**Shot Intent:**\n- **Setup:** Establish the saloon interior \u2014 Vince behind the bar, other blurred patrons. The saloon doors swing open. Backlit silhouette of a small figure with a hat in the doorway. The figure limps forward into the light: it's the dog.\n- **Punchline:** Close-up on the dog's determined face as it delivers the line. Cut to Vince \u2014 he has stopped polishing the glass. He is looking at the dog. His expression is the expression of a man deciding whether this counts as his problem. He decides it does not. He resumes polishing the glass.\n\n---",
+      "created_at": "2026-03-19T15:03:58.839736+00:00",
+      "updated_at": "2026-03-19T15:03:58.839736+00:00"
     }
   ]
 }
