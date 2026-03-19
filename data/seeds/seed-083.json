@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:40:26.911291+00:00"
+    "updated_at": "2026-03-19T00:43:28.372699+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-083\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-083\nedit_level: polish\n\nscript:\n- setup: \"My wife and I divorced, and the judge made us split everything evenly \u2014 including our pudding shop.\"\n- punchline: \"We now have shared custardy.\"\n- tag: ~\n\nchanges_made: Trimmed the opening \"When\" \u2014 \"When my wife and I divorced\" drops in too slowly. \"My wife and I divorced\" puts you in the scenario in four words. Everything else was already correct. The punchline is untouchable and I didn't touch it.\n\ncaption_notes: Two cards. Setup: \"My wife and I divorced, and the judge made us split everything evenly \u2014 including our pudding shop.\" The em-dash is a built-in visual pause \u2014 let it breathe on screen. Punchline: \"We now have shared custardy.\" That word needs its own card and the full 3+ seconds to land.\n\ntiming_notes: Setup delivered with mild exasperation \u2014 this is a man explaining his divorce the way he'd explain a parking ticket. Not a tragedy, just a fact. 0.5s pause before punchline. Punchline flat and resigned. Do NOT punch \"custardy\" \u2014 any emphasis draws attention to the wordplay and deflates it. It lands harder when delivered like he's reading from a court document.\n\ntts_notes: \"custardy\" \u2014 TTS should parse this correctly since it rhymes with \"custody.\" If the voice model mangles it: phonetic fallback KUSS-ter-dee.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-19T00:40:26.911291+00:00",
       "updated_at": "2026-03-19T00:40:26.911291+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-083\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Divorced Husband / Narrator | Jerry Gold \u2014 Classic Dad (adapted: Exasperated Divorced Co-Owner) | The setup requires someone who explains his divorce the way he'd explain a bureaucratic inconvenience \u2014 mild exasperation, resigned acceptance, no real bitterness. Jerry's \"straight-man with absurd punchline\" archetype is the mechanism here. He delivers \"shared custardy\" like he's reading from the actual settlement document. He has filed the paperwork. He is maintaining. |\n| Ex-Wife (background visual anchor) | Zoe Sparks \u2014 Goofball Neighbor (adapted: Thriving Co-Owner, Other Side of the Tape) | Zoe on the other side of whatever visual divide the concept uses. She is doing well. Her half looks better. Her energy (undefeated, bubbly) is the visual counterweight to Jerry's resigned acknowledgment. The contrast between her half and his half tells the story before anyone speaks. |\n| Judge (optional supporting, if courtroom concept) | Noah Check \u2014 Principal persona (adapted: Procedural Family Court Judge) | Noah's \"compliance comedy\" archetype makes him the judge who issued this ruling with complete bureaucratic seriousness and no awareness that \"shared custardy\" is a pun. He gaveled it in. He is proud of the phrasing. He thinks this is a well-worded ruling. |\n\n**Adaptation Notes:**\n- Jerry: No ring. Rumple the wardrobe slightly \u2014 this man has been through something and is maintaining. Not defeated; just processed.\n- Zoe: Whatever apron, smock, or register-adjacent prop matches the setting. Her side of the divide should have more color, better organization, maybe a plant. This is non-negotiable for the visual contrast.\n- Noah (if used): Judicial robes or official attire. He sits elevated. He has a gavel. He is performing authority correctly and without any sense of irony.\n- Iris direction: The visual divide between Jerry's half and Zoe's half is the hook. Blue tape, a split sign, contrasting lighting \u2014 establish that divide in the first 1.5 seconds before anyone speaks. The pun has to live in the visuals too.\n- Family believability: Jerry (white male, ~37) + Zoe (white female, ~27) = plausible former married couple.\n\n**Shot Intent:**\n- **Setup:** Jerry to camera, mid-exasperation. One hand gesturing vaguely at the divided situation behind him. Zoe visible in the background on her side, visibly fine. The divide is present and prominent.\n- **Punchline:** Hold on Jerry. Resigned. Flat. \"We now have shared custardy.\" He says it like citing a case number. Zoe's reaction \u2014 a small wave, a delighted expression \u2014 lands as visual confirmation on the other side of the divide.\n\n---",
+      "created_at": "2026-03-19T00:43:28.372699+00:00",
+      "updated_at": "2026-03-19T00:43:28.372699+00:00"
     }
   ]
 }

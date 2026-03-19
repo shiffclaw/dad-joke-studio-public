@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:40:27.072706+00:00"
+    "updated_at": "2026-03-19T00:43:28.541439+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-301\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-301\nedit_level: polish\n\nscript:\n- setup: \"My wife asked me why I never buy her flowers.\"\n- punchline: \"I didn't even know she sold flowers.\"\n- tag: ~\n\nchanges_made: Lowercased \"Wife\" \u2014 the original had a capital W for no reason. Removed the exclamation mark from the punchline. The original \"I didn't even know she sold flowers!\" reads as surprise-comedic, but flat delivery is funnier here \u2014 this person genuinely does not understand what they did wrong and is not surprised, just confused. The exclamation turns it into a reaction beat. Losing it turns it into a revelation delivered without awareness, which is the actual joke.\n\ncaption_notes: Two cards. Setup: \"My wife asked me why I never buy her flowers.\" Punchline: \"I didn't even know she sold flowers.\" No exclamation mark on punchline card \u2014 the flatness is the bit.\n\ntiming_notes: Setup conversational, like the narrator is recalling a complaint. 0.3s pause. Punchline deadpan \u2014 this person is not performing confusion. They are genuinely confused. No uptick at the end.\n\nquality_flag: solid\n\n---",
       "created_at": "2026-03-19T00:40:27.072706+00:00",
       "updated_at": "2026-03-19T00:40:27.072706+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-301\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Husband / Narrator (literal-minded) | Noah Check \u2014 Dad persona (adapted: Genuinely Confused Husband) | This joke's mechanism is a man who heard the literal meaning of a sentence and responded to the literal meaning, without any awareness that there was another meaning available. Noah's \"rational foil\" archetype \u2014 the person who processes things exactly as stated \u2014 is the exact engine required. Jerry would probably understand the real meaning and play dumb. Noah genuinely doesn't see the gap. He's not being obtuse. He just parsed it correctly and found no flowers for sale, so the complaint makes no sense. |\n| Wife (frustrated background) | Tasha Trend \u2014 Debate Captain persona (adapted: Flowers-Requesting Wife) | Tasha asking \"why don't you buy me flowers\" with principled certainty, and then receiving the most aggravating possible response in complete sincerity \u2014 that interaction is Tasha's worst nightmare and therefore extremely funny. Her \"principled challenger\" archetype makes her the person who asked a completely reasonable relationship question and will not be getting a satisfying answer today. |\n\n**Adaptation Notes:**\n- Noah: Casual wardrobe. Slightly earnest expression throughout \u2014 this is not a man being evasive, this is a man who is genuinely confused by the complaint. He was not aware of a flowers situation.\n- Tasha: Background or over-shoulder framing. Two states: asking (confident, reasonable expectation), reacting (processing a response she cannot parse). No lines needed.\n- Family believability: Noah (white male, ~37) + Tasha (white female, ~27) = plausible married couple.\n\n**Shot Intent:**\n- **Setup:** Noah to camera, recounting the complaint with mild puzzlement in his voice. Like he's reporting a workplace incident he doesn't fully understand. Tasha partially visible in background \u2014 the originating presence.\n- **Punchline:** Noah, same flat tone, completely sincere. \"I didn't even know she sold flowers.\" He is not confused about what he said. He is confused about what the problem is. No uptick, no irony. He is waiting for this to make sense.\n\n---",
+      "created_at": "2026-03-19T00:43:28.541439+00:00",
+      "updated_at": "2026-03-19T00:43:28.541439+00:00"
     }
   ]
 }

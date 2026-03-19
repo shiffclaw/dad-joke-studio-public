@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:40:26.965330+00:00"
+    "updated_at": "2026-03-19T00:43:28.429304+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-089\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-089\nedit_level: pass-through\n\nscript:\n- setup: \"My wife thinks I don't respect her privacy.\"\n- punchline: \"At least, that's what she wrote in her diary.\"\n- tag: ~\n\nchanges_made: Added a comma after \"At least\" \u2014 creates the micro-beat the punchline needs before \"that's what she wrote\" lands. The speaker starts the sentence confident and runs directly into his own confession. The comma makes him briefly sound like he's building a defense before the word \"diary\" detonates at the end. Raw was structurally clean. That was the only change.\n\ncaption_notes: Two cards. Setup: \"My wife thinks I don't respect her privacy.\" Punchline: \"At least, that's what she wrote in her diary.\" The punchline card should have room \u2014 the joke detonates on the last word and the viewer needs a beat to process the full implication.\n\ntiming_notes: Setup casual, throwaway \u2014 the delivery of a man mildly defending himself from a false accusation. 0.4s pause. Punchline starts confident and loses steam on \"diary\" \u2014 the delivery should trail slightly on the final word, like the speaker catches what he just said about 0.2 seconds too late. If TTS can't do trailing inflection, flat delivery still works fine; the logic does the job.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-19T00:40:26.965330+00:00",
       "updated_at": "2026-03-19T00:40:26.965330+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-089\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Husband / Narrator (self-incriminating) | Jerry Gold \u2014 Classic Dad (adapted: Earnestly Defensive Husband) | \"Authority with blind spots\" IS the joke. Jerry genuinely believes he is defending himself. The diary is not evidence against him \u2014 it is evidence FOR him. He found her entry, he is citing it, he sees no problem. The punchline only detonates if the narrator delivers it with complete sincerity. Jerry delivers everything with complete sincerity. |\n| Wife (background reaction) | Zoe Sparks \u2014 Optimistic Teacher (adapted: Privacy-Conscious Wife) | Zoe's reaction arc is the audience's arc. Arms crossed and suspicious in the setup, then hands-over-mouth vindicated shock when Jerry presents the diary as documentation. She doesn't need a line. Her face does the work. |\n\n**Adaptation Notes:**\n- Jerry: Casual home wardrobe. No blazer. This is a living room defense, not a board meeting. He is relaxed, comfortable, and completely certain of his own innocence.\n- The diary prop is non-negotiable. Small. Pink. Heart-shaped clasp. Jerry holds it the way lawyers hold exhibits. If the visual concept includes it physically, Iris must render it clearly \u2014 it is load-bearing.\n- Zoe: Two distinct emotional states. Setup: suspicion, arms crossed, positioned in background or doorway. Punchline: shock, vindication, \"I KNEW IT\" posture. She never speaks; she reacts.\n- Family believability: Jerry (white male, ~37) + Zoe (white female, ~27) = plausible married couple.\n\n**Shot Intent:**\n- **Setup:** Jerry to camera, one hand slightly raised in the \"let me explain\" position. Casual, mildly offended. Zoe visible but secondary \u2014 she's the environment, not the subject. Not yet.\n- **Punchline:** Jerry holds the diary open toward camera, gesturing at a specific page. He is presenting documentation. His expression is earnest vindication. Zoe's reaction is visible \u2014 wide-eyed, vindicated, the word \"diary\" is the detonator. Everything before it is fuse.\n\n---",
+      "created_at": "2026-03-19T00:43:28.429304+00:00",
+      "updated_at": "2026-03-19T00:43:28.429304+00:00"
     }
   ]
 }

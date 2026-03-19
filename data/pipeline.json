@@ -23,6 +23,14 @@
         "riley"
       ],
       "color": "purple",
+      "items": []
+    },
+    {
+      "name": "Visual Dev",
+      "agents": [
+        "iris"
+      ],
+      "color": "orange",
       "items": [
         {
           "seed": "seed-083",
@@ -45,14 +53,6 @@
           "title": "I'll never forget my dad's last words"
         }
       ]
-    },
-    {
-      "name": "Visual Dev",
-      "agents": [
-        "iris"
-      ],
-      "color": "orange",
-      "items": []
     },
     {
       "name": "Greenlight",
