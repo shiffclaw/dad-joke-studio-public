@@ -56,6 +56,14 @@
         "noah"
       ],
       "color": "blue",
+      "items": []
+    },
+    {
+      "name": "Publish",
+      "agents": [
+        "tasha"
+      ],
+      "color": "green",
       "items": [
         {
           "seed": "seed-106",
@@ -66,14 +74,6 @@
           "title": "A gingerbread man went to the doctor\u2019s c..."
         }
       ]
-    },
-    {
-      "name": "Publish",
-      "agents": [
-        "tasha"
-      ],
-      "color": "green",
-      "items": []
     }
   ]
 }
