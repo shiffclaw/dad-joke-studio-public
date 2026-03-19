@@ -15,6 +15,14 @@
         "milo"
       ],
       "color": "green",
+      "items": []
+    },
+    {
+      "name": "Casting",
+      "agents": [
+        "riley"
+      ],
+      "color": "purple",
       "items": [
         {
           "seed": "seed-173",
@@ -37,14 +45,6 @@
           "title": "I volunteered at a wild animal rescue to..."
         }
       ]
-    },
-    {
-      "name": "Casting",
-      "agents": [
-        "riley"
-      ],
-      "color": "purple",
-      "items": []
     },
     {
       "name": "Visual Dev",

@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:57:01.117129+00:00"
+    "updated_at": "2026-03-19T14:58:48.287795+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-195\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-195\nedit_level: polish\n\nscript:\n- setup: \"The cops handcuffed me and accused me of stealing a complete set of encyclopedias.\"\n- punchline: \"I said, 'Hang on \u2014 I can explain everything.'\"\n- tag: ~\n\nchanges_made: Americanized spelling (\"encyclopaedias\" \u2192 \"encyclopedias\"). Changed \"shouted\" to \"said\" with a dash for the dramatic pause \u2014 \"said\" is flatter, which is funnier; \"shouted\" tells the audience how to feel about the line before they hear it. Added the em-dash pause inside the punchline before \"I can explain everything\" to create the micro-beat where the audience registers both meanings simultaneously.\n\ncaption_notes: Two cards. Setup: \"The cops handcuffed me and accused me of stealing a complete set of encyclopedias.\" Punchline: \"I said, 'Hang on \u2014 I can explain everything.'\" \u2014 the dash before \"I can explain everything\" needs to be in the caption. It's the visual representation of the brief intake of breath before someone realizes they've accidentally made a perfect joke about their own situation.\n\ntiming_notes: Setup delivered with mild indignation \u2014 this person is being accused of something. 0.4s pause. Punchline starts slightly urgent (\"hang on\") then the dash lands. \"I can explain everything\" should be delivered straight \u2014 not as a pun, but as a genuine protest. The audience parses the double meaning on their own. Do not punch \"everything.\"\n\ntts_notes: No pronunciation issues. Watch for TTS reading \"encyclopedias\" with unusual stress \u2014 it's six syllables (en-SY-klo-PEE-dee-az) and some TTS models mangle it. Phonetic fallback: en-SY-klo-PEE-dee-az. Verify before assembly.\n\nquality_flag: strong\n\n---",
+      "created_at": "2026-03-19T14:58:48.287795+00:00",
+      "updated_at": "2026-03-19T14:58:48.287795+00:00"
+    }
+  ]
 }

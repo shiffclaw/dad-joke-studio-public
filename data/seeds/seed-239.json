@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:57:01.117129+00:00"
+    "updated_at": "2026-03-19T14:58:48.344372+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-239\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-239\nedit_level: pass-through\n\nscript:\n- setup: \"I told my wife she was drawing her eyebrows too high.\"\n- punchline: \"She looked surprised.\"\n- tag: ~\n\nchanges_made: Minimal \u2014 raw was already correct. No attribution to strip, no filler to cut, no structural problem. The setup plants the visual expectation of eyebrow placement and the punchline is the result: high eyebrows produce a surprised expression. It's a two-sentence joke that is already at its minimum viable size. Any edit would be subtraction. I didn't subtract anything.\n\ncaption_notes: Two cards. Setup: \"I told my wife she was drawing her eyebrows too high.\" Punchline: \"She looked surprised.\" \u2014 three words. The period after \"surprised\" is the only punctuation needed. Do not add an exclamation mark. Flat delivery, flat punctuation. The joke lands by itself.\n\ntiming_notes: Setup conversational, flat \u2014 a husband reporting a minor observation. Not a buildup, not a complaint. Just a fact he's relaying. 0.4s pause. Punchline deadpan. \"Surprised\" is the last word and carries both meanings \u2014 do not stress it, do not draw it out. State it. Move on. The less you do with the punchline, the harder it lands.\n\ntts_notes: No issues. Watch for TTS adding any rise in pitch on \"surprised\" \u2014 the word is declarative, not a question, not a punchline wink. Flat statement.\n\nquality_flag: strong\n\n---",
+      "created_at": "2026-03-19T14:58:48.344372+00:00",
+      "updated_at": "2026-03-19T14:58:48.344372+00:00"
+    }
+  ]
 }

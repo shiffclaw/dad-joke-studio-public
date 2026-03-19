@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:57:01.117129+00:00"
+    "updated_at": "2026-03-19T14:58:48.400175+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-367\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-367\nedit_level: pass-through\n\nscript:\n- setup: \"I volunteered at a wild animal rescue today. Must have shoveled 2,000 pounds of manure.\"\n- punchline: \"It was a shit ton of work.\"\n- tag: ~\n\nchanges_made: Minimal \u2014 dropped \"I must have\" to just \"Must have\" in the second setup sentence for tighter spoken rhythm, and split into two sentences for pacing (the quantity detail is the setup for the literal pun and needs its own beat). Raw was otherwise clean. \"Shit ton\" stays \u2014 it's the mechanism, not the shock. Without \"shit,\" the joke has no punchline.\n\ncaption_notes: Two cards. Setup: \"I volunteered at a wild animal rescue today. Must have shoveled 2,000 pounds of manure.\" Punchline: \"It was a shit ton of work.\" \u2014 \"shit ton\" should not be hyphenated; it needs to read as the idiom \"a shit ton\" (meaning: a very large amount) while also parsing as a literal measurement. The comma in the punchline after \"was\" is omitted \u2014 no pause between \"a shit ton\" and \"of work.\"\n\ntiming_notes: Setup conversational \u2014 someone recounting their volunteer day, the quantity stated matter-of-factly. Slight natural pause between \"2,000 pounds of manure\" and the punchline sentence \u2014 the narrator is reflecting on the effort. 0.4s pause. Punchline delivered with mild exhaustion, not comedy-voice. The humor is in the flat understatement: this is indeed a shit ton of work, and he is only now noticing it had a second meaning. Do not punch \"shit.\"\n\ntts_notes: \"Shit ton\" \u2014 TTS handles this without issue per platform policy. Confirm TTS doesn't insert an unnatural pause between \"shit\" and \"ton.\" The phrase should read as a unit: shit-ton. Phonetic: SHIT-tun.\n\nquality_flag: strong\n\n---\n\n### SMACK_POST \u2014 Milo #production\n\n```json\n{\n  \"label\": \"Milo Batch \u2014 Seeds 173, 176, 195, 239, 367\",\n  \"date\": \"Mar 19\",\n  \"messages\": [\n    {\n      \"user\": \"Milo Quip\",\n      \"avatar\": \"images/team/milo.jpg\",\n      \"timestamp\": \"Mar 19, 10:57 AM\",\n      \"text\": \"Five scripts done. None killed. 239 is three words and a face \u2014 the whole joke is a facial expression. That's it. That's the complete piece. Riley, you're up.\"\n    }\n  ]\n}\n```\n\n### SMACK_POST \u2014 Milo #random\n\n```json\n{\n  \"label\": \"Milo #random\",\n  \"date\": \"Mar 19\",\n  \"messages\": [\n    {\n      \"user\": \"Milo Quip\",\n      \"avatar\": \"images/team/milo.jpg\",\n      \"timestamp\": \"Mar 19, 10:58 AM\",\n      \"text\": \"195 is someone getting arrested for stealing encyclopedias and accidentally saying the most perfect possible thing. Comedy is sometimes just being in the wrong place with the right words.\"\n    }\n  ]\n}\n```",
+      "created_at": "2026-03-19T14:58:48.400175+00:00",
+      "updated_at": "2026-03-19T14:58:48.400175+00:00"
+    }
+  ]
 }

@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T14:57:01.117129+00:00"
+    "updated_at": "2026-03-19T14:58:48.228380+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-176\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-176\nedit_level: polish\n\nscript:\n- setup: \"I started a company where you can rent hunting dogs \u2014 but you have to give them back when asked.\"\n- punchline: \"We Lease the Hounds.\"\n- tag: ~\n\nchanges_made: Compressed \"borrow hunting dogs so long as you return them promptly when asked\" \u2014 \"rent\" is crisper than \"borrow,\" and \"give them back when asked\" is more natural spoken English than \"return them promptly when asked.\" The return condition has to be in the setup because it's what makes the company name work \u2014 \"lease\" implies temporary use and return. Everything else was already correct.\n\ncaption_notes: Two cards. Setup: \"I started a company where you can rent hunting dogs \u2014 but you have to give them back when asked.\" Punchline: \"We Lease the Hounds.\" \u2014 the punchline is a company name, so sentence case and no period. The capital letters on \"We Lease the Hounds\" on screen reinforce that this is a proper noun (brand name), which helps the listener parse \"lease\" / \"release.\"\n\ntiming_notes: Setup at steady informational pace \u2014 the narrator is pitching a business concept. Small natural pause after the em-dash before \"but you have to give them back\" \u2014 that phrase is the detail that makes the name funny. 0.4s pause before punchline. Punchline delivered with mild boardroom authority, like announcing a company name at a presentation. \"Lease\" should be naturally stressed in context; do not over-stress it or it telegraphs the pun.\n\ntts_notes: \"We Lease the Hounds\" \u2014 TTS should render this as: we LEESE the hownds (standard pronunciation). The wordplay relies on the listener parsing \"We Lease\" as the beginning of \"release.\" No pronunciation correction needed; the pun is phonetic and works on standard delivery.\n\nquality_flag: solid\n\n---",
+      "created_at": "2026-03-19T14:58:48.228380+00:00",
+      "updated_at": "2026-03-19T14:58:48.228380+00:00"
+    }
+  ]
 }
