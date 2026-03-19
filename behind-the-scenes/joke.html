@@ -91,7 +91,19 @@
         lines.shift();
         if (lines[0] && lines[0].trim() === '') lines.shift();
       }
-      return '<pre class="joke-block-content">' + esc(lines.join('\n').trim()) + '</pre>';
+      var text = lines.join('\n').trim();
+
+      // Check for YouTube preview link and render as embed
+      var ytMatch = text.match(/youtube_preview:\s*https:\/\/youtube\.com\/shorts\/([a-zA-Z0-9_-]+)/);
+      var ytEmbed = '';
+      if (ytMatch) {
+        ytEmbed = '<div class="yt-embed-wrap" style="margin:1rem 0;">' +
+          '<iframe src="https://www.youtube.com/embed/' + ytMatch[1] + '" ' +
+          'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ' +
+          'allowfullscreen></iframe></div>';
+      }
+
+      return ytEmbed + '<pre class="joke-block-content">' + esc(text) + '</pre>';
     }
 
     function renderHeader(joke) {
