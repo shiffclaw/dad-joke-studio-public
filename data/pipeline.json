@@ -23,6 +23,14 @@
         "riley"
       ],
       "color": "purple",
+      "items": []
+    },
+    {
+      "name": "Visual Dev",
+      "agents": [
+        "iris"
+      ],
+      "color": "orange",
       "items": [
         {
           "seed": "seed-052",
@@ -45,14 +53,6 @@
           "title": "This girl I've been dating just got a jo..."
         }
       ]
-    },
-    {
-      "name": "Visual Dev",
-      "agents": [
-        "iris"
-      ],
-      "color": "orange",
-      "items": []
     },
     {
       "name": "Greenlight",
