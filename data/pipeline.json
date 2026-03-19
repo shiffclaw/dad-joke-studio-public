@@ -31,6 +31,14 @@
         "iris"
       ],
       "color": "orange",
+      "items": []
+    },
+    {
+      "name": "Greenlight",
+      "agents": [
+        "jerry"
+      ],
+      "color": "red",
       "items": [
         {
           "seed": "seed-084",
@@ -53,14 +61,6 @@
           "title": "A gingerbread man went to the doctor\u2019s c..."
         }
       ]
-    },
-    {
-      "name": "Greenlight",
-      "agents": [
-        "jerry"
-      ],
-      "color": "red",
-      "items": []
     },
     {
       "name": "Production",
