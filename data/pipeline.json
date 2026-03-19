@@ -56,7 +56,16 @@
         "noah"
       ],
       "color": "blue",
-      "items": []
+      "items": [
+        {
+          "seed": "seed-083",
+          "title": "When my wife and I divorced, the judge m..."
+        },
+        {
+          "seed": "seed-103",
+          "title": "I'm a divorced dad and my Tinder profile..."
+        }
+      ]
     },
     {
       "name": "Publish",
