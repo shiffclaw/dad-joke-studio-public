@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:38:43.349638+00:00"
+    "updated_at": "2026-03-19T00:40:27.019324+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-177\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-177\nedit_level: pass-through\n\nscript:\n- setup: \"Why do scuba divers always fall backwards into the water?\"\n- punchline: \"If they fell forward, they'd still be in the boat.\"\n- tag: ~\n\nchanges_made: Minimal \u2014 raw version is already clean and tight. The Q&A structure is unconventional for DJS format but it works here because the question IS the setup misdirect: the audience expects a technical answer about dive physics. The punchline delivers an answer that is completely correct logically and completely useless practically. That gap is the joke. Nothing to fix.\n\ncaption_notes: Two cards. Setup card poses the question: \"Why do scuba divers always fall backwards into the water?\" Slight pause beat on screen before punchline card: \"If they fell forward, they'd still be in the boat.\" Consider a 0.5\u20131s gap between cards to let the audience run through the real answer in their head before the absurd one lands.\n\ntiming_notes: Setup delivered like a genuine question \u2014 mild curiosity, not telegraphing a joke. 0.4s pause. Punchline delivered with complete sincerity, as though this is the actual correct answer to a real question. No wink, no irony. The comedy is in how technically accurate it is.\n\nquality_flag: solid\n\n---",
+      "created_at": "2026-03-19T00:40:27.019324+00:00",
+      "updated_at": "2026-03-19T00:40:27.019324+00:00"
+    }
+  ]
 }

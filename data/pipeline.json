@@ -15,6 +15,14 @@
         "milo"
       ],
       "color": "green",
+      "items": []
+    },
+    {
+      "name": "Casting",
+      "agents": [
+        "riley"
+      ],
+      "color": "purple",
       "items": [
         {
           "seed": "seed-083",
@@ -37,14 +45,6 @@
           "title": "I'll never forget my dad's last words"
         }
       ]
-    },
-    {
-      "name": "Casting",
-      "agents": [
-        "riley"
-      ],
-      "color": "purple",
-      "items": []
     },
     {
       "name": "Visual Dev",

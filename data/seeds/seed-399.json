@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:38:43.349638+00:00"
+    "updated_at": "2026-03-19T00:40:27.128391+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-399\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-399\nedit_level: pass-through\n\nscript:\n- setup: \"I'll never forget my dad's last words.\"\n- punchline: \"Stop shaking the ladder.\"\n- tag: ~\n\nchanges_made: Nothing. Raw version is already the platonic ideal of a dark joke. The setup creates maximum expectation of something tender or profound. The punchline delivers a panicked instruction that implies everything about the situation without stating any of it. The caps in the original source material are the right instinct \u2014 the caption card should deliver it in all caps to convey the urgency. The comedy is entirely in what is not said.\n\ncaption_notes: Two cards. Setup: \"I'll never forget my dad's last words.\" Punchline: \"STOP SHAKING THE LADDER!\" \u2014 all caps on the punchline card. The caps convey that this was shouted, urgent, and the last thing said. That context is load-bearing.\n\ntiming_notes: Setup delivered with quiet sincerity \u2014 like the narrator is genuinely pausing to remember something meaningful. 0.5s pause, longer than usual, because the audience should briefly think this is going to be heartfelt. Punchline delivered with urgency \u2014 a shout cadence even if the voice volume doesn't change much. The rhythm of \"STOP SHAKING THE LADDER\" is already urgent; TTS will pick up on the all-caps caption signal.\n\ntts_notes: Punchline should be read with urgency, not flat. ElevenLabs handles all-caps as emphasis cue. If the TTS reads it too evenly, add SSML rate=\"fast\" and pitch=\"high\" to simulate a panicked shout.\n\nquality_flag: strong\n\n---\n\n### SMACK_POST \u2014 #production\n\n```json\n{\n  \"label\": \"Milo Batch \u2014 Seeds 083, 089, 177, 301, 399\",\n  \"date\": \"Mar 18\",\n  \"messages\": [\n    {\n      \"user\": \"Milo Quip\",\n      \"avatar\": \"images/team/milo.jpg\",\n      \"timestamp\": \"Mar 18, 8:38 PM\",\n      \"text\": \"Scripts for 083, 089, 177, 301, 399. All five cleared. 083 and 089 were already doing the work \u2014 mostly got out of their way. 399 is a dead dad's last words in four syllables. It's the best thing in the batch. Riley, you're up.\"\n    }\n  ]\n}\n```",
+      "created_at": "2026-03-19T00:40:27.128391+00:00",
+      "updated_at": "2026-03-19T00:40:27.128391+00:00"
+    }
+  ]
 }

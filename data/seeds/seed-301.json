@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-19T00:38:43.349638+00:00"
+    "updated_at": "2026-03-19T00:40:27.072706+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-301\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-301\nedit_level: polish\n\nscript:\n- setup: \"My wife asked me why I never buy her flowers.\"\n- punchline: \"I didn't even know she sold flowers.\"\n- tag: ~\n\nchanges_made: Lowercased \"Wife\" \u2014 the original had a capital W for no reason. Removed the exclamation mark from the punchline. The original \"I didn't even know she sold flowers!\" reads as surprise-comedic, but flat delivery is funnier here \u2014 this person genuinely does not understand what they did wrong and is not surprised, just confused. The exclamation turns it into a reaction beat. Losing it turns it into a revelation delivered without awareness, which is the actual joke.\n\ncaption_notes: Two cards. Setup: \"My wife asked me why I never buy her flowers.\" Punchline: \"I didn't even know she sold flowers.\" No exclamation mark on punchline card \u2014 the flatness is the bit.\n\ntiming_notes: Setup conversational, like the narrator is recalling a complaint. 0.3s pause. Punchline deadpan \u2014 this person is not performing confusion. They are genuinely confused. No uptick at the end.\n\nquality_flag: solid\n\n---",
+      "created_at": "2026-03-19T00:40:27.072706+00:00",
+      "updated_at": "2026-03-19T00:40:27.072706+00:00"
+    }
+  ]
 }
