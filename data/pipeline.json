@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-19",
+  "date": "2026-03-20",
   "stages": [
     {
       "name": "Scouting",
@@ -85,12 +85,7 @@
         "tasha"
       ],
       "color": "green",
-      "items": [
-        {
-          "seed": "seed-313",
-          "title": "A gingerbread man went to the doctor\u2019s c..."
-        }
-      ]
+      "items": []
     }
   ]
 }
