@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_visual",
+    "status": "queued_for_greenlight",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-21T14:42:56.089902+00:00"
+    "updated_at": "2026-03-21T14:47:48.460516+00:00"
   },
   "blocks": [
     {
@@ -28,6 +28,14 @@
       "content": "### seed-229\n\nREJECT: Milo killed this one. Inherited the call. Agree with it. Moving on.\n\n---",
       "created_at": "2026-03-21T14:42:56.089902+00:00",
       "updated_at": "2026-03-21T14:42:56.089902+00:00"
+    },
+    {
+      "owner": "iris",
+      "marker": "IRIS_VIDEO_PROMPT_v1",
+      "version": 1,
+      "content": "### seed-229\n\nREJECT: Inherited kill from Milo and Riley. Brand safety failure \u2014 the joke's mechanism is sexual innuendo (\"girlfriend starts smoking\" + \"slow down and use a lubricant\") that requires age-gating and doesn't fit DJS's family-safe wordplay brand. Both upstream stages rejected independently. Agreeing with the call. Moving on.\n\n---",
+      "created_at": "2026-03-21T14:47:48.460516+00:00",
+      "updated_at": "2026-03-21T14:47:48.460516+00:00"
     }
   ]
 }

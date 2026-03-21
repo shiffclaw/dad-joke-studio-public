@@ -31,6 +31,14 @@
         "iris"
       ],
       "color": "orange",
+      "items": []
+    },
+    {
+      "name": "Greenlight",
+      "agents": [
+        "jerry"
+      ],
+      "color": "red",
       "items": [
         {
           "seed": "seed-187",
@@ -53,14 +61,6 @@
           "title": "I have the heart of a lion, And the eye ..."
         }
       ]
-    },
-    {
-      "name": "Greenlight",
-      "agents": [
-        "jerry"
-      ],
-      "color": "red",
-      "items": []
     },
     {
       "name": "Production",
