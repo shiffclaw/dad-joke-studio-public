@@ -39,28 +39,7 @@
         "jerry"
       ],
       "color": "red",
-      "items": [
-        {
-          "seed": "seed-187",
-          "title": "My girlfriend told me she wanted to see ..."
-        },
-        {
-          "seed": "seed-226",
-          "title": "My wife found out I was cheating on her ..."
-        },
-        {
-          "seed": "seed-229",
-          "title": "What should you do if your girlfriend st..."
-        },
-        {
-          "seed": "seed-322",
-          "title": "What happens when you get injured playin..."
-        },
-        {
-          "seed": "seed-335",
-          "title": "I have the heart of a lion, And the eye ..."
-        }
-      ]
+      "items": []
     },
     {
       "name": "Production",
@@ -68,7 +47,16 @@
         "vince"
       ],
       "color": "ink",
-      "items": []
+      "items": [
+        {
+          "seed": "seed-187",
+          "title": "My girlfriend told me she wanted to see ..."
+        },
+        {
+          "seed": "seed-335",
+          "title": "I have the heart of a lion, And the eye ..."
+        }
+      ]
     },
     {
       "name": "QA",
