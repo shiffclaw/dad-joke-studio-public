@@ -39,28 +39,7 @@
         "jerry"
       ],
       "color": "red",
-      "items": [
-        {
-          "seed": "seed-173",
-          "title": "A dog limps into a saloon in the old wes..."
-        },
-        {
-          "seed": "seed-176",
-          "title": "I started a company where you can borrow..."
-        },
-        {
-          "seed": "seed-195",
-          "title": "The cops handcuffed me and accused me of..."
-        },
-        {
-          "seed": "seed-239",
-          "title": "I told my wife she was drawing her eyebr..."
-        },
-        {
-          "seed": "seed-367",
-          "title": "I volunteered at a wild animal rescue to..."
-        }
-      ]
+      "items": []
     },
     {
       "name": "Production",
@@ -68,7 +47,16 @@
         "vince"
       ],
       "color": "ink",
-      "items": []
+      "items": [
+        {
+          "seed": "seed-173",
+          "title": "A dog limps into a saloon in the old wes..."
+        },
+        {
+          "seed": "seed-239",
+          "title": "I told my wife she was drawing her eyebr..."
+        }
+      ]
     },
     {
       "name": "QA",
