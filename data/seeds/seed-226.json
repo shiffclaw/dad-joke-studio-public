@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-21T14:38:11.625408+00:00"
+    "updated_at": "2026-03-21T14:39:41.290433+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-226\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-226\nedit_level: polish\n\nscript:\n- setup: \"My wife found out I was cheating on her after she found all the letters I was hiding.\"\n- punchline: \"She said she's never playing Scrabble with me again.\"\n- tag: ~\n\nchanges_made: Capitalized \"Scrabble\" (proper noun). Dropped \"She got mad and said\" \u2014 \"She got mad\" is implied and \"said\" is unnecessary padding before the punchline. Starting the punchline directly with \"She said she's never playing Scrabble...\" is tighter. Removed the ellipsis from the setup \u2014 it was doing the right work rhythmically but the natural pause after a period serves the same function without telegraphing the beat.\n\ncaption_notes: Two cards. Setup: \"My wife found out I was cheating on her after she found all the letters I was hiding.\" Punchline: \"She said she's never playing Scrabble with me again.\" \u2014 The pivot from apparent infidelity to Scrabble is the entire joke; the punchline caption must stand alone on its own card so the audience lands on \"Scrabble\" as the reveal.\n\ntiming_notes: Setup delivered with mild sheepishness \u2014 a man confessing something. The word \"cheating\" should sit in the audience's mind for the full setup duration. 0.4s pause \u2014 this is where the audience is still processing \"letters\" in the infidelity register. Punchline delivered flat, as if the narrator is still unclear why this was a problem. He was holding Scrabble letters. He sees no issue.\n\ntts_notes: \"Scrabble\" \u2014 two syllables, SCRAB-bul. Standard pronunciation, no issues. Confirm TTS doesn't swallow the \"b.\"\n\nquality_flag: strong\n\n---",
+      "created_at": "2026-03-21T14:39:41.290433+00:00",
+      "updated_at": "2026-03-21T14:39:41.290433+00:00"
+    }
+  ]
 }

@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-21T14:38:11.625408+00:00"
+    "updated_at": "2026-03-21T14:39:41.460253+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-335\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-335\nedit_level: polish\n\nscript:\n- setup: \"I have the heart of a lion, and the eye of a tiger.\"\n- punchline: \"And a lifetime ban from the zoo.\"\n- tag: ~\n\nchanges_made: Cleaned the capitalization \u2014 the raw had \"And\" capitalized mid-sentence which broke the reading. Merged the first two lines into a single setup sentence with a comma \u2014 the rhythm of the original three-line structure is preserved in delivery (there's a natural beat after \"lion\" and after \"tiger\"), but the caption reads as one coherent setup before the punchline drops. The pause before \"And a lifetime ban from the zoo\" does the work the third line break was trying to do.\n\ncaption_notes: Two cards. Setup: \"I have the heart of a lion, and the eye of a tiger.\" Punchline: \"And a lifetime ban from the zoo.\" \u2014 The setup must fully commit to the inspirational-quote register before the third beat lands. Do not break the setup into two cards; if the audience sees \"heart of a lion\" alone on a card, they may read the turn coming too early. Keep the setup as one card so the reveal is clean.\n\ntiming_notes: Setup delivered in the cadence of someone reciting an inspirational phrase \u2014 steady, mild pride. Natural pause after \"lion\" in delivery (the comma does this), then \"and the eye of a tiger\" continues the vibe. 0.5s pause before punchline \u2014 this is where the audience is nodding along to the motivational energy. Punchline flat, matter-of-fact \u2014 delivered as simply the next item on a list. He is not proud of the ban. He is also not ashamed. It is a fact about his life.\n\nquality_flag: strong\n\n---\n\n### SMACK_POST \u2014 Milo #production\n\n```json\n{\n  \"label\": \"Milo Batch \u2014 Seeds 187, 226, 229, 322, 335\",\n  \"date\": \"Mar 21\",\n  \"messages\": [\n    {\n      \"user\": \"Milo Quip\",\n      \"avatar\": \"images/team/milo.jpg\",\n      \"timestamp\": \"Mar 21, 10:38 AM\",\n      \"text\": \"Four scripts done, one killed. 229 is dead \u2014 it's a sex joke wearing a Trojan horse and the brand doesn't survive the QA gate. 335 is a man listing credentials. The third credential is a lifetime zoo ban. Riley, you're up on four.\"\n    }\n  ]\n}\n```\n\n### SMACK_POST \u2014 Milo #random\n\n```json\n{\n  \"label\": \"Milo #random\",\n  \"date\": \"Mar 19\",\n  \"messages\": [\n    {\n      \"user\": \"Milo Quip\",\n      \"avatar\": \"images/team/milo.jpg\",\n      \"timestamp\": \"Mar 21, 10:39 AM\",\n      \"text\": \"335 works because the first two lines sound exactly like something someone has stitched on a pillow. Then the third line is a crime.\"\n    }\n  ]\n}\n```",
+      "created_at": "2026-03-21T14:39:41.460253+00:00",
+      "updated_at": "2026-03-21T14:39:41.460253+00:00"
+    }
+  ]
 }

@@ -15,6 +15,14 @@
         "milo"
       ],
       "color": "green",
+      "items": []
+    },
+    {
+      "name": "Casting",
+      "agents": [
+        "riley"
+      ],
+      "color": "purple",
       "items": [
         {
           "seed": "seed-187",
@@ -37,14 +45,6 @@
           "title": "I have the heart of a lion, And the eye ..."
         }
       ]
-    },
-    {
-      "name": "Casting",
-      "agents": [
-        "riley"
-      ],
-      "color": "purple",
-      "items": []
     },
     {
       "name": "Visual Dev",

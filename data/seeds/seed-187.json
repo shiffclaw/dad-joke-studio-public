@@ -7,10 +7,19 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "handed_off",
+    "status": "queued_for_casting",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-21T14:38:11.625408+00:00"
+    "updated_at": "2026-03-21T14:39:41.231331+00:00"
   },
-  "blocks": []
+  "blocks": [
+    {
+      "owner": "milo",
+      "marker": "MILO_OFFICIAL_SCRIPT_v1",
+      "version": 1,
+      "content": "### seed-187\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-187\nedit_level: pass-through\n\nscript:\n- setup: \"My girlfriend told me she wanted to see a diamond on our anniversary.\"\n- punchline: \"I took her to a baseball game.\"\n- tag: ~\n\nchanges_made: Minimal \u2014 raw was already correct. The setup plants the expectation cleanly (girlfriend + anniversary + diamond = ring), the punchline subverts it with the only other kind of diamond that matters. No words to cut, no structure to adjust. The joke is already at minimum viable size.\n\ncaption_notes: Two cards. Setup: \"My girlfriend told me she wanted to see a diamond on our anniversary.\" Punchline: \"I took her to a baseball game.\" \u2014 clean sentence, period only. No emphasis needed. The audience does the work of connecting the two meanings.\n\ntiming_notes: Setup delivered at steady conversational pace \u2014 a man relaying what his girlfriend said. The pause before the punchline should feel like genuine consideration on his part, as if he solved a problem. 0.4s pause. Punchline flat and matter-of-fact \u2014 he took her to a game, the request was fulfilled. He is not apologizing for this. He never considered there was anything to apologize for.\n\nquality_flag: strong\n\n---",
+      "created_at": "2026-03-21T14:39:41.231331+00:00",
+      "updated_at": "2026-03-21T14:39:41.231331+00:00"
+    }
+  ]
 }
