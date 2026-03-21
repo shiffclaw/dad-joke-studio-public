@@ -47,6 +47,15 @@
         "vince"
       ],
       "color": "ink",
+      "items": []
+    },
+    {
+      "name": "QA",
+      "agents": [
+        "lena",
+        "noah"
+      ],
+      "color": "blue",
       "items": [
         {
           "seed": "seed-187",
@@ -57,15 +66,6 @@
           "title": "I have the heart of a lion, And the eye ..."
         }
       ]
-    },
-    {
-      "name": "QA",
-      "agents": [
-        "lena",
-        "noah"
-      ],
-      "color": "blue",
-      "items": []
     },
     {
       "name": "Publish",
