@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-21T14:39:41.404653+00:00"
+    "updated_at": "2026-03-21T14:42:56.148499+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-322\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-322\nedit_level: pass-through\n\nscript:\n- setup: \"What happens when you get injured playing Peek-a-Boo?\"\n- punchline: \"You're taken to the ICU.\"\n- tag: ~\n\nchanges_made: Minimal \u2014 raw was correct. Q&A format fits naturally here; the question is the setup framing and \"ICU\" delivers both the medical context and the \"I see you\" callback simultaneously. No restructuring needed. Minor punctuation standardization (question mark on setup).\n\ncaption_notes: Two cards. Setup: \"What happens when you get injured playing Peek-a-Boo?\" Punchline: \"You're taken to the ICU.\" \u2014 \"ICU\" in all caps on the punchline card. The all-caps format makes the acronym visually distinct and gives the audience a half-beat to parse both readings (medical unit vs. \"I see you\"). Do not spell it out.\n\ntiming_notes: Setup at a conversational question pace \u2014 genuine inquiry register, not a winking \"get ready for a punchline\" tone. The flatness makes the punchline hit harder. 0.4s pause. Punchline delivered as a factual answer \u2014 this is just what happens. The narrator is not aware this is funny. \"ICU\" receives no special emphasis; it lands in the same dry register as everything else.\n\ntts_notes: \"ICU\" \u2014 TTS should read this as individual letters: I-C-U (eye-see-you). Most models handle medical acronyms correctly but verify the three-letter pronunciation registers clearly. If TTS renders it as a word rather than letters, phonetic fallback: \"I-C-U\" with hyphens.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-21T14:39:41.404653+00:00",
       "updated_at": "2026-03-21T14:39:41.404653+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-322\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Narrator / Explainer | Zoe Sparks \u2014 Young Doctor persona | Zoe delivering the Q&A with warm clinical sincerity is the right register. Her \"Overexcited Rep / Optimistic Teacher\" energy reads the question as a genuine inquiry and the answer as genuinely informative. \"You're taken to the ICU\" from Zoe sounds like a caring medical fact, not a punchline. She does not know \"ICU\" is also \"I see you.\" She just knows what happens when you get injured. She is here to help. |\n\n**Adaptation Notes:**\n- Zoe: White coat over her standard wardrobe. Stethoscope. Clipboard optional. She is in a medical context \u2014 a hallway, an exam room, or a neutral space with a medical chart in the background. The visual should read \"doctor explaining something\" not \"person making a joke.\" Her completely sincere delivery is funnier if the setting reinforces the clinical frame.\n- No secondary cast needed. The patient is implied. Zoe is the informational authority figure here.\n\n**Shot Intent:**\n- **Setup:** Zoe to camera with mild forward-lean of a medical professional about to address a question. She reads the setup as a genuine inquiry \u2014 the kind of question she's probably been asked and has a clear answer for. Her expression is helpful and engaged.\n- **Punchline:** Hold on Zoe as she delivers \"You're taken to the ICU\" with complete clinical confidence. She waits a half-beat, as if expecting a follow-up question. Her expression is patient and informative. The ICU is simply where you go. She has not connected \"ICU\" to \"I see you.\" She is not going to connect them. She has answered the question.\n\n---",
+      "created_at": "2026-03-21T14:42:56.148499+00:00",
+      "updated_at": "2026-03-21T14:42:56.148499+00:00"
     }
   ]
 }

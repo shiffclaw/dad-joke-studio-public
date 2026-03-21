@@ -23,6 +23,14 @@
         "riley"
       ],
       "color": "purple",
+      "items": []
+    },
+    {
+      "name": "Visual Dev",
+      "agents": [
+        "iris"
+      ],
+      "color": "orange",
       "items": [
         {
           "seed": "seed-187",
@@ -45,14 +53,6 @@
           "title": "I have the heart of a lion, And the eye ..."
         }
       ]
-    },
-    {
-      "name": "Visual Dev",
-      "agents": [
-        "iris"
-      ],
-      "color": "orange",
-      "items": []
     },
     {
       "name": "Greenlight",

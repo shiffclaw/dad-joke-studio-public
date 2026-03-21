@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-21T14:39:41.348564+00:00"
+    "updated_at": "2026-03-21T14:42:56.089902+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-229\n\nREJECT: Brand safety failure. The joke's mechanism is entirely sexual innuendo \u2014 \"your girlfriend starts smoking\" + \"slow down and use a lubricant\" reads as explicit-ish sex advice regardless of the mechanical fallback reading. The personalization to \"girlfriend\" (rather than \"car\") anchors the primary interpretation in the sexual register. Dad Joke Studio's brand does mild wordplay and observational humor; this would require age-gating on YouTube and takes a reach hit on Instagram. The payoff doesn't clear the cost. Kill it.\n\n---",
       "created_at": "2026-03-21T14:39:41.348564+00:00",
       "updated_at": "2026-03-21T14:39:41.348564+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-229\n\nREJECT: Milo killed this one. Inherited the call. Agree with it. Moving on.\n\n---",
+      "created_at": "2026-03-21T14:42:56.089902+00:00",
+      "updated_at": "2026-03-21T14:42:56.089902+00:00"
     }
   ]
 }

@@ -7,10 +7,10 @@
     "theme": "",
     "caption_safe": "unknown",
     "originality_risk": "unknown",
-    "status": "queued_for_casting",
+    "status": "queued_for_visual",
     "rewrite_status": "",
     "created_at": "2026-03-18T23:26:26.667067+00:00",
-    "updated_at": "2026-03-21T14:39:41.231331+00:00"
+    "updated_at": "2026-03-21T14:42:55.969570+00:00"
   },
   "blocks": [
     {
@@ -20,6 +20,14 @@
       "content": "### seed-187\n\n**MILO_OFFICIAL_SCRIPT_v1**\n\nseed_id: seed-187\nedit_level: pass-through\n\nscript:\n- setup: \"My girlfriend told me she wanted to see a diamond on our anniversary.\"\n- punchline: \"I took her to a baseball game.\"\n- tag: ~\n\nchanges_made: Minimal \u2014 raw was already correct. The setup plants the expectation cleanly (girlfriend + anniversary + diamond = ring), the punchline subverts it with the only other kind of diamond that matters. No words to cut, no structure to adjust. The joke is already at minimum viable size.\n\ncaption_notes: Two cards. Setup: \"My girlfriend told me she wanted to see a diamond on our anniversary.\" Punchline: \"I took her to a baseball game.\" \u2014 clean sentence, period only. No emphasis needed. The audience does the work of connecting the two meanings.\n\ntiming_notes: Setup delivered at steady conversational pace \u2014 a man relaying what his girlfriend said. The pause before the punchline should feel like genuine consideration on his part, as if he solved a problem. 0.4s pause. Punchline flat and matter-of-fact \u2014 he took her to a game, the request was fulfilled. He is not apologizing for this. He never considered there was anything to apologize for.\n\nquality_flag: strong\n\n---",
       "created_at": "2026-03-21T14:39:41.231331+00:00",
       "updated_at": "2026-03-21T14:39:41.231331+00:00"
+    },
+    {
+      "owner": "riley",
+      "marker": "RILEY_CASTING_PLAN_v1",
+      "version": 1,
+      "content": "### seed-187\n\n**RILEY_CASTING_PLAN_v1**\n\n**Primary Cast:**\n\n| Role | Cast | Why |\n|------|------|-----|\n| Boyfriend / Narrator | Vince Clip \u2014 Handyman persona (adapted: Man Who Solved a Problem Efficiently) | Vince's \"process realist / scene stabilizer\" archetype is exactly right for someone who received a specification (\"diamond\"), identified the most literal viable option (baseball diamond), and executed without further inquiry. His flat, matter-of-fact delivery of the punchline works because he genuinely believes this was correct. He is not bragging. He is reporting. He sees no further action required. |\n\n**Adaptation Notes:**\n- Vince: Casual weekend wardrobe \u2014 regular t-shirt, jeans. No camera equipment. He may be holding a baseball ticket stub or wearing a team cap (optional prop \u2014 adds visual confirmation of the resolution). His expression throughout is mild satisfaction, the face of a man who handled something.\n- Setting: The punchline visual should confirm the resolution \u2014 Vince at a baseball venue, the green expanse of a baseball diamond visible in the background through stadium seats or over a railing. The diamond shape in the outfield is the visual punchline. The girlfriend's reaction is NOT needed on screen; the stadium is the payoff image.\n\n**Shot Intent:**\n- **Setup:** Vince to camera, casual, slightly conspiratorial \u2014 relaying what his girlfriend asked for. His expression is the expression of a man who already solved this and is about to explain his solution. He is not anticipating any issue.\n- **Punchline:** Hold on Vince with the baseball diamond visible in the background. He is at the game. The request was fulfilled. His expression is unchanged \u2014 a man who has done what was asked. The visual irony (he's at a baseball game, the diamond is right behind him) is the button. He does not look at the diamond. He doesn't need to. It's there.\n\n---",
+      "created_at": "2026-03-21T14:42:55.969570+00:00",
+      "updated_at": "2026-03-21T14:42:55.969570+00:00"
     }
   ]
 }
