@@ -56,16 +56,7 @@
         "noah"
       ],
       "color": "blue",
-      "items": [
-        {
-          "seed": "seed-187",
-          "title": "My girlfriend told me she wanted to see ..."
-        },
-        {
-          "seed": "seed-335",
-          "title": "I have the heart of a lion, And the eye ..."
-        }
-      ]
+      "items": []
     },
     {
       "name": "Publish",
